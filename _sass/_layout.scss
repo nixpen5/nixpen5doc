@@ -4,8 +4,9 @@ input::-ms-reveal {
 }
 
 body {
+	font-family : "Nanum Gothic", "Open Sans", sans-serif;
 	height: auto;
-	overflow-x: hidden;
+	//overflow-x: hidden;
 	background-color: $body-background-color;
 
 	&.nav-open {
@@ -69,6 +70,7 @@ body {
 
 .main {
 	margin-top: $space + $nav-header-height;
+	//min-width: 880px;
 
 	@media (min-width: $mobile-break) {
 		margin-top: 0;
@@ -493,10 +495,6 @@ pre {
 		font-weight: bold;
 	}
 
-	red {
-		color: #FF0000;
-	}
-
 	t3{
 		font-size: 2.5rem;
 		font-weight: bold;
@@ -506,4 +504,12 @@ pre {
 		font-size: 2.0rem;
 		font-weight: bold;
 	}
+}
+
+red {
+	color: #FF0000;
+}
+
+blue {
+	color: #0000FF;
 }
