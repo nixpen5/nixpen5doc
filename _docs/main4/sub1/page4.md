@@ -2,5 +2,5 @@
 title: 환자 추가정보 관리
 subCategory: 외래접수
 mainCategory: 프로그램 활용 - 접수
-pageOrder: 
+pageOrder: 4
 ---
