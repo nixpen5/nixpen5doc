@@ -19,7 +19,8 @@ pageOrder: 3
 [![]({{site.url}}/images/{{page.url}}_2.png)]({{site.url}}/images/{{page.url}}_2.png){: target="_blank"}
 
 <pre>
-<t2><bold>2. 예약 상세창에서 취소</bold></t2>
+<t2><bold>2. 예약취소</bold></t2>
+    가) 예약 상세 창에서 삭제
      ① 취소하려는 예약에 마우스 오른쪽 버튼을 클릭한 후 [예약 수정] 메뉴를 클릭합니다.
 </pre>
 
@@ -33,14 +34,15 @@ pageOrder: 3
 [![]({{site.url}}/images/{{page.url}}_4.png)]({{site.url}}/images/{{page.url}}_4.png){: target="_blank"}
 
 <pre>
-<t2><bold>3. 우클릭 메뉴에서 취소</bold></t2>
+    나) 우클릭 메뉴에서 취소
      ① 취소하려는 예약에 마우스 오른쪽 버튼을 클릭한 후 [예약 수정] 메뉴를 클릭합니다.
 </pre>
 
 [![]({{site.url}}/images/{{page.url}}_5.png)]({{site.url}}/images/{{page.url}}_5.png){: target="_blank"}
 
 <pre>
-<t2><bold>4. 예약 상세창에서 삭제</bold></t2>
+<t2><bold>3. 예약 삭제</bold></t2>
+    가) 예약 상세창에서 삭제
      ① 삭제하려는 예약에 마우스 오른쪽 버튼을 클릭한 후 [예약 수정] 메뉴를 클릭합니다.
 </pre>
 
@@ -54,7 +56,7 @@ pageOrder: 3
 [![]({{site.url}}/images/{{page.url}}_7.png)]({{site.url}}/images/{{page.url}}_7.png){: target="_blank"}
 
 <pre>
-<t2><bold>5. 우클릭 메뉴에서 삭제</bold></t2>
+    나) 우클릭 메뉴에서 삭제
      ① 취소하려는 예약에 마우스 오른쪽 버튼을 클릭한 후 [예약 삭제] 메뉴를 클릭합니다.
      ② [예] 버튼을 클릭합니다.
 </pre>
