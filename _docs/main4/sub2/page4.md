@@ -11,7 +11,7 @@ subOrder: 4
      ③ 해당 항목을 더블클릭하여 환자를 불러올 수 있습니다.
 </pre>
 
-![](/images/{{page.url}}_1.png)
+[![]({{site.url}}/images/{{page.url}}_1.png)]({{site.url}}/images/{{page.url}}_1.png){: target="_blank"}  
 
 <pre>
  <t2><bold>2. 입원환자 </bold></t2>
@@ -21,7 +21,7 @@ subOrder: 4
      ③ 해당 항목을 더블클릭하여 환자를 불러올 수 있습니다.
 </pre>
 
-![](/images/{{page.url}}_2.png)
+[![]({{site.url}}/images/{{page.url}}_2.png)]({{site.url}}/images/{{page.url}}_2.png){: target="_blank"} 
 
 <pre>
  <t2><bold>3. 재원환자 </bold></t2>
@@ -31,7 +31,7 @@ subOrder: 4
      ③ 해당 항목을 더블클릭하여 환자를 불러올 수 있습니다.
 </pre>
 
-![](/images/{{page.url}}_3.png)
+[![]({{site.url}}/images/{{page.url}}_3.png)]({{site.url}}/images/{{page.url}}_3.png){: target="_blank"}
 
 <pre>
  <t2><bold>4. 퇴원환자 </bold></t2>
@@ -41,7 +41,7 @@ subOrder: 4
      ③ 해당 항목을 더블클릭하여 환자를 불러올 수 있습니다.
 </pre>
 
-![](/images/{{page.url}}_4.png)
+[![]({{site.url}}/images/{{page.url}}_4.png)]({{site.url}}/images/{{page.url}}_4.png){: target="_blank"}
 
 <pre>
  <t2><bold>5. 병실현황 </bold></t2>
@@ -54,6 +54,6 @@ subOrder: 4
      ⑦ 병실메모를 표시합니다.
 </pre>
 
-![](/images/{{page.url}}_5.png)
+[![]({{site.url}}/images/{{page.url}}_5.png)]({{site.url}}/images/{{page.url}}_5.png){: target="_blank"}
 
 
