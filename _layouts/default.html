@@ -35,18 +35,18 @@
 						<a href="{{ site.baseurl }}/">{{ home.title }}</a>
 					</li>
 				</ul>
-				{% assign mains = site.docs | where_exp: "item", "item.mainCategory == nil" | sort: 'mainOrder' %}
+				{% assign mains = site.docs | where_exp: "item", "item.mainCategory == nil" | sort: "mainOrder" %}
 				<ul>
 				{% for main in mains %}
 					{% if main.title == page.title or main.title == page.mainCategory %}						
 					<li class="nav-item top-level current"><a href="{{ site.baseurl }}{{ main.url }}">{{ main.title }}</a>
 						<ul>
-						{% assign subs = site.docs | where: 'mainCategory', main.title | where_exp: "item", "item.subCategory == nil" | sort: 'subOrder' %}
+						{% assign subs = site.docs | where: 'mainCategory', main.title | where_exp: "item", "item.subCategory == nil" | sort: "subOrder" %}
 						{% for sub in subs %}
 							{% if sub.title == page.title or sub.title == page.subCategory %}
 							<li class="nav-item current"><a href="{{ site.baseurl }}{{ sub.url }}">{{sub.title}}</a></li>
 								<ul>
-								{% assign items = site.docs | where: 'mainCategory', sub.mainCategory | where: "subCategory", sub.title | sort: pageOrder %}
+								{% assign items = site.docs | where: 'mainCategory', sub.mainCategory | where: "subCategory", sub.title | sort: "pageOrder" %}
 								{% for item in items %}
 										<li class="nav-item page {% if item == page %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a></li>
 								{% endfor %}
@@ -79,20 +79,20 @@
 			{{ content }}
 			{% if page.subCategory == nil %}
 				{% if page.mainCategory == nil %}
-				{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.title" | where_exp: "item", "item.subCategory == nil" | sort:"subOrder" %}
+				{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.title" | where_exp: "item", "item.subCategory == nil" | sort: "subOrder" %}
 					{% if children.size > 0 %}
 				<hr>
 					<h2 class="text-delta">목차</h2>
 					<ul>
 						{% for child in children %}
 						<li>
-							<a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+							<a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}						
 						</li>
 						{% endfor %}			
 					</ul>
 					{% endif %}
 					{% else %}
-						{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.mainCategory" | where_exp: "item", "item.subCategory == page.title" | sort:"pageOrder" %}
+						{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.mainCategory" | where_exp: "item", "item.subCategory == page.title" | sort: "pageOrder" %}
 							{% if children.size > 0 %}
 					<hr>
 					<h2 class="text-delta">목차</h2>
