@@ -20,23 +20,15 @@ pageOrder: 10
 
 <pre style="color:#9C26B0; font-weight:Bold">
 전처방(과거슬립) 기능 강화
+1) 자격조회 결과 요약표시 및 상세 보기 팝업
+2) 진단서 발행내역 표시 및 편집창 팝업
+3) 외래/입원 구분 조회
+4) 현재 커서 위치 표시
+5) 일자별 접기 또는 펼치기
+6) 월별 구분선 표시
 </pre>
 
-<table frame=void>
-    <tr>
-        <td style="border-right: none; width:40%">
-            <a href="/images/{{page.url}}_3.png" target="_blank"><img src="/images/{{page.url}}_3.png" alt=""/></a>
-        </td>
-        <td style="vertical-align: top; color: #9C26B0; font-weight: Bold">
-1) 자격조회 결과 요약표시 및 상세 보기 팝업<br/>
-2) 진단서 발행내역 표시 및 편집창 팝업<br/>
-3) 외래/입원 구분 조회<br/>
-4) 현재 커서 위치 표시<br/>
-5) 일자별 접기 또는 펼치기<br/>
-6) 월별 구분선 표시<br/>
-        </td>
-    </tr>
-</table>
+[![](/images/{{page.url}}_3.png)](/images/{{page.url}}_3.png){: target="_blank"}
 
 <pre style="color:#9C26B0; font-weight:Bold">
 영상비교 및 Draw
@@ -118,27 +110,19 @@ pageOrder: 10
 
 <pre style="color:#9C26B0; font-weight:Bold">
 환자 속성창
+1) 환자사진
+2) 전자서명 상태
+3) 야간공휴 진료시간
+4) 자격조회 정보
+5) 본인부담 구분코드
+6) 의료급여 진료확인번호
+7) 건생비 차감 결과
+8) 도착/입원 경로
+9) 진료결과
+10) 진료소요시간
 </pre>
 
-<table frame=void>
-    <tr>
-        <td style="border-right: none; width:70%">
-            <a href="/images/{{page.url}}_20.png" target="_blank"><img src="/images/{{page.url}}_20.png" alt="" /></a>
-        </td>
-        <td style="vertical-align: top; color: #9C26B0; font-weight: Bold">
-1) 환자사진<br/>
-2) 전자서명 상태<br/>
-3) 야간공휴 진료시간<br/>
-4) 자격조회 정보<br/>
-5) 본인부담 구분코드<br/>
-6) 의료급여 진료확인번호<br/>
-7) 건생비 차감 결과<br/>
-8) 도착/입원 경로<br/>
-9) 진료결과<br/>
-10) 진료소요시간<br/>
-        </td>
-    </tr>
-</table>
+[![](/images/{{page.url}}_20.png)](/images/{{page.url}}_20.png){: target="_blank"}
 
 <pre style="color:#9C26B0; font-weight:Bold">
 슬립증상 속성창
