@@ -7,23 +7,15 @@ pageOrder: 11
 
 <pre style="color:#9C26B0; font-weight:Bold">
 영상 View
+- 카테고리별
+- 검사일자별
+- 썸네일 선택 후 비교
+- 이미지 확대
+- 중요영상 표시
+- 영상정보 보기
 </pre>
 
-<table frame=void>
-    <tr>
-        <td style="border-right: none; width:76%">
-            <a href="/images/{{page.url}}_1.png" target="_blank"><img src="/images/{{page.url}}_1.png" alt=""/></a>
-        </td>
-        <td style="vertical-align: top; color: #9C26B0; font-weight: Bold">
-- 카테고리별<br/>
-- 검사일자별<br/>
-- 썸네일 선택 후 비교<br/>
-- 이미지 확대<br/>
-- 중요영상 표시<br/>
-- 영상정보 보기<br/>
-        </td>
-    </tr>
-</table>
+[![](/images/{{page.url}}_1.png)](/images/{{page.url}}_1.png){: target="_blank"}
 
 <pre style="color:#9C26B0; font-weight:Bold">
 Category View

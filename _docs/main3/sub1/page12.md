@@ -7,37 +7,22 @@ pageOrder: 12
 
 <pre style="color:#9C26B0; font-weight:Bold">
 펜차트
+- 서식 등록
+- 출력 지원
+- 진료영상 추가
+- 이미지 추가
+- 텍스트 추가
+- 도형 추가
+- 자주쓰는 메모 삽입
 </pre>
 
-<table frame=void>
-    <tr>
-        <td style="border-right: none; width:76%">
-            <a href="/images/{{page.url}}_1.png" target="_blank"><img src="/images/{{page.url}}_1.png" alt=""/></a>
-        </td>
-        <td style="vertical-align: top; color: #9C26B0; font-weight: Bold">
-- 서식 등록<br/>
-- 출력 지원<br/>
-- 진료영상 추가<br/>
-- 이미지 추가<br/>
-- 텍스트 추가<br/>
-- 도형 추가<br/>
-- 자주쓰는 메모 삽입<br/>
-        </td>
-    </tr>
-</table>
+[![](/images/{{page.url}}_1.png)](/images/{{page.url}}_1.png){: target="_blank"}
+
 
 <pre style="color:#9C26B0; font-weight:Bold">
 펜차트
+- 그룹별서식
+- 미사용서식 숨김
 </pre>
 
-<table frame=void>
-    <tr>
-        <td style="border-right: none; width:76%">
-            <a href="/images/{{page.url}}_2.png" target="_blank"><img src="/images/{{page.url}}_2.png" alt=""/></a>
-        </td>
-        <td style="vertical-align: top; color: #9C26B0; font-weight: Bold">
-- 그룹별서식<br/>
-- 미사용서식 숨김<br/>
-        </td>
-    </tr>
-</table>
+[![](/images/{{page.url}}_2.png)](/images/{{page.url}}_2.png){: target="_blank"}
