@@ -256,7 +256,7 @@ nav > ul {
 		line-height: 1.5;
 		padding-left: $space / 2;
 		margin-top : $space / 2;
-		margin-left: $space * 2;
+		margin-left: $space * 1;
 		margin-right: 0;
 		margin-bottom: $space /2;
 		display: block;
@@ -279,7 +279,7 @@ nav > ul {
 	}
 
 	&.page > a{
-		margin-left: $space * 4;
+		margin-left: $space * 2;
 	}
 }
 
