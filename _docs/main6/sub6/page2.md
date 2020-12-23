@@ -1,0 +1,6 @@
+---
+title: 검사결과 수신
+subCategory: 검사결과
+mainCategory: 프로그램 활용 - 진료
+pageOrder: 2
+---
