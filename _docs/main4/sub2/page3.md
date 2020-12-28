@@ -34,9 +34,7 @@ subOrder: 3
 </pre>
 
 [![](/images/{{page.url}}_2.png)](/images/{{page.url}}_2.png){: target="_blank"}
-<span  style="color:#ff0000">
 ※ [삭제], [입원등록] 버튼은 저장 후 수정시 표시됩니다.
-</span >
 
 <pre>
   나) 입원등록
@@ -51,19 +49,13 @@ subOrder: 3
 </pre>
 
 [![](/images/{{page.url}}_3.png)](/images/{{page.url}}_3.png){: target="_blank"}
-<span style="color:#ff0000">
 ※ [입원취소], [퇴원예고], [퇴원등록] 버튼은 저장 후 수정시 표시됩니다.
-</span>
 
 [![](/images/{{page.url}}_4.png)](/images/{{page.url}}_4.png){: target="_blank"}
-<span style="color:#ff0000">
-③ [병상선택 화면] ※ 빈 병상을 더블클릭하여 병상을 선택합니다.
-</span>
+[병상선택 화면] ※ 빈 병상을 더블클릭하여 병상을 선택합니다.
 
 [![](/images/{{page.url}}_5.png)](/images/{{page.url}}_5.png){: target="_blank"}
-<span style="color:#ff0000">
 ※ ⑧ [자보], [산재], [정신과정액] 이 선택되어 있어야 표시됩니다.
-</span>
 
 <pre>
   다) DRG등록
@@ -77,9 +69,7 @@ subOrder: 3
 </pre>
 
 [![](/images/{{page.url}}_6.png)](/images/{{page.url}}_6.png){: target="_blank"}
-<span style="color:#ff0000">
 ※ [삭제] 버튼은 저장 후 수정시 표시됩니다.
-</span>
 
 <pre>
   라) 퇴원예고
@@ -102,14 +92,10 @@ subOrder: 3
 </pre>
 
 [![](/images/{{page.url}}_8.png)](/images/{{page.url}}_8.png){: target="_blank"}
-<span style="color:#ff0000">
 ※ [퇴원취소] 버튼은 저장 후 수정시 표시됩니다.
-</span>
 
 [![](/images/{{page.url}}_9.png)](/images/{{page.url}}_9.png){: target="_blank"}
-<span style="color:#ff0000">
 ※ ⑥ [정신과정액], [완화의료] 가 선택되어 있어야 표시됩니다.
-</span>
 
 <pre>
  <t2><bold>3. 청구정보 등록</bold></t2>
