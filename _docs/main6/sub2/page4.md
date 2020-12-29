@@ -4,9 +4,6 @@ subCategory: 입원진료
 mainCategory: 프로그램 활용 - 진료
 pageOrder: 4
 ---
-
----
-
 <pre>
  <t2><bold>1. 전처방</bold></t2>
      ① 진료기록이 있는 달은 진한 굵은 글씨로 표시됩니다. 
