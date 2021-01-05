@@ -35,7 +35,7 @@ pageOrder: 7
 [![](/images/{{page.url}}_3.png)](/images/{{page.url}}_3.png){: target="_blank"}
 
 <pre>
- <t2><bold>3. 명세서내역</bold></t2>
+ <t2><bold>3. 상병별 청구내역</bold></t2>
      ① 상병별 청구내역을 확인할 청구내역을 선택합니다.
      ② [상병별 청구내역] 버튼을 클릭합니다.
 </pre>
