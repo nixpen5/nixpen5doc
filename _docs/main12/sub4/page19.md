@@ -8,7 +8,8 @@ pageOrder: 19
 <t3>
 [ 2020년 의료소득공제 제출 기준 ] 
 </t3><black style="color:#B40909; font-size:14px">2020년도 의료비소득공제증빙자료 제출 방법이 전 년도(2016년도) 와 다르지 않습니다.
-본 문서의 일부는 2011년도 기준으로 설명하고 있으나, 기간 및 제출일 이외에 전과 달라진 점이 없으므로, 참고하시기 바랍니다.</black></pre>
+본 문서의 일부는 2011년도 기준으로 설명하고 있으나, 기간 및 제출일 이외에 전과 달라진 점이 없으므로, 참고하시기 바랍니다.</black>
+</pre>
 
 <table>
   <tbody  style="font-size:15px;font-weight:bold">
@@ -179,7 +180,7 @@ pageOrder: 19
 <table cellspacing="0" cellpadding="0" style="border:none">
   <tbody style="font-size:15px;font-weight:bold;border:none">
     <tr style="border:none">
-      <td style="border:none"><img src="/images/docs/main12/sub4/page19_7.png" width=400/></td>
+      <td style="border:none"><a href="/images/docs/main12/sub4/page19_7.png" target = "_blank"><img src="/images/docs/main12/sub4/page19_7.png" width=400/></a></td>
       <td style="border:none"><pre>(ㄱ) 기간 중 수록금액이 0원인 건을 수납내역에
       포함할지 여부를 선택
       단, 의료비 소득공제 파일 작성 시 
