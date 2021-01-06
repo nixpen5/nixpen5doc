@@ -14,7 +14,7 @@ pageOrder: 2
         [저장] 버튼 클릭 시 변경사항을 저장합니다.
         코드 입력칸에 검색할 코드 입력 후 엔터 시 해당코드를 표시합니다.
      ③ 탭을 이동하여 선택된 수가의 추가정보를 확인하거나 편집할 수 있습니다.
-     ④ 
+     ④ 목록에서 적용일 정보를 더블클릭하여 해당 일자의 수가정보를 확인할 수 있습니다.
 </pre>
 
 [![](/images/{{page.url}}_1.png)](/images/{{page.url}}_1.png){: target="_blank"}
@@ -48,12 +48,12 @@ pageOrder: 2
         수가코드, 청구코드는 일치검색입니다.
         항목유형버튼 클릭 시 슬라이드 되는 창에서 항목을 선택하여 목록 검색할 수 있습니다.
         [...] 버튼 클릭 시 목록 출력할 수 있습니다.
-      <a href="/images/docs/main5/sub2/page2_8.png" target="_blank"><img src="/images/docs/main5/sub2/page2_2.png"/></a>
+      <a href="/images/docs/main5/sub2/page2_8.png" target="_blank"><img src="/images/docs/main5/sub2/page2_8.png"/></a>
      ② 라이브러리에 있는 코드 목록이 표시됩니다. 
          콤보박스를 선택하여 검색할 수 있습니다.
          청구코드, 통합검색란에 검색어 입력 후 엔터 시 검색결과가 목록에 표시됩니다.
          청구코드는 일치검색입니다.
          각 체크박스를 체크/체크해제 하여 검색할 수 있습니다.
-      <a href="/images/docs/main5/sub2/page2_3.png" target="_blank"><img src="/images/docs/main5/sub2/page2_3.png"/></a>
+      <a href="/images/docs/main5/sub2/page2_9.png" target="_blank"><img src="/images/docs/main5/sub2/page2_9.png"/></a>
 </pre>
  
