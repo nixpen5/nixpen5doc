@@ -23,9 +23,17 @@ pageOrder: 12
 
 <pre>
  <t2><bold>2. PACS</bold></t2>
-     ①  
+     ① 툴 버튼의 [PACS] 버튼 클릭 시 PACS Order List 창이 팝업됩니다. 
+     ② 검색조건을 입력 후 [조회] 버튼 클릭 시 오더 목록을 조회할 수 있습니다.
+     ③ 오더 목록을 표시합니다.
+     ④ 목록을 더블클릭하여 Pacs Viewer 창을 팝업할 수 있습니다.
+     ⑤ [오더취소] 버튼 클릭시 ③목록에서 체크한 항목을 오더취소할 수 있습니다.
 </pre>
-[![](/images/{{page.url}}_2.png)](/images/{{page.url}}_2.png){: target="_blank"}
+[![](/images/{{page.url}}_2_1.png)](/images/{{page.url}}_2_1.png){: target="_blank"}
+
+[![](/images/{{page.url}}_2_2.png)](/images/{{page.url}}_2_2.png){: target="_blank"}
+[PACS Viewer 경로 설정]
+
 
 <pre>
  <t2><bold>3. 협진 </bold></t2>
