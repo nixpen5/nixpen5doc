@@ -2,9 +2,8 @@
 title: 기능버튼
 subCategory: 외래진료
 mainCategory: 프로그램 활용 - 진료
-pageOrder: 11
+pageOrder: 12
 ---
-
 <pre>
  <t2><bold>1. 툴 버튼 </bold></t2>
      ① [전달메모] 버튼 클릭 시 전달메모 창이 팝업됩니다.
@@ -24,9 +23,17 @@ pageOrder: 11
 
 <pre>
  <t2><bold>2. PACS</bold></t2>
-     ①  
+     ① 툴 버튼의 [PACS] 버튼 클릭 시 PACS Order List 창이 팝업됩니다. 
+     ② 검색조건을 입력 후 [조회] 버튼 클릭 시 오더 목록을 조회할 수 있습니다.
+     ③ 오더 목록을 표시합니다.
+     ④ 목록을 더블클릭하여 Pacs Viewer 창을 팝업할 수 있습니다.
+     ⑤ [오더취소] 버튼 클릭시 ③목록에서 체크한 항목을 오더취소할 수 있습니다.
 </pre>
-[![](/images/{{page.url}}_2.png)](/images/{{page.url}}_2.png){: target="_blank"}
+[![](/images/{{page.url}}_2_1.png)](/images/{{page.url}}_2_1.png){: target="_blank"}
+
+[![](/images/{{page.url}}_2_2.png)](/images/{{page.url}}_2_2.png){: target="_blank"}
+[PACS Viewer 경로 설정]
+
 
 <pre>
  <t2><bold>3. 협진 </bold></t2>
@@ -62,7 +69,7 @@ pageOrder: 11
 <pre>
  <t2><bold>5. 상담자료</bold></t2>
      ① [상담자료] 버튼 클릭 시 상담자료 창이 팝업됩니다.
-     ② 그룹을 선택합니다.ㄴ
+     ② 그룹을 선택합니다.
      ③ 상담자료가 표시됩니다.
           상담자료를 선택시 배경이 하늘색으로 변경됩니다.
           선택 후 우클릭 시 영상비교창이 나타납니다.
@@ -73,7 +80,7 @@ pageOrder: 11
 </pre>
 [![](/images/{{page.url}}_7.png)](/images/{{page.url}}_7.png){: target="_blank"}
 
-<pre>ㄴ
+<pre>
  <t2><bold>6. 백신</bold></t2>
      ① [백신] 버튼 클릭 시 백신 창이 팝업됩니다.
           환자정보를 확인할 수 있습니다.
