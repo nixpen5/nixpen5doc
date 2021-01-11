@@ -79,7 +79,7 @@ pageOrder: 3
 [![](/images/{{page.url}}_7.png)](/images/{{page.url}}_7.png){: target="_blank"}
 
 <pre>
- <t2><bold>3. 증상, 특이증상 편집 </bold></t2>
+ <t2><bold>4. 증상, 특이증상 편집 </bold></t2>
      ① [새로입력] 버튼을 클릭합니다.
      ② 그룹 명칭을 입력합니다.
      ③ 코드와 텍스트를 입력합니다.
