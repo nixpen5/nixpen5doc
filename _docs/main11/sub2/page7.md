@@ -13,7 +13,7 @@ pageOrder: 7
      ④ 검색된 이전청구 내역을 확인할 수 있습니다.
      ⑤ 검색된 이전청구 내역의 합계를 확인할 수 있습니다.
      ⑥ 선택한 청구내역을 삭제합니다.
-     ⑦ 검색된 청구내역 목록을 Excel 형식으로 저장합니다.
+     ⑦ 검색된 청구내역 목록을 엑셀 형식으로 저장합니다.
      ⑧ 검색된 청구내역 목록을 출력합니다.
 </pre>
 
@@ -29,7 +29,7 @@ pageOrder: 7
 
 <pre>
      ③ 선택한 청구내역에 포함된 명세서내역을 확인할 수 있습니다.
-     ④ [Excel 내보내기] 버튼을 클릭하여 목록을 Excel 형식으로 저장합니다.
+     ④ [Excel 내보내기] 버튼을 클릭하여 목록을 엑셀 형식으로 저장합니다.
 </pre>
 
 [![](/images/{{page.url}}_3.png)](/images/{{page.url}}_3.png){: target="_blank"}
@@ -47,8 +47,8 @@ pageOrder: 7
      ④ 상병코드 또는 상병명으로 특정 상병을 검색합니다.
      ⑤ ③에서 선택한 상병이 포함된 진료내역을 확인할 수 있습니다.
      ⑥ 진료내역의 합계를 확인할 수 있습니다.
-     ⑦ [<img src="/images/{{page.url}}_btn_1.png"  width="20" height="20">] 버튼을 클릭하여 상병내역을 Excel 형식으로 저장합니다.
-     ⑧ [<img src="/images/{{page.url}}_btn_1.png"  width="20" height="20">] 버튼을 클릭하여 진료내역을 Excel 형식으로 저장합니다.
+     ⑦ [<img src="/images/{{page.url}}_btn_1.png"  width="20" height="20">] 버튼을 클릭하여 상병내역을 엑셀 형식으로 저장합니다.
+     ⑧ [<img src="/images/{{page.url}}_btn_1.png"  width="20" height="20">] 버튼을 클릭하여 진료내역을 엑셀 형식으로 저장합니다.
 </pre>
 
 [![](/images/{{page.url}}_5.png)](/images/{{page.url}}_5.png){: target="_blank"}
