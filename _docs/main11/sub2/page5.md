@@ -15,8 +15,8 @@ pageOrder: 5
 [![](/images/{{page.url}}_1.png)](/images/{{page.url}}_1.png){: target="_blank"}
 
 <pre>
- <t2><bold>2. 청구문서 Viewer</bold></t2>
-     ① 확인하고자하는 청구문서를 체크합니다. 선택합니다.
+ <t2><bold>2. 청구문서 확인</bold></t2>
+     ① 확인하고자 하는 청구문서를 체크하여 선택합니다.
      ② [선택] 버튼을 클릭합니다.
 </pre>
 

@@ -50,7 +50,7 @@ pageOrder: 6
  <t2><bold>3. SmartCheck 사전점검 오류 확인</bold></t2>
      ① [청구확인] 버튼을 클릭합니다.
      ② SmartCheck 사전점검을 진행한 청구내역을 선택합니다.
-         해당되는 청구내역이 사전점검 항목에 [] 표시되어있습니다.
+         해당되는 청구내역이 사전점검 항목에 [<img src="/images/{{page.url}}_btn_1.png"  width="20" height="20">] 표시되어있습니다.
      ③ [선택] 버튼을 클릭합니다.
 </pre>
 
