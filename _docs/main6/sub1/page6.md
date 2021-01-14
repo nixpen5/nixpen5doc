@@ -17,7 +17,7 @@ pageOrder: 6
      ⑧ 순서이동을 할 수 있습니다.
      ⑨ [지시] 버튼을 클릭하여 진료차트에 추가할 수 있습니다.
      ⑩ Heads 목록을 선택하여 ②의 Head위치로 이동합니다.
-     ⑪ Routine 목록을 더브클릭하여 지시목록에 추가할 수 있습니다.
+     ⑪ Routine 목록을 더블클릭하여 지시목록에 추가할 수 있습니다.
 </pre>
 
 [![](/images/{{page.url}}_1.png)](/images/{{page.url}}_1.png){: target="_blank"}
@@ -44,6 +44,7 @@ pageOrder: 6
 <pre>
  <t2><bold>3. 실시부서 화면</bold></t2>
      ① 검사 지시 목록을 확인합니다.
+     ② [검사관리] 버튼 클릭 후 [검사실코드 관리]메뉴 클릭 시 검사실 코드관리 창이 팝업됩니다. 
 </pre>
 
 [![](/images/{{page.url}}_6.png)](/images/{{page.url}}_6.png){: target="_blank"}
