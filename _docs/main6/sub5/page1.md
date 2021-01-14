@@ -40,7 +40,7 @@ pageOrder: 1
 [![]({{site.url}}/images/{{page.url}}_4.png)]({{site.url}}/images/{{page.url}}_4.png){: target="_blank"}  
 
 <pre>
- <t2><bold>2. 진료내역 검색 </bold></t2>
+ <t2><bold>4. 항목 편집 </bold></t2>
      ① [<img src="/images/{{page.url}}_btn_2.png"  width="20" height="20">]버튼을 클릭합니다.
      ② [<img src="/images/{{page.url}}_btn_3.png"  width="20" height="20">]표시된 항목은 화면에 추가되어있는 항목입니다.
          [<img src="/images/{{page.url}}_btn_4.png"  width="20" height="20">]표시된 항목은 화면에 추가되어있지 않은 항목입니다.
