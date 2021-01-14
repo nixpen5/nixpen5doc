@@ -2,7 +2,7 @@
 title: 입원 및 청구정보
 subCategory: 입원등록
 mainCategory: 프로그램 활용 - 접수
-subOrder: 3
+pageOrder: 3
 ---
 <pre>
  <t2><bold>1. 입원이력 목록</bold></t2>

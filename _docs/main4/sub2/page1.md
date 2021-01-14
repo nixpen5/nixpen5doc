@@ -2,7 +2,7 @@
 title: 등록 화면
 subCategory: 입원등록
 mainCategory: 프로그램 활용 - 접수
-subOrder: 1
+pageOrder: 1
 ---
 <pre>
  <t2><bold>1. 입원등록</bold></t2>

@@ -2,7 +2,7 @@
 title: 입원 현황
 subCategory: 입원등록
 mainCategory: 프로그램 활용 - 접수
-subOrder: 4
+pageOrder: 4
 ---
 <pre>
  <t2><bold>1. 입원오더 </bold></t2>

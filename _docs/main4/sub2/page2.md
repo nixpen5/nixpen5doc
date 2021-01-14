@@ -2,7 +2,7 @@
 title: 신환 등록
 subCategory: 입원등록
 mainCategory: 프로그램 활용 - 접수
-subOrder: 2
+pageOrder: 2
 ---
 <pre>
  <t2><bold>1. 인적사항 저장</bold></t2>
