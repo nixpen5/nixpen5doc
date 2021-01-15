@@ -32,7 +32,7 @@ pageOrder: 2
 </pre>
 
 [![](/images/{{page.url}}_1.png)](/images/{{page.url}}_1.png){: target="_blank"}
-<br/><br/>
+<br/>
 
 [![](/images/{{page.url}}_5.png)](/images/{{page.url}}_5.png){: target="_blank"}
 <br/>[파일정보 화면]
