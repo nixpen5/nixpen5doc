@@ -48,13 +48,13 @@ pageOrder: 7
      ② [<img src="/images/{{page.url}}_btn1.png"  width="20" height="20">] 버튼 클릭 시 신체부위를 추가할 수 있습니다.
          [<img src="/images/{{page.url}}_btn2.png"  width="20" height="20">] 버튼 클릭 시 신체부위를 삭제할 수 있습니다.
          [<img src="/images/{{page.url}}_btn3.png"  width="20" height="20">] 버튼 클릭 시 신체부위를 편집할 수 있습니다.
-         [<img src="/images/{{page.url}}_btn4.png"  width="100" height="50">] 버튼 클릭 시 순서변경를 할 수 있습니다.
+         [<img src="/images/{{page.url}}_btn4.png"  width="100" height="50">] 버튼 클릭 시 순서변경을 할 수 있습니다.
      ③ 실시부위 목록을 표시합니다
          목록을 더블클릭하여 편집할 수 있습니다.
      ④ [<img src="/images/{{page.url}}_btn1.png"  width="20" height="20">] 버튼 클릭 시 실시부위를 추가할 수 있습니다.
          [<img src="/images/{{page.url}}_btn2.png"  width="20" height="20">] 버튼 클릭 시 실시부위를 삭제할 수 있습니다.
          [<img src="/images/{{page.url}}_btn3.png"  width="20" height="20">] 버튼 클릭 시 실시부위를 편집할 수 있습니다.
-         [<img src="/images/{{page.url}}_btn4.png"  width="100" height="50">] 버튼 클릭 시 순서변경를 할 수 있습니다.
+         [<img src="/images/{{page.url}}_btn4.png"  width="100" height="50">] 버튼 클릭 시 순서변경을 할 수 있습니다.
 </pre>
 
 [![](/images/{{page.url}}_4.png)](/images/{{page.url}}_4.png){: target="_blank"}
