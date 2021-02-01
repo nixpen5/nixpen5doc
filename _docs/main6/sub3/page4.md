@@ -292,3 +292,14 @@ pageOrder: 4
 </pre>
 
 [![](/images/{{page.url}}_32.png)](/images/{{page.url}}_32.png){: target="_blank"}
+
+<pre>
+ <t2><bold>17. 펜차트 단축키</bold></t2>
+     ① [Ctrl + S] 키를 입력하여 차트를 일괄 저장할 수 있습니다.
+     ② [Ctrl + W] 키를 현재 편집중인 탭을 닫을 수 있습니다.
+          변경된 내용이 있는 경우 저장 여부를 묻습니다.
+</pre>
+
+[![](/images/{{page.url}}_33.png)](/images/{{page.url}}_33.png){: target="_blank"}
+
+[![](/images/{{page.url}}_34.png)](/images/{{page.url}}_34.png){: target="_blank"}
