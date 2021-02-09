@@ -8,11 +8,11 @@ pageOrder: 4
 
 <pre>
  <t2><bold>1. 문서 작성 및 출력</bold></t2>
-     ① 작성하고자 하는 문서를 더블클릭하여 불러옵니다.
-     ② [<img src="/images/{{page.url}}_btn_1.png"/>] 버튼을 클릭하여 환자를 선택합니다.
+     ① 작성하고자 하는 문서를 더블클릭 하여 불러옵니다.
+     ② [<img src="/images/{{page.url}}_btn_1.png"/>] 버튼을 클릭 하여 환자를 선택합니다.
      ③ 문서의 내용을 작성 합니다.
-     ④ [<img src="/images/{{page.url}}_btn_2.png"/>] 버튼을 클릭하여 작성한 문서를 저장합니다.
-     ⑤ [예] 버튼을 클릭하여 저장된 문서를 출력합니다.
+     ④ [<img src="/images/{{page.url}}_btn_2.png"/>] 버튼을 클릭 하여 작성한 문서를 저장합니다.
+     ⑤ [예] 버튼을 클릭 하여 저장된 문서를 출력합니다.
 </pre>
 
 [![](/images/{{page.url}}_1.png)](/images/{{page.url}}_1.png){: target="_blank"}
@@ -42,18 +42,18 @@ pageOrder: 4
  <t2><bold>3. 서식 탭</bold></t2>
      ① 현재 열려있는 문서들 목록을 탭으로 표시합니다.
      ② 현재 선택된 문서는 노란색으로 표시됩니다.
-     ③ [<img src="/images/{{page.url}}_btn_3.png"/>] 버튼을 클릭하여 해당 문서를 닫을 수 있습니다.
+     ③ [<img src="/images/{{page.url}}_btn_3.png"/>] 버튼을 클릭 하여 해당 문서를 닫을 수 있습니다.
           작성중인 문서인 경우 저장 여부를 선택 후 닫습니다.
-     ④ [<img src="/images/{{page.url}}_btn_4.png"/>] 버튼을 클릭하여 현재 선택된 탭의 좌측 탭 문서를 선택합니다.
-          [<img src="/images/{{page.url}}_btn_5.png"/>] 버튼을 클릭하여 현재 선택된 탭의 우측 탭 문서를 선택합니다.
+     ④ [<img src="/images/{{page.url}}_btn_4.png"/>] 버튼을 클릭 하여 현재 선택된 탭의 좌측 탭 문서를 선택합니다.
+          [<img src="/images/{{page.url}}_btn_5.png"/>] 버튼을 클릭 하여 현재 선택된 탭의 우측 탭 문서를 선택합니다.
 </pre>
 
 [![](/images/{{page.url}}_3.png)](/images/{{page.url}}_3.png){: target="_blank"}
 
 <pre>
-     ⑤ 탭을 우클릭하여 닫기 메뉴를 사용할 수 있습니다.
-     ⑥ [<img src="/images/{{page.url}}_btn_6.png"/>] 버튼을 클릭하여 현재 열려있는 문서 목록을 볼 수 있습니다.
-          해당 메뉴를 클릭하여 해당 문서를 선택할 수 있습니다.
+     ⑤ 탭을 우클릭 하여 닫기 메뉴를 사용할 수 있습니다.
+     ⑥ [<img src="/images/{{page.url}}_btn_6.png"/>] 버튼을 클릭 하여 현재 열려있는 문서 목록을 볼 수 있습니다.
+          해당 메뉴를 클릭 하여 해당 문서를 선택할 수 있습니다.
 </pre>
 
 [![](/images/{{page.url}}_4.png)](/images/{{page.url}}_4.png){: target="_blank"}
