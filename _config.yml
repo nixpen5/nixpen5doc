@@ -38,6 +38,8 @@ exclude:
 collections:
   docs:
     output: true
+  histories:
+    output: true
 
 defaults:
   -

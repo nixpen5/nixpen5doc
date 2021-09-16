@@ -39,7 +39,7 @@
 				<ul>
 				{% for main in mains %}
 					{% if main.title == page.title or main.title == page.mainCategory %}						
-					<li class="nav-item top-level current"><a href="{{ site.baseurl }}{{ main.url }}">{{ main.title }}</a>
+					<li class="nav-item top-level current"><a href="{{ site.baseurl }}{{ main.url }}">{{ main.title }}</a></li>
 						<ul>
 						{% assign subs = site.docs | where: 'mainCategory', main.title | where_exp: "item", "item.subCategory == nil" | sort: "subOrder" %}
 						{% for sub in subs %}
@@ -55,11 +55,27 @@
 								<li class="nav-item "><a href="{{ site.baseurl }}{{ sub.url }}">{{sub.title}}</a></li>
 								{% endif %}
 							{% endfor %}
-							</ul>
+						</ul>
 						{% else %}
 						<li class="nav-item top-level "><a href="{{ site.baseurl }}{{ main.url }}">{{ main.title }}</a></li>
 						{% endif %}
 					{% endfor %}
+				</ul>
+				<ul>
+					{% assign historyHome = site.histories | where: 'historyHome', '1' | first %}
+					<li class="nav-item top-level {% if page.historyHome %}current{% endif %}">
+						<a href="{{ site.baseurl }}{{ historyHome.url }}">{{ historyHome.title }}{{ page.tags }}</a>
+					</li>
+					{% if page.historyHome %}
+						<ul>
+						{% assign histories = site.histories | where_exp: "item", "item.historyHome <> 1" | sort: "yearMonth" | reverse %}
+						{% for history in histories %}
+							<li class="nav-item {% if page.yearMonth == history.yearMonth %}current{% endif %}">
+								<a href="{{ site.baseurl }}{{ history.url }}">{{history.menuTitle}}</a>
+							</li>
+						{% endfor %}
+						</ul>
+					{% endif %}
 				</ul>
 			</nav>
 		</header>
@@ -77,11 +93,11 @@
 			</div>
 			<article class="content">
 			{{ content }}
-			{% if page.subCategory == nil %}
-				{% if page.mainCategory == nil %}
+			{% if page.subCategory == nil %} <!--1-->
+				{% if page.mainCategory == nil %} <!--2-->
 				{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.title" | where_exp: "item", "item.subCategory == nil" | sort: "subOrder" %}
-					{% if children.size > 0 %}
-				<hr>
+					{% if children.size > 0 %} <!--3-->
+				<hr/>
 					<h2 class="text-delta">목차</h2>
 					<ul>
 						{% for child in children %}
@@ -90,22 +106,33 @@
 						</li>
 						{% endfor %}			
 					</ul>
-					{% endif %}
-					{% else %}
-						{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.mainCategory" | where_exp: "item", "item.subCategory == page.title" | sort: "pageOrder" %}
-							{% if children.size > 0 %}
-					<hr>
+					{% endif %} <!--3-->
+				{% else %} <!--2-->
+					{% assign children = site.docs | where_exp: "item", "item.mainCategory == page.mainCategory" | where_exp: "item", "item.subCategory == page.title" | sort: "pageOrder" %}
+					{% if children.size > 0 %} <!--4-->
+				<hr/>
 					<h2 class="text-delta">목차</h2>
 					<ul>
-								{% for child in children %}
+						{% for child in children %}
 						<li>
 							<a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
 						</li>
-								{% endfor %}
-						</ul>
-						{% endif %}
-					{% endif %}
-				{% endif %}
+						{% endfor %}
+					</ul>
+					{% endif %} <!--4-->
+				{% endif %}  <!--2-->
+			{% endif %} <!--1-->
+			{% if page.historyHome == 1 %}
+			<hr/>
+			<ul>
+				{% assign children = site.histories | where_exp: "item", "item.historyHome <> 1" | sort: "yearMonth" | reverse %}
+				{% for child in children %}
+				<li>
+					<a href="{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+				</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
 			</article>
 		</section>
 
