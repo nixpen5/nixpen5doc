@@ -26,6 +26,24 @@ sitemap: false
 				{% endunless %}
 			{% endif %}
 		{% endfor %}
+		{% for item in site.histories %}
+			{% if item.title %}
+				{% unless item.excluded_in_search %}
+					{% if added %},{% endif %}
+					{% assign added = false %}
+
+					"{{ item.url | slugify }}": {
+						"id": "{{ item.url | slugify }}",
+						"title": "{{ item.title | xml_escape }}",
+						"category": "{{ collection.title | xml_escape }}",
+						"url": " {{ item.url | xml_escape }}",
+						"content": {{ item.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
+					}
+
+					{% assign added = true %}
+				{% endunless %}
+			{% endif %}
+		{% endfor %}
 	};
 </script>
 <script src="{{ site.baseurl }}/scripts/lunr.min.js" charset="utf-8"></script>
