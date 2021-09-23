@@ -6,6 +6,21 @@ yearMonth: 2109
 ---
 
 <pre>
+
+<bold># 9/23 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 관리자 변경기록 조회 기능 추가 (특정 차트의 변경기록 조회 기능 추가)
+<span class="box jemu">원무</span> - 10원단위 절상 조건에서 영수증 할인액 발생 bug 
+<span class="box chart">진료</span> - 약수가검색창 처방금지제외 LastValue 동작 추가 (처방금지제외 체크값 기억)
+<span class="box inspect">심사</span> - DUR 도움말 메뉴 기능 추가 (상단.도움말.DUR도움말 메뉴 추가)
+<span class="box inspect">심사</span> - 업데이트 히스토리 웹페이지 기능 추가 (업데이트 사항 표시 기능 추가)
+<span class="box inspect">심사</span> - 청구 조회 속도 개선
+<span class="box inspect">심사</span> - 산재통원 청구방식 변경 (일단위 >> 월단위 통합 생성)
+<span class="box other">통계</span> - 청구통계.청구서 조회 동작 bug
+<span class="box other">통계</span> - 청구통계.주별청구통계 조회 동작 bug
+<span class="box other">공통</span> - 비밀번호를 6개월이상 사용하셨습니다 동작 변경 (변경확인메시지에서 '아니오' 선택시 6개월 연장)
+
+
 <bold># 9/15 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 산재 진료구분 발생 오류 bug (진료구분.통원으로 수록)
