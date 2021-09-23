@@ -10,7 +10,6 @@ yearMonth: 2109
 <bold># 9/23 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 관리자 변경기록 조회 기능 추가 (특정 차트의 변경기록 조회 기능 추가)
-<span class="box jemu">원무</span> - 10원단위 절상 조건에서 영수증 할인액 발생 bug 
 <span class="box chart">진료</span> - 약수가검색창 처방금지제외 LastValue 동작 추가 (처방금지제외 체크값 기억)
 <span class="box inspect">심사</span> - DUR 도움말 메뉴 기능 추가 (상단.도움말.DUR도움말 메뉴 추가)
 <span class="box inspect">심사</span> - 업데이트 히스토리 웹페이지 기능 추가 (업데이트 사항 표시 기능 추가)
