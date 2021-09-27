@@ -18,7 +18,7 @@ yearMonth: 2109
 <span class="box other">통계</span> - 청구통계.청구서 조회 동작 bug
 <span class="box other">통계</span> - 청구통계.주별청구통계 조회 동작 bug
 <span class="box other">공통</span> - 비밀번호를 6개월이상 사용하셨습니다 동작 변경 (변경확인메시지에서 '아니오' 선택시 6개월 연장)
-
+<span class="box other">진단서</span> - 일반진단서 도장 출력 기능 제거
 
 <bold># 9/15 배포</bold>
 =====================
