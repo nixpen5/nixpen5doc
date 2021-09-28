@@ -7,6 +7,28 @@ yearMonth: 2109
 
 <pre>
 
+<bold># 9/28 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 직원정보 검색조건포함 옵션 기능 추가 (직원정보.검색조건포함 옵션 참조)
+<span class="box jemu">원무</span> - 진료확인번호 승인요청창 메시지 bug (자격조회 내역이 존재하지않습니다. 등 알림창 표시)
+<span class="box jemu">원무</span> - 환불정산시 환불카드사를 확인하세요 bug (환불정산건 대상으로 환불 진행)
+<span class="box chart">진료</span> - 영상비교창 소견서 출력 기능 추가 (영상비교창 Report 버튼 참조)
+<span class="box chart">진료</span> - 수가 기본값 적용 기능 추가 (수가정보.산정기분.기본값 항목 참조)
+<span class="box chart">진료</span> - 검사 판정 컬러 오류   bug (특정코드가 정상컬러로 표시되는 bug)
+<span class="box inspect">심사</span> - 산재 후유증상 분리청구 bug
+<span class="box other">진단서</span> - 잠복결핵감염 산정특례 등록 신청서 서식 추가 (진단서.신청서탭 참조)
+
+
+<bold># 9/27 배포</bold>
+=====================
+<span class="box inspect">심사</span> - 산재 사전심사 bug (일반내역 진료기간 수록 bug)
+
+
+<bold># 9/24 배포</bold>
+=====================
+<span class="box inspect">심사</span> - 혈액투석정액 본인부담 산정 bug
+
+
 <bold># 9/23 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 관리자 변경기록 조회 기능 추가 (특정 차트의 변경기록 조회 기능 추가)
