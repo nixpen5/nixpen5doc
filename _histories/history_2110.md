@@ -9,8 +9,8 @@ yearMonth: 2110
 
 <bold># 10/6 배포</bold>
 =====================
-<span class="box chart">진료</span> - 상병리피트 동작 bug
-<span class="box inspect">심사</span> - 수탁검사 의사본인처방 룰 변경
+<span class="box chart">진료</span> - 상병리피트 동작 bug (상병리피트가 동작하지 않을 수 있는 현상 패치)
+<span class="box inspect">심사</span> - 수탁검사 의사본인처방 룰 변경 (수탁검사의 경우 검사관리료(10%) 제외 및 100% 청구)
 
 <bold># 10/5 배포</bold>
 =====================
