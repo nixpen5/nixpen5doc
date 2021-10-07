@@ -7,6 +7,12 @@ yearMonth: 2110
 
 <pre>
 
+<bold># 10/7 배포</bold>
+=====================
+<span style="font-style: Italic; color: gray">((아래 [검사실] 기능은 환경설정.실시부서.검사항목전체보기 조건에서만 동작합니다. 해당 병원만 참조))</span>
+<span class="box lab">검사실</span> - 오더없이 입력한 검사결과 사라지는 증상 bug
+
+
 <bold># 10/6 배포</bold>
 =====================
 <span class="box chart">진료</span> - 상병리피트 동작 bug (상병리피트가 동작하지 않을 수 있는 현상 패치)
