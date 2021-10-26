@@ -7,6 +7,11 @@ yearMonth: 2110
 
 <pre>
 
+<bold># 10/15 배포</bold>
+=====================
+<span class="box chart">진료</span> - 부모수가의 수량 적용 옵션 bug (부모수가의 수량을 자식수가에 적용, 수가만 해당)
+
+
 <bold># 10/14 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 혈액투석정액 청구서 출력 bug (보험청구.청구확인.청구서 탭 참조)
