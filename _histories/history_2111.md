@@ -7,6 +7,13 @@ yearMonth: 2111
 
 <pre>
 
+<bold># 11/3 배포</bold>
+=====================
+<span class="box other">진단서</span> - 국민연금장애심사용진단서(개정) 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box inspect">심사</span> - 작은청구 FU 속도 개선
+<span class="box other">[KIOSK 5.0]</span> - LiveUpdate 기능 추가
+
+
 <bold># 11/2 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 백신 설정창 초기 화면 동작 변경 (외래접수.백신.설정메뉴.백신설정창 참조)
