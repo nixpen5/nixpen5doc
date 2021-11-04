@@ -7,6 +7,11 @@ yearMonth: 2111
 
 <pre>
 
+<bold># 11/4 배포</bold>
+=====================
+<span class="box inspect">심사</span> - AskCust_PK를 위반했습니다. bug (요양기관 다수개인 병원에서 청구시 청구번호 발생 bug)
+
+
 <bold># 11/3 배포</bold>
 =====================
 <span class="box other">진단서</span> - 국민연금장애심사용진단서(개정) 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
