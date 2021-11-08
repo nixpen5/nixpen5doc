@@ -7,6 +7,12 @@ yearMonth: 2111
 
 <pre>
 
+
+<bold># 11/8 배포</bold>
+=====================
+<span class="box inspect">심사</span> - 일반건강검진, 암검진 동시 발생시 산정 bug
+
+
 <bold># 11/4 배포</bold>
 =====================
 <span class="box inspect">심사</span> - AskCust_PK를 위반했습니다. bug (요양기관 다수개인 병원에서 청구시 청구번호 발생 bug)
