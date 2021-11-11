@@ -8,6 +8,12 @@ yearMonth: 2111
 <pre>
 
 
+<bold># 11/11 배포</bold>
+=====================
+<span class="box chart">진료</span> - 자보 처방전 요양기관기호 출력  bug
+<span class="box other">통계</span> - 제약회사별통계 출력물 표시 방법 변경 (진료통계.제약회사별처방통계 출력물 참조)
+
+
 <bold># 11/8 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 일반건강검진, 암검진 동시 발생시 산정 bug
