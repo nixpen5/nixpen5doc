@@ -8,6 +8,31 @@ yearMonth: 2111
 <pre>
 
 
+<bold># 11/16 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 접수시 접수증 출력 (사용자설정.접수업무.접수후접수증출력 항목 참조, 로컬설정.프린터설정.접수증 항목 참조)
+<span class="box jemu">원무</span> - 의사스케줄 설정 기능 추가 (원무.스케줄설정창 참조)
+<span class="box jemu">원무</span> - 개인정보활용 동의서 와콤 연동 (동의서창.개인정보활용동의설정 동의서서명방법 참조)
+<span class="box other">진단서</span> - 장애진단서(개정:2019.6.4) 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box other">진단서</span> - 방사선관계종사자 건강진단표 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box other">진단서</span> - 근로능력평가용진단서 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box other">진단서</span> - 진료확인서 Value 항목이 최대길이를 초과했습니다   bug  (상병명의 길이가 긴 경우라도 에러메시지 표시되지 않게)
+<span class="box lab">검사실</span> - 바코드 크기 변경 기능 추가 (검사실.검사관리.라벨출력설정 용지크기 항목 참조)
+<span class="box lab">검사실</span> - 검사결과지 출력  결과 및 참고치 잘리지 않게 (결과, 참고치 항목 너비 조정)
+<span class="box lab">검사실</span> - 라벨출력 여부 표시 기능 추가 (옵션 없음)
+<span class="box lab">검사실</span> - 검사실 대기목록 라벨출력 여부 표시 기능 추가 (대기목록창 참조)
+<span class="box lab">검사실</span> - 수탁검사 결과 수신 동작 변경 (전송기간에 해당하는 결과만 수신)
+<span class="box inspect">심사</span> - 혈액투석정액 SamFile 상병 수록 bug
+<span class="box inspect">심사</span> - 작은청구.선택환자 내역보기 LastValue 기능 추가
+<span class="box other">[KISOK 5.0]</span> 진료의사 8명 제한 기능 변경 (진료의사수 10명까지 지원)
+<span class="box other">[KIOSK 5.0]</span> 접수후 알림 화면 추가 (환경설정.접수후알림창 참조)
+<span class="box other">[KISOK 5.0]</span> 접수 안내문구 잘림 bug  (특정 폰트에서 안내문구가 잘리지 않게)
+<span class="box other">[KIOSK 5.0]</span> 접수증 접수번호 항목 추가 (옵션 없음)
+<span class="box other">[KIOSK 5.0]</span> 프로그램이 이미 실행중입니다. (키오스크 중복 실행 방지)
+<span class="box other">[KIOSK 5.0]</span> 휴진의사 숨김 옵션 기능 추가 (환경설정.기본.접수옵션 참조)
+<span class="box other">[KIOSK 5.0]</span> 포스프린터 전송속도 항목 추가 (로컬설정.기능
+
+
 <bold># 11/11 배포</bold>
 =====================
 <span class="box chart">진료</span> - 자보 처방전 요양기관기호 출력  bug
