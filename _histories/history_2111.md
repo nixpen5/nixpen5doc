@@ -30,7 +30,9 @@ yearMonth: 2111
 <span class="box other">[KIOSK 5.0]</span> 접수증 접수번호 항목 추가 (옵션 없음)
 <span class="box other">[KIOSK 5.0]</span> 프로그램이 이미 실행중입니다. (키오스크 중복 실행 방지)
 <span class="box other">[KIOSK 5.0]</span> 휴진의사 숨김 옵션 기능 추가 (환경설정.기본.접수옵션 참조)
-<span class="box other">[KIOSK 5.0]</span> 포스프린터 전송속도 항목 추가 (로컬설정.기능
+<span class="box other">[KIOSK 5.0]</span> 포스프린터 전송속도 항목 추가 (로컬설정.기능 참조)
+<span class="box other">[KIOSK 5.0]</span> 초재진 산정룰 변경 (만성질환 상병 기준 초재진 적용)
+<span class="box other">[고시]</span> 2022년 1월 점수당단가 (점수당단가 및 공휴일 등록)
 
 
 <bold># 11/11 배포</bold>
