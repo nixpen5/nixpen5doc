@@ -7,6 +7,38 @@ yearMonth: 2111
 
 <pre>
 
+<bold># 11/24 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 카드수납창에서 의료급여승인창으로 호출 동작   bug (의료급여승인창 표시되도록) 
+<span class="box jemu">원무</span> - 의보100 진료정보변경창 동작 변경 ('의보100을 지원하지 않습니다' 메시지 표시)
+<span class="box jemu">원무</span> - 처방전 재출력시 본인부담구분코드 출력룰 변경 (진료확인번호 승인된 본인부담구분코드를 출력)
+<span class="box jemu">원무</span> - 접수 저장시 개인정보활용동의 팝업안함 옵션 기능 추가 (로컬설정.개인정보활용동의설정 참조)
+<span class="box chart">진료</span> - 차트 보류후 대기자 보기 옵션  기능 추가 (사용자설정.진료업무.열기및저장 > 차트보류후대기자보기옵션 참조)
+<span class="box chart">진료</span> - 차트출력 특이증상이 많을때 출력  bug (페이지 밀림증상 패치)  
+<span class="box other">진단서</span> - 근로능력평가용진단서 출력   bug   
+<span class="box lab">검사실</span> - 수탁검사 미전송창 환자수 항목 표시  bug  
+<span class="box lab">검사실</span> - 미전송 오더내역 정렬   bug (수탁검사 전송 검색창의 정렬순서와 동일하게)
+<span class="box lab">검사실</span> - 잠금시 지원부서 대기목록 표시제외 옵션 기능 추가 (StaffMenu.기본 잠금옵션 참조)
+<span class="box lab">검사실</span> - 검사결과 참고치 기준 검사결과 입력 기능 추가 (참고치 항목 더블클릭시 결과 항목에 참고치 텍스트 입력)
+<span class="box lab">물리치료실</span> - 물리치료현황 연인원 조회 속도 개선  
+<span class="box lab">물리치료실</span> - 물리치료현황 실인원 조회 속도 개선  
+<span class="box inspect">심사</span> - 향정신성 약품 JT014 수동입력기능 추가 (향정신성 약물을 30일을 초과하여 처방하는 경우)
+<span class="box inspect">심사</span> - 수가정보 의약품예외구분 항목에 코드 추가 표시 (의약품예외구분 코드값 표시)  
+<span class="box inspect">심사</span> - 수가정보 의약품구분 항목유형 조건 추가 (수가정보.항목유형.의약품구분 참조)
+<span class="box inspect">심사</span> - 수가정보 수가구분 항목유형 조건 추가 (수가정보.항목유형.수가구분 참조)
+<span class="box inspect">심사</span> - 확인코드 특정내역 미발생  bug (처방속성창.확인코드 항목 참조)
+<span class="box inspect">심사</span> - 수가정보 대체코드 동작 bug (입력코드를 처방시 대체코드로 바뀌는 기능)
+<span class="box other">통계</span> - 진료비통계 권한 적용 bug (기준정보.역할및권한.권한설정 '진료비통계' 권한 참조) 
+<span class="box other">통계</span> - 항목별진료실적통계_진료의 조회 결과 bug (수입통계.항목별진료실적통계 3종 참조)
+<span class="box other">[고시]</span> 장애인건강주치의 시범사업 3단계 (특정기호 S036 수록대상)
+<span class="box other">[진료정보교류]</span> 문서를 전송할 수 없습니다.  bug  (전송할 수 없는 처방코드가 존재시 메시지 표시)
+<span class="box other">[KIOSK 5.0]</span> 진료카드 바코드 인식 기능 추가 (사용자설정.접수업무.접수증출력옵션 참조)
+<span class="box other">[KIOSK 5.0]</span> 접수증 리딩후 수납 기능 (수납 버튼 누르고 바코드가 인쇄된 접수증 리딩)
+<span class="box other">[KIOSK 5.0]</span> 키오스크 종료 기능 추가 (로컬설정.KIOSK연동 참조)
+<span class="box other">[KIOSK 5.0]</span> 대기인수에 보류환자수 포함 옵션 기능 추가 (환경설정.기본.접수옵션 참조)
+<span class="box other">[KIOSK 5.0]</span> 처방전 환자보관용 출력여부 확인 기능 추가 (환경설정.기본.수납옵션 참조)
+<span class="box other">[KIOSK 5.0]</span> 영수증 출력여부 확인 기능 추가 (환경설정.기본.수납옵션 참조)
+
 
 <bold># 11/16 배포</bold>
 =====================
