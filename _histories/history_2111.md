@@ -7,6 +7,13 @@ yearMonth: 2111
 
 <pre>
 
+<bold># 11/25 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 영수증 항목텍스트 빈값 오류 수정
+<span class="box jemu">원무</span> - 영수증 항목텍스트 변경시 로그 기록 기능 추가
+<span class="box chart">진료</span> - 묶음타이틀이 삭제된 내역 표시방법 변경
+
+
 <bold># 11/24 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 카드수납창에서 의료급여승인창으로 호출 동작   bug (의료급여승인창 표시되도록) 
