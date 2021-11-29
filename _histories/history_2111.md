@@ -7,6 +7,12 @@ yearMonth: 2111
 
 <pre>
 
+<bold># 11/29 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 카드수납창에서 원외처방전 출력 오류 수정
+<span class="box inspect">심사</span> - 시설등의공동이용진료인 HA424006 단가 산정 bug
+
+
 <bold># 11/25 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 영수증 항목텍스트 빈값 오류 수정
