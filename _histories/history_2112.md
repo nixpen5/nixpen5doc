@@ -6,6 +6,25 @@ yearMonth: 2112
 ---
 <pre>
 
+
+<bold># 12/7 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 접수취소시 대기자콜 호출 동작 bug (진료대기목록.상태 항목 우클릭 참조)
+<span class="box jemu">원무</span> - 접수취소후 최종내원일 생성 bug
+<span class="box jemu">원무</span> - 최근좌우검사일자 겹침 bug (외래접수.기본정보창 하단 참조)
+<span class="box jemu">원무</span> - 진료과별 출력 기능 추가 (진료과탭 선택후 출력 버튼 참조)
+<span class="box jemu">원무</span> - JemuDevide에 중복키를 삽입할 수 없습니다 bug (수납시 오류 메시지 패치)
+<span class="box chart">진료</span> - 처방창 수량 횟수 빨리 입력시 동작 bug (저장 후 수량이 바뀌는 증상 패치)
+<span class="box chart">진료</span> - 계산창 진료기록부만 출력 기능 추가 (계산창.[...] 진료기록부만 출력 메뉴 참조)
+<span class="box chart">진료</span> - PointCT CT데이터 내보내기 기능 추가 (전처방.CT내역 우클릭 'CT 데이터 내보내기' 메뉴 참조)
+<span class="box chart">진료</span> - 처방전교부번호 중복   bug (특정 상황에서 중복될 수 있는 버그 패치) 
+<span class="box inspect">심사</span> - 특정기호 V010 추가 ('V010' 잠복결핵감염자)
+<span class="box other">진단서</span> - 진료확인서1 진료일자 가져오기 동작 변경 (특정 진료과 또는 의사의 진료일자 가져오기 기능 지원)  
+<span class="box other">진단서</span> - 진료확인서2 진료일자 가져오기 동작 변경 (특정 진료과 또는 의사의 진료일자 가져오기 기능 지원)
+<span class="box other">[마약류]</span> 마약류통합관리시스템 재인증 완료 (NIMS 정기 인증)
+<span class="box other">[KIOSK 5.0]</span> 진료과명 설정 옵션 기능 추가 (로컬설정.의사설정 진료과명 항목 참조)
+
+
 <bold># 12/2 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 현금영수증 승인창 취소요청 버튼 위치 변경 (승인요청후 취소요청 버튼이 잘못 눌러지지 않도록)
