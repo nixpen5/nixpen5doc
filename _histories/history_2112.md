@@ -6,6 +6,14 @@ yearMonth: 2112
 ---
 <pre>
 
+<bold># 12/9 배포</bold>
+=====================
+<span class="box chart">진료</span> - 처방창 Alt + Enter 시 수량이 0으로 수록되는 bug (한 라인 추가 동작)
+<span class="box other">[고시]</span> MT059 로사르탄 문제의약품 유형 추가 (특정내역 MT059 '문제의약품 유형' 참조)
+<span class="box other">[KIOSK 5.0]</span> 물리치료 접수 후 수납 미생성 bug
+
+
+
 <bold># 12/8 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 물리치료 리피트시 수량이 0으로 수록되는 bug
