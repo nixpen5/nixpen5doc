@@ -6,12 +6,41 @@ yearMonth: 2112
 ---
 <pre>
 
+<bold># 12/15 배포</bold>
+=====================
+<span class="box jemu">원무</span> - Template 읽는중 오류 보완 (펜차트, 동의서 등 서식파일이 깨진 경우 Crush 방지)
+<span class="box jemu">원무</span> - 마감장 수납자 검색조건 기능 추가 (수납대장 마감장탭 참조)
+<span class="box jemu">원무</span> - 수납후 수납메모저장 기능 추가 (수납완료상태에서 상세수납창 저장 버튼 클릭)
+<span class="box chart">진료</span> - M3승인정보와 투약일수 불일치 알림 동작 변경 (정보성 알림으로 변경)
+<span class="box chart">진료</span> - 처방창 용법 일괄변경 동작 bug (처방창 옹법항목 빈줄에서 용법코드 입력후 enter)
+<span class="box chart">진료</span> - 진료대기목록에 키오스크접수 구분 표시 옵션 기능 추가 (사용자설정.진료업무.보기옵션 참조)
+<span class="box chart">진료</span> - 특이증상 일괄 리피트 동작 변경 (편집이 용이하도록 각 줄의 뒤에 공백 추가)
+<span class="box chart">진료</span> - MT059(문제의약품 유형) 조제시참고사항 출력 기능 추가
+<span class="box other">공통</span> - 관리자 권한으로 실행 여부 메시지 기능 추가 (프로그램아이콘.속성창.바로가기탭 고급속성창 참조)
+<span class="box inspect">심사</span> - 전자서명 검색동작  bug (진료탭 전자서명 메뉴 참조)
+<span class="box inspect">심사</span> - 차트 로그 기록 방법 변경 (오더코드 기록)
+<span class="box inspect">심사</span> - 청구 불러오기 속도 일부 개선
+<span class="box inspect">심사</span> - MT059 수납대상액 산정룰 변경 (문제의약품유형 감면대상자, 수납대상액 0원)
+<span class="box lab">검사실</span> - 전체검사보기에서 검사대기 FU 동작 bug (진료의사별로 검사오더 발생한 경우)
+<span class="box other">통계</span> - 진료의별수입통계 할인액 항목 추가 (수입통계탭 참조)
+<span class="box other">통계</span> - 월별수입통계 할인액 항목 추가 (수입통계탭 참조)
+<span class="box other">통계</span> - 진료과별수입통계 기능 추가 (수입통계탭 참조)
+<span class="box other">[SmartCheck]</span> 청구사전심사 엑세스가 거부되었습니다   bug (사전심사결과 생성 대기시간 늘림)
+<span class="box other">[고시]</span> 수가정보 의약품 예외구분코드 기타 항목 추가 (수가정보.예외구분코드 항목 참조)
+<span class="box other">[KIOSK 5.0]</span> 보험유형 적용 룰 변경 (전일 자보/산재 진료건 존재시 자격조회 결과와 관계 없이 자보/산재로 접수)
+<span class="box other">[KIOSK 5.0]</span> 자격조회 결과 생성 (자격조회후 자격상세정보 생성)
+
+
+<bold># 12/11 배포</bold>
+=====================
+<span class="box other">진단서</span> - 문서번호 생성 bug (문서번호 5자리까지 지원)
+
+
 <bold># 12/9 배포</bold>
 =====================
 <span class="box chart">진료</span> - 처방창 Alt + Enter 시 수량이 0으로 수록되는 bug (한 라인 추가 동작)
 <span class="box other">[고시]</span> MT059 로사르탄 문제의약품 유형 추가 (특정내역 MT059 '문제의약품 유형' 참조)
 <span class="box other">[KIOSK 5.0]</span> 물리치료 접수 후 수납 미생성 bug
-
 
 
 <bold># 12/8 배포</bold>
