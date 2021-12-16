@@ -12,7 +12,7 @@ yearMonth: 2112
 <span class="box jemu">원무</span> - 마감장 수납자 검색조건 기능 추가 (수납대장 마감장탭 참조)
 <span class="box jemu">원무</span> - 수납후 수납메모저장 기능 추가 (수납완료상태에서 상세수납창 저장 버튼 클릭)
 <span class="box chart">진료</span> - M3승인정보와 투약일수 불일치 알림 동작 변경 (정보성 알림으로 변경)
-<span class="box chart">진료</span> - 처방창 용법 일괄변경 동작 bug (처방창 옹법항목 빈줄에서 용법코드 입력후 enter)
+<span class="box chart">진료</span> - 처방창 용법 일괄변경 동작 bug (처방창 용법항목 빈줄에서 용법코드 입력후 enter)
 <span class="box chart">진료</span> - 진료대기목록에 키오스크접수 구분 표시 옵션 기능 추가 (사용자설정.진료업무.보기옵션 참조)
 <span class="box chart">진료</span> - 특이증상 일괄 리피트 동작 변경 (편집이 용이하도록 각 줄의 뒤에 공백 추가)
 <span class="box chart">진료</span> - MT059(문제의약품 유형) 조제시참고사항 출력 기능 추가
