@@ -6,6 +6,14 @@ yearMonth: 2112
 ---
 <pre>
 
+<bold># 12/16 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 마감장 미수차감내역 항목에 수납메모 출력 기능 추가 (미수차감내역/미수발생내역 항목 참조)
+<span class="box jemu">원무</span> - 수납대장 수납메모 표시방법 변경 (수납줄별메모 우선, 부재시 수납메모 수록)
+<span class="box jemu">원무</span> - 수납대장 클래식SQL 수납메모 항목 추가 (진료형태 우측 항목 참조)
+<span class="box chart">진료</span> - 묶음처방 수량 변경 동작 bug (묶음처방 상세창 참조)
+
+
 <bold># 12/15 배포</bold>
 =====================
 <span class="box jemu">원무</span> - Template 읽는중 오류 보완 (펜차트, 동의서 등 서식파일이 깨진 경우 Crush 방지)
