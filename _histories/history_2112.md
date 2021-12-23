@@ -6,6 +6,30 @@ yearMonth: 2112
 ---
 <pre>
 
+<bold># 12/23 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 마감장 미수발생내역 항목에 수납메모 출력 기능 추가 (미수발생내역 항목 참조)
+<span class="box jemu">원무</span> - 외래접수 사용자버튼설정 검안오더 버튼 추가 (외래접수.화면설정.사용자버튼설정 참조)
+<span class="box jemu">원무</span> - 수납대장 클래식  진료일자 항목 추가 (외래접수.수납대장 클래식 양식 참조)
+<span class="box jemu">원무</span> - 자격조회 약국전용 필드 저장 방법 변경 (자격조회 결과중 오류 포함시 에러 회피)
+<span class="box chart">진료</span> - 사용자설정 SCAN영상 표시 기능 추가 (사용자설정.전처방.영상표시 항목 참조)
+<span class="box chart">진료</span> - DRG등록 의사만 작성할 수 있습니다 권한룰 변경 (의사 아닌경우에도 입원/DRG 등록 가능)
+<span class="box chart">진료</span> - 처방창 오더 일괄 삭제시 오류 bug (처방코드 DoubleClick 후 오더 일괄 삭제 동작)
+<span class="box chart">진료</span> - 진료대기목록 검안오더 표시 기능 추가 (검안오더를 'E>' 또는 'E<'로 표시)
+<span class="box chart">진료</span> - 의사변경후 전처방 PACS 표시 방법 변경 (진료의변경시 PACS 오더 진료의를 변경)
+<span class="box chart">진료</span> - 수가정보 처방옵션 설정 기능 추가 (수가정보 내복약/외용약 선택후 처방옵션 버튼 참조)
+<span class="box other">진단서</span> - 진료소견서  날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box inspect">심사</span> - 심평원 사전점검 재송신 기능 추가 (재송신 클릭후 재송신 대상 선택 메뉴 팝업)
+<span class="box lab">검사실</span> - 수탁검사 전송내역창 상세 표시 동작 변경 (송신일시를 시분초까지 표시)
+<span class="box lab">검사실</span> - 수탁검사 전송창 검사건수 항목 추가 (수탁검사 전송이력창 참조)
+<span class="box other">[고시]</span> 산정특례 잠복결핵관련 ('V010' 잠복결핵감염 산정특례 지원대상자)
+<span class="box other">[CaptureManager]</span> Area Select 동작 변경 (바깥 테두리 시인성 보완)
+<span class="box other">[KIOSK 5.0]</span> 수납 로그 보완 (차트번호, 환자성명, 오류사유 수록 내용 보완)
+<span class="box other">[의료비소득공제]</span> 기본 해상도 변경 (최소해상도 1280 * 900)
+<span class="box other">[의료비소득공제]</span> 진료비, 미수차감, 환불내역 조회 동작 변경 (2021년도 소득공제 증빙자료 제출 기준)
+<span class="box other">[의료비소득공제]</span> 중간저장자료 생성일시 표시방법 변경 (3/6화면 제출 자료 정보 참조)
+
+
 <bold># 12/16 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 원무 - 마감장 미수차감내역 항목에 수납메모 출력 기능 추가 (미수차감내역 참조) 
