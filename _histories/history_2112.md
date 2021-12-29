@@ -6,6 +6,23 @@ yearMonth: 2112
 ---
 <pre>
 
+<bold># 12/29 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 기준정보 후불거래처 등록 기능 추가 (기준정보.수납관리 메뉴 참조)
+<span class="box jemu">원무</span> - 수가정보 후불거래처 등록 기능 추가 (의약품의 후불단가, 후불거래처 항목 참조)
+<span class="box jemu">원무</span> - 외래접수 검안오더 기능 추가 (외래접수.오더버튼 검안오더 메뉴 참조)
+<span class="box jemu">원무</span> - 접종내역입력창 날짜 입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box jemu">원무</span> - 진료환불 수납대상 항목   bug  (진료환불 수납대상액 표시 오류 패치)
+<span class="box jemu">원무</span> - Scan 로컬경로설정 동작 변경 (외래접수.스캔.환경설정.로컬경로설정 참조)
+<span class="box chart">진료</span> - 키오스크 수납중 알림 기능 추가 (진료완료 버튼 클릭시 '키오스크에서 수납중입니다' 메시지 표시)
+<span class="box other">진단서</span> - 진료의뢰서 날짜 입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box other">진단서</span> - 방사선작업종사자건강진단서 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box lab">검안실</span> - 검안실 화면 및 기능 추가 (지원부서 검안실 참조)
+<span class="box other">통계</span> - 의사별진료비 통계 후불진료비 항목 추가 (진료비통계 참조)
+<span class="box other">[WaitCall]</span> 진료보류를 검사중으로 표시 옵션 기능 추가 (환경설정.대기자표시대상 참조)
+<span class="box other">[KIOSK 5.0]</span> 이미지 불러오기 룰 변경 (사용자 이미지가 우선 표시되도록)
+
+
 <bold># 12/28 배포</bold>
 =====================
 <span class="box chart">진료</span> - 묶음처방 수량 소수점으로 변경시 저장이 안되는 증상 bug (수량 소수점 저장 되게)
