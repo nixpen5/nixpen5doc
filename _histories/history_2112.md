@@ -6,6 +6,14 @@ yearMonth: 2112
 ---
 <pre>
 
+<bold># 12/31 배포</bold>
+=====================
+<span class="box other">[고시]</span> 2022년도 DRG 기초수가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 1월 수가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 1월 약가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 1월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 12/29 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 기준정보 후불거래처 등록 기능 추가 (기준정보.수납관리 메뉴 참조)
