@@ -16,7 +16,7 @@ yearMonth: 2109
 
 <bold># 9/29 배포</bold>  
 =====================
-<span class="box other">진단서</span> - 채용 신체검사서 혈구용적치 단위 bug (단위를 '%'로 변경)
+<span class="box diag">진단서</span> - 채용 신체검사서 혈구용적치 단위 bug (단위를 '%'로 변경)
 
 
 <bold># 9/28 배포</bold>
@@ -28,7 +28,7 @@ yearMonth: 2109
 <span class="box chart">진료</span> - 수가 기본값 적용 기능 추가 (수가정보.산정기분.기본값 항목 참조)
 <span class="box chart">진료</span> - 검사 판정 컬러 오류   bug (특정코드가 정상컬러로 표시되는 bug)
 <span class="box inspect">심사</span> - 산재 후유증상 분리청구 bug
-<span class="box other">진단서</span> - 잠복결핵감염 산정특례 등록 신청서 서식 추가 (진단서.신청서탭 참조)
+<span class="box diag">진단서</span> - 잠복결핵감염 산정특례 등록 신청서 서식 추가 (진단서.신청서탭 참조)
 
 
 <bold># 9/27 배포</bold>
@@ -52,7 +52,7 @@ yearMonth: 2109
 <span class="box other">통계</span> - 청구통계.청구서 조회 동작 bug
 <span class="box other">통계</span> - 청구통계.주별청구통계 조회 동작 bug
 <span class="box other">공통</span> - 비밀번호를 6개월이상 사용하셨습니다 동작 변경 (변경확인메시지에서 '아니오' 선택시 6개월 연장)
-<span class="box other">진단서</span> - 일반진단서 도장 출력 기능 제거
+<span class="box diag">진단서</span> - 일반진단서 도장 출력 기능 제거
 
 <bold># 9/15 배포</bold>
 =====================
@@ -72,8 +72,8 @@ yearMonth: 2109
 <span class="box lab">검사실</span> - 전체검사실 AppLog 적용 (결과저장시 log 기록)
 <span class="box other">통계</span> - 주사제 MS002 특정내역 기재 누락 bug (기타주사 MS002 특정내역 발생)
 <span class="box other">통계</span> - 외래진료현황 수입통계 메뉴로 이동
-<span class="box other">진단서</span> - 진료정보회신서 서식 변경 (의로서탭 참조)
-<span class="box other">진단서</span> - 보조기기(체외용 인공후두 보청기) 처방전(보험) (보험서식탭 참조)
+<span class="box diag">진단서</span> - 진료정보회신서 서식 변경 (의로서탭 참조)
+<span class="box diag">진단서</span> - 보조기기(체외용 인공후두 보청기) 처방전(보험) (보험서식탭 참조)
 <span class="box other">백업</span> - 파일백업 중단 동작 변경 (백업중단시 프로그램 종료)
 <span class="box other">백업</span> - 청구주상병 적용 bug 
 <span class="box other">기타</span> - 검색조건 LastValue 기능 추가 (심사 진료과탭/보험유형)

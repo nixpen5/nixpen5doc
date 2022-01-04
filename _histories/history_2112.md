@@ -23,8 +23,8 @@ yearMonth: 2112
 <span class="box jemu">원무</span> - 진료환불 수납대상 항목   bug  (진료환불 수납대상액 표시 오류 패치)
 <span class="box jemu">원무</span> - Scan 로컬경로설정 동작 변경 (외래접수.스캔.환경설정.로컬경로설정 참조)
 <span class="box chart">진료</span> - 키오스크 수납중 알림 기능 추가 (진료완료 버튼 클릭시 '키오스크에서 수납중입니다' 메시지 표시)
-<span class="box other">진단서</span> - 진료의뢰서 날짜 입력 동작 변경 (날짜항목 직접 편집 기능 지원)
-<span class="box other">진단서</span> - 방사선작업종사자건강진단서 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box diag">진단서</span> - 진료의뢰서 날짜 입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box diag">진단서</span> - 방사선작업종사자건강진단서 날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
 <span class="box lab">검안실</span> - 검안실 화면 및 기능 추가 (지원부서 검안실 참조)
 <span class="box other">통계</span> - 의사별진료비 통계 후불진료비 항목 추가 (진료비통계 참조)
 <span class="box other">[WaitCall]</span> 진료보류를 검사중으로 표시 옵션 기능 추가 (환경설정.대기자표시대상 참조)
@@ -48,7 +48,7 @@ yearMonth: 2112
 <span class="box chart">진료</span> - 진료대기목록 검안오더 표시 기능 추가 (검안오더를 'E>' 또는 'E<'로 표시)
 <span class="box chart">진료</span> - 의사변경후 전처방 PACS 표시 방법 변경 (진료의변경시 PACS 오더 진료의를 변경)
 <span class="box chart">진료</span> - 수가정보 처방옵션 설정 기능 추가 (수가정보 내복약/외용약 선택후 처방옵션 버튼 참조)
-<span class="box other">진단서</span> - 진료소견서  날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
+<span class="box diag">진단서</span> - 진료소견서  날짜입력 동작 변경 (날짜항목 직접 편집 기능 지원)
 <span class="box inspect">심사</span> - 심평원 사전점검 재송신 기능 추가 (재송신 클릭후 재송신 대상 선택 메뉴 팝업)
 <span class="box lab">검사실</span> - 수탁검사 전송내역창 상세 표시 동작 변경 (송신일시를 시분초까지 표시)
 <span class="box lab">검사실</span> - 수탁검사 전송창 검사건수 항목 추가 (수탁검사 전송이력창 참조)
@@ -95,7 +95,7 @@ yearMonth: 2112
 
 <bold># 12/11 배포</bold>
 =====================
-<span class="box other">진단서</span> - 문서번호 생성 bug (문서번호 5자리까지 지원)
+<span class="box diag">진단서</span> - 문서번호 생성 bug (문서번호 5자리까지 지원)
 
 
 <bold># 12/9 배포</bold>
@@ -122,8 +122,8 @@ yearMonth: 2112
 <span class="box chart">진료</span> - PointCT CT데이터 내보내기 기능 추가 (전처방.CT내역 우클릭 'CT 데이터 내보내기' 메뉴 참조)
 <span class="box chart">진료</span> - 처방전교부번호 중복   bug (특정 상황에서 중복될 수 있는 버그 패치) 
 <span class="box inspect">심사</span> - 특정기호 V010 추가 ('V010' 잠복결핵감염자)
-<span class="box other">진단서</span> - 진료확인서1 진료일자 가져오기 동작 변경 (특정 진료과 또는 의사의 진료일자 가져오기 기능 지원)  
-<span class="box other">진단서</span> - 진료확인서2 진료일자 가져오기 동작 변경 (특정 진료과 또는 의사의 진료일자 가져오기 기능 지원)
+<span class="box diag">진단서</span> - 진료확인서1 진료일자 가져오기 동작 변경 (특정 진료과 또는 의사의 진료일자 가져오기 기능 지원)  
+<span class="box diag">진단서</span> - 진료확인서2 진료일자 가져오기 동작 변경 (특정 진료과 또는 의사의 진료일자 가져오기 기능 지원)
 <span class="box other">[마약류]</span> 마약류통합관리시스템 재인증 완료 (NIMS 정기 인증)
 <span class="box other">[KIOSK 5.0]</span> 진료과명 설정 옵션 기능 추가 (로컬설정.의사설정 진료과명 항목 참조)
 
@@ -141,8 +141,8 @@ yearMonth: 2112
 <span class="box chart">진료</span> - 특정기호 V307 추가 ('V307' - 원추각막)
 <span class="box chart">진료</span> - 자리비움 아이콘 표시 기능 변경 (진료대기목록.상태항목 우클릭 참조)
 <span class="box chart">진료</span> - 전처방 SCAN 영상 기능 추가 (외래접수.스캔 버튼 참조)
-<span class="box other">진단서</span> - 건강진단서 문구 변경 (진단서 서식그룹 참조)
-<span class="box other">진단서</span> - 진단서 출력 후 알림 추가 (출력후 '출력되었습니다' 메시지 표시)
+<span class="box diag">진단서</span> - 건강진단서 문구 변경 (진단서 서식그룹 참조)
+<span class="box diag">진단서</span> - 진단서 출력 후 알림 추가 (출력후 '출력되었습니다' 메시지 표시)
 <span class="box inspect">심사</span> - 수납 로그 생성 기능 추가 (수납금액정보 로그 기록)
 <span class="box inspect">심사</span> - 수가정보  고시정보 갱신 기능 추가 (수가정보.고시정보탭 고시정보갱신 버튼 참조)
 <span class="box inspect">심사</span> - 준용수가 단가 미발생   bug  (준용수가의 경우 정액수가 항목에 단가 기재)
