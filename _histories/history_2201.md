@@ -7,6 +7,57 @@ yearMonth: 2201
 
 <pre>
 
+<bold># 1/13 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 좌우검사 새로고침 버튼 너비 변경 (외래접수.좌우검사탭 참조)
+<span class="box jemu">원무</span> - 좌우검사항목 설정 메뉴 추가 (외래접수.검사장비실행 버튼 메뉴 참조)
+<span class="box jemu">원무</span> - 카드수납.접수메모 표시 동작 bug  (접수메모값 부재시 표시 제외)
+<span class="box jemu">원무</span> - 입원정보 입원유형 변경 동작 변경 (입원유형 변경시 청구정보에 일괄 적용)
+<span class="box jemu">원무</span> - 마감장 후불진료비 항목 추가
+<span class="box jemu">원무</span> - [확인] 마감장 키오스크 0원수납건을 인원수에 포함
+<span class="box jemu">원무</span> - 수납대장 진료형태 검색조건 추가
+<span class="box jemu">원무</span> - 입원수납 추가수납 버튼 기능 추가
+<span class="box jemu">원무</span> - 모바일접수탭 기준일자 검색조건 추가  (외래접수.모바일접수탭 참조)
+<span class="box jemu">원무</span> - 수납대장 보험유형 의보100 항목값 추가  (수납대장.보험유형 항목 참조)
+<span class="box jemu">원무</span> - 수납대장 클래식SQL 후불진료비 항목 추가 (진료비총액은 후불진료비 포함)
+<span class="box chart">진료</span> - 처방창 단가 항목 표시 방법 변경  (진료일자 기준 표시) 
+<span class="box chart">진료</span> - 비급여 수가 수량 소수점 불가 알림 옵션 기능 추가  (사용자설정.진료업무.차트저장전점검옵션 참조)
+<span class="box chart">진료</span> - 좌우검사 컨텐츠 동작   bug (외래진료.화면디자인.좌우검사 컨텐츠 참조) 
+<span class="box diag">진단서</span> - 영문코로나진단서 (진단서탭.영문코로나진단서 서식 참조)
+<span class="box diag">진단서</span> - 채용신체검사서(일반) 날짜 픽업 동작  bug  (검사서식탭 참조)
+<span class="box inspect">심사</span> - DRG 별도산정내역 표시 UI 변경 (청구서식092 적용)
+<span class="box inspect">심사</span> - DRG 청구 조회조건 동작 변경 (환자 픽업 후 포커싱 변경)
+<span class="box inspect">심사</span> - EdiView DRG 항목 추가 (청구서식092 적용)
+<span class="box inspect">심사</span> - 원외처방 약제  특정내역 JT014 누락  bug  (JT014 - 향정신성 약물 장기처방(조제)사유)
+<span class="box inspect">심사</span> - DRG 불러오기 프로그레스 기능 추가  (진행상태 표시되게)
+<span class="box inspect">심사</span> - 청구제외 퇴장방지의약품 청구 수록 bug  (원처방이 청구제외인경우 청구 제외)
+<span class="box inspect">심사</span> - 비급여 퇴장방지의약품 영수증 출력 bug  (비급여 항목에 수록되게)
+<span class="box inspect">심사</span> - 수가정보 라이브러리 가져오기 동작변경  ('HI135' 를 MRI 항목으로 적용)
+<span class="box inspect">심사</span> - HA424 금액 산정 오류  (수량 소수점 이하 세째자리에서 사사오입 후 금액 산정)
+<span class="box lab">검사실</span> - 수탁검사 미전송내역 미표시 bug  (전송후 처방취소된 오더가 포함된경우 발생하는 증상 패치)
+<span class="box lab">검안실</span> - 완료시 진료대기로 변경할 대상이 없습니다 메시지   bug  
+<span class="box lab">검안실</span> - 검안오더 모두취소 기능 추가  (검안내역 우클릭 메뉴 참조)
+<span class="box lab">검안실</span> - 대기목록 환자별 구분 기능 추가  (환자별 배경색을 구분하여 표시)
+<span class="box other">통계</span> - 기간별처방통계 출력물에 검색조건 표시 기능 추가 (진료통계.기간별처방통계 참조)
+<span class="box other">통계</span> - 진료과별 수입현황 진료형태 검색조건 추가 (전체/입원/외래 검색조건 추가)
+<span class="box other">통계</span> - 키오스크 일자별사용현황 기능 추가 (통계.인원통계탭 참조)
+<span class="box other">통계</span> - 키오스크 성별사용현황 기능 추가 (통계.인원통계탭 참조)
+<span class="box other">통계</span> - 키오스크 연령별사용현황 기능 추가 (통계.인원통계탭 참조)
+<span class="box other">통계</span> - 키오스크 시간별사용현황 기능 추가 (통계.인원통계탭 참조)
+<span class="box other">통계</span> - 키오스크 요일별사용현황 기능 추가 (통계.인원통계탭 참조)
+<span class="box other">통계</span> - 키오스크 오류발생현황 기능 추가 (통계.인원통계탭 참조)
+<span class="box other">[Scan]</span> 별도실행파일 추가 (C:\NixHIS\tool\scan 폴더 참조)
+<span class="box other">[Scan]</span> 카테고리 선택 기능 변경 (로컬경로설정.Category 항목 참조)
+<span class="box other">[CaptureManager]</span> 카테고리 선택 기능 변경  (설정.CategorySelect 메뉴 참조)
+<span class="box other">[LabViewer]</span> LiveUpdate 기능 추가 (실행메뉴.LabViewer 참조)
+<span class="box other">[LabViewer]</span> 환자정보 Sync 기능 추가  (차트 FU시 랩뷰어에 Relay)
+<span class="box other">[LabViewer]</span> Interface 실행 기능 추가  (차트번호 우측 버튼 참조)
+<span class="box other">[LabViewer]</span> 차트에서 LabViewer 실행시 로그인 생략 기능 추가  (실행.LabViewer 메뉴 참조)
+<span class="box other">[인터페이스]</span> 캐논 RKF2  (ARK)
+<span class="box other">[인터페이스]</span> 탑콘 KR8800  (ARK)
+<span class="box other">[KIOSK 5.0]</span> 전시회 모드로 수납수행 옵션 기능 추가  (환경설정.기본.사용옵션 참조)
+
+
 <bold># 1/4 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 영문진단서 도장 등록 기능 추가  (기준정보.직원정보.처방전도장서명 버튼 참조)
