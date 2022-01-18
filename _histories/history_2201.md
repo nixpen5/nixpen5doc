@@ -7,6 +7,10 @@ yearMonth: 2201
 
 <pre>
 
+<bold># 1/18 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 수납대장에서 후불진료비 표시 bug
+
 <bold># 1/13 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 좌우검사 새로고침 버튼 너비 변경 (외래접수.좌우검사탭 참조)
