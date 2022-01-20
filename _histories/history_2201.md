@@ -7,6 +7,36 @@ yearMonth: 2201
 
 <pre>
 
+<bold># 1/20 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 병원정보 영문팩스번호 항목 추가  (기준정보.병원정보.영문정보 참조)
+<span class="box jemu">원무</span> - 접수시간 업데이트룰 변경  (서버일자가 아닌경우 변경되지 않게)
+<span class="box jemu">원무</span> - 좌우검사 검사결과 항목 Enter키 동작 변경  (우측 항목 연속 입력되게)
+<span class="box jemu">원무</span> - 모바일접수 환자 진료대기목록 정렬 룰 변경  (미방문환자를 아래로 정렬)
+<span class="box jemu">원무</span> - 똑닥 예약 기능 추가  (똑닥앱에서 미래일자 예약 가능)
+<span class="box chart">진료</span> - 중복처방 메시지 이후 진행불가   bug  (사유코드 기재후 진행 가능)  
+<span class="box chart">진료</span> - 컨버전 데이터의 추가수납 동작   bug  (컨버전건일때 추가수납 불가)
+<span class="box chart">진료</span> - 진료의와 요양기관기호 불일치  bug  (보안코드 적용)
+<span class="box chart">진료</span> - DUR 원내 투약내역 전송 설정 변경  ('일반환자/원내주사제/검사처치수술약제'를 점검대상에 포함되도록 옵션 변경, 1회만 동작)
+<span class="box diag">진단서</span> - 영문코로나진단서 발행번호 출력시 잘림 bug  (진단서탭.영문코로나진단서 서식 참조)
+<span class="box inspect">심사</span> - 데이터가져오기  OrderMedc 오류  bug  
+<span class="box inspect">심사</span> - 수가정보.나이체중별탭  용법창 표시  bug  (SQL 용법옵션일때 동작 패치)
+<span class="box inspect">심사</span> - 모음장  용법창 표시  bug  (SQL 용법옵션일때 동작 패치)
+<span class="box inspect">심사</span> -  특정내역 MT043  추가 ('국가재난 의료비 지원대상 유형')
+<span class="box inspect">심사</span> - 초음파 가산 산정 ('EB401B00' - 6세미만 초음파가산)
+<span class="box lab">검안실</span> - 검안현황  날짜선택 버튼 기능 추가  (검안실.검안현황 버튼 참조)
+<span class="box lab">검안실</span> - 대기목록 보기옵션 기능 추가  (대기목록.우클릭 대기목록보기옵션 메뉴 참조)
+<span class="box other">[CaptureManager]</span> 카테고리 표시 기능 추가  (미니창에서 카테고리 표시 텍스트를 클릭)
+<span class="box other">[CaptureManager]</span> LiveUpdate 기능 추가  
+<span class="box other">[CaptureManager]</span> ChtNo Sync 기능 추가  (Setup 'Patient Sync' 메뉴 참조)
+<span class="box other">[LabViewer]</span> 윈도우가 전체로 실행  bug  (시작바를 덮지 않도록) 
+<span class="box other">[LabViewer]</span> 새로고침 버튼 기능 추가  (화면상단 새로고침 아이콘 참조)
+<span class="box other">[LabViewer]</span> 화면구성 탭 구성 동작  bug  (EyeView탭 화면설정 메뉴 참조)
+<span class="box other">[인터페이스]</span> CRM 연동 기능 변경 (환자정보 생성후 결과파일 CN_UPDATE_ChtNo.txt 생성)
+<span class="box other">[디비툴]</span> 팍스로비드정 등록  (청구코드 '648903670')
+
+
+
 <bold># 1/18 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 수납대장에서 후불진료비 표시 bug
