@@ -7,6 +7,13 @@ yearMonth: 2201
 
 <pre>
 
+<bold># 1/28 배포</bold>
+=====================
+<span class="box other">[고시]</span> 2022년 2월 수가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 2월 약가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 2월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 1/20 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 병원정보 영문팩스번호 항목 추가  (기준정보.병원정보.영문정보 참조)
