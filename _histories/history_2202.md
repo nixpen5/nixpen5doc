@@ -7,6 +7,13 @@ yearMonth: 2202
 
 <pre>
 
+<bold># 2/3 배포</bold>
+=====================
+<span class="box lab">검사실</span> - 결과만보기옵션에서 '--' 입력시 Negative 문구 입력 기능 추가 ('--' 또는 '++' 입력후 enter)
+<span class="box chart">진료</span> - 외래진료.진단서 실행후 소견이 보이지 않는 증상 bug  (외래진료 진단서 버튼 참조)
+<span class="box diag">진단서</span> - 채용신체검사서(일반) 기타검사 항목 입력 길이 변경  (검사서식탭 참조)
+<span class="box inspect">심사</span> - 특정오더 환자조회 Crush bug  (내역조회.특정오더환자조회 메뉴 참조)
+
 
 <bold># 2/2 배포</bold>
 =====================
