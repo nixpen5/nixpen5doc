@@ -7,6 +7,20 @@ yearMonth: 2202
 
 <pre>
 
+<bold># 2/15 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 의사스케줄 기준 휴진 알림 옵션 기능 추가  (환경설정.기준관리.접수.접수저장전점검옵션 참조)<!-- <span class="box jemu">원무</span> - SMS 분할전송시 순서 뒤바뀜   bug  (SMS 다수건으로 나뉘는 경우 간헐적으로 순서 바뀌는 증상) -->
+<span class="box chart">진료</span> - 처방창 단가 표시  bug (외래진료.처방창 참조)
+<span class="box diag">진단서</span> - 건강진단서(국가시험면허신청용) 서식개정  (서류발급.진단서탭 참조)
+<span class="box diag">진단서</span> - 건강보험 임신‧출산 진료비 지급 신청서  서식개정  (서류발급.신청서탭 참조)
+<span class="box inspect">심사</span> ' JT018 기재 누락' 검검 기능 추가  (청구.심사.심사대상 버튼 참조)
+<span class="box inspect">심사</span> - 수가정보 화면 윈도우시작바 덮지 않게 
+<span class="box inspect">심사</span> - 상병정보 삭제일 날짜 선택 동작 변경  (날짜항목 직접 편집 기능 지원)
+<span class="box other">공통</span> - 긴급공지 확인 프로그램이 이미 실행중입니다.  메시지 bug  (불필요 메시지 제거)
+<span class="box other">[고시]</span> 코로나19 재택치료  환자관리료 - 24시간 Ⅱ형 코드 추가  
+<span class="box other">[고시]</span> AH233, AH234 재택치료 전화상담·처방형 전화상담 관리료  <a  href="/docs/main13/sub22/page1" target="_blank" style="color:blue;font-weight:bold">(도움말을 참조하세요)</a>
+
+
 <bold># 2/10 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 모바일접수 오늘이후포함 검색조건 추가  (외래접수.모바일접수탭 참조)
