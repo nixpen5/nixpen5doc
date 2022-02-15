@@ -18,7 +18,8 @@ pageOrder: 1
   </tbody>
 </table>
 
-<p style="margin-bottom:5px">신속항원검사, 감염예방관리료, 재택치료 코드 안내</p>
+
+<p style="margin-bottom:0">● 신속항원검사, 감염예방관리료, 재택치료 코드 안내</p>
 <table style="width:100%">
     <tr style="background:#ADBFD5">
         <th colspan="4" style="text-align:center">코로나19 재택 치료 수가</th>
@@ -106,6 +107,7 @@ pageOrder: 1
         <th style="font-weight:normal">재택치료 환자관리료 야간형 – 병원</th>
     </tr>
 </table>
+<br/>
 
 <pre style="margin-bottom:0">
 ● 코로나19 재택치료 전화상담·처방형 (의원급 기준) 차트 기재 방법
@@ -133,6 +135,7 @@ pageOrder: 1
         </th>
     </tr>
 </table>
+<br/>
 
 <pre style="margin:0;">
 ● 코로나 19 재택치료 의료상담센터형 (의원급 기준) 차트 기재 방법
@@ -152,6 +155,7 @@ pageOrder: 1
         </th>
     </tr>
 </table>
+<br/>
 
 <pre style="margin-bottom:0;font-weight:bold">
 ● 코로나19 재택치료 본인부담금 면제
@@ -172,6 +176,7 @@ pageOrder: 1
         </th>
     </tr>
 </table>
+<br/>
 
 <pre style="margin:0;">
 ● 코로나19 재택치료중이나 코로나 질환이 아닌 <span style="font-weight:bold">타 질환 진료시 차트 기재 방법</span>
@@ -194,6 +199,7 @@ pageOrder: 1
         </th>
     </tr>
 </table>
+<br/>
 
 <pre style="margin-bottom:0;color:#C75252">
 ● 세부적인 고시사항은 심평원 사이트를 참조 하시기 바랍니다.  
@@ -203,7 +209,7 @@ pageOrder: 1
 <br/>
 <br/>
 
-<pre>
+<pre style="margin-top:60px">
 ● 코로나19 신속항원검사 관련 추가 설명
 - 호흡기전담클리닉에서 아래 2가지 경우중 하나에 해당하여 코로나19 신속항원검사를 실시한 경우
   * 유증상자 또는 의사소견이 있는 환자
@@ -284,9 +290,10 @@ U07.1 바이러스가 확인된 코로나-19U07.2 바이러스가 확인되지 �
         </th>
     </tr>
 </table>
+<br/>
 
 <pre style="margin-bottom:20px">
-<span style="font-weight:bold">예시) 재택치료 환자에게 코로나 치료 관련약과 타질환 약 처방 방법</span>
+<span style="font-weight:bold">● 재택치료 환자에게 코로나 치료 관련약과 타질환 약 처방 방법 (예시)</span>
 </pre>
 <pre>
 1) AH234 ‘(재택치료  전화상담·처방형 전화상담 관리료-의원)’ 수가 입력
