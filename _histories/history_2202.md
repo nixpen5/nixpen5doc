@@ -9,9 +9,9 @@ yearMonth: 2202
 
 <bold># 2/21 배포</bold>
 =====================
-비급여 원외 퇴장방지의약품이 청구시 수록되는 bug
-저장시 불필요 JT011 줄단위내역 발생 bug
-HA161006' 단가 착오 bug
+<span class="box inspect">심사</span> - 비급여 원외 퇴장방지의약품이 청구시 수록되는 bug  
+<span class="box inspect">심사</span> -저장시 불필요 JT011 줄단위내역 발생 bug  
+<span class="box inspect">심사</span> -'HA161006' 단가 착오 bug
 
 
 <bold># 2/15 배포</bold>
