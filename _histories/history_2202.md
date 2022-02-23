@@ -7,6 +7,11 @@ yearMonth: 2202
 
 <pre>
 
+<bold># 2/22 배포</bold>
+=====================
+<span class="box other">[고시]</span> 2022년 2월 2차 (경부초음파 건강보험 적용) 수가 등록 (자동 실행)
+
+
 <bold># 2/21 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 비급여 원외 퇴장방지의약품이 청구시 수록되는 bug  

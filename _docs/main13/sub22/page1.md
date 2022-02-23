@@ -31,7 +31,7 @@ pageOrder: 1
         <th style="font-weight:normal;text-align:center">명       칭</th>
     </tr>
     <tr>
-        <th rowspan="2">전화상담 처방명</th>
+        <th rowspan="2">전화상담 처방형</th>
         <th style="color:blue">의원</th>
         <th style="color:blue">AH234</th>
         <th style="color:blue">재택치료 전화상담·처방형 전화상담 관리료-의원</th>
