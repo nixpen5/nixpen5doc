@@ -22,6 +22,7 @@ yearMonth: 2202
 <span class="box chart">진료</span> - 묶음처방 묶음코드 검색 기능 변경  (묶음코드, 묶음명, 수가코드, 상병코드 기준 검색)
 <span class="box chart">진료</span> - 접수기록과 차트기록의 진료의사 불일치 발생 증상   bug  (타의사 대기환자 FU시 발생할 수 있는 증상)
 <span class="box chart">진료</span> - 화면 초기화시 진료중 상태 표시 bug  (화면정리 상태에서 진료대기목록에 진료중 상태로 표시되는 증상)
+<span class="box chart">진료</span> - 일반환자의 원외처방전 출력시 보험유형 텍스트 변경  (변경전-기타, 변경후-일반, 처방전용지.백지만 해당)
 <span class="box diag">진단서</span> - 건강보험 산소치료 급여대상자 등록 신청서  서식 추가  (서류발급.신청서탭 참조)
 <span class="box inspect">심사</span> - 차트병합시 대상기간 지정 기능 추가  (보험청구.도구.차트병합 참조)
 <span class="box inspect">심사</span> - 특정내역탭 당월 검색조건 동작 변경  (당월/오늘 조회시 진료일자 기준 검색)
