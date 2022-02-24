@@ -7,6 +7,31 @@ yearMonth: 2202
 
 <pre>
 
+<bold># 2/24 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 외국인 주민번호 생년월일 표시  bug (주민번호 7번째 자리가 7 또는 8)
+<span class="box jemu">원무</span> - 수납대장 과 월별수입통계의 할인액 불일치  bug  (월별수입통계 bug)
+<span class="box jemu">원무</span> - 외래접수 진료대기탭 대기인원수 표시방법 변경  (보류인원수 합산 표시)
+<span class="box jemu">원무</span> - 항상 보험유형을 일반으로 적용 옵션 기능 추가  (사용자설정.접수업무.접수확인창옵션 참조)
+<span class="box jemu">원무</span> - 진료내역탭에 진료구분 표시 기능 추가  (진료내역탭 진료일자 항목 참조)
+<span class="box jemu">원무</span> - 자보/산재환자 자동자격조회 동작 변경  (직전 진료가 '자보' 또는 '산재' 일 경우 자동자격조회 skip)
+<span class="box jemu">원무</span> - 요양기관기호 다수개 기관에서 감염병조회 오류 bug  (오류번호 - 32002)
+<span class="box jemu">원무</span> - 마감장 진료비조정내역 수록 방법 변경  (수납메모, 감면내용 순서로 진료비조정내역 항목 수록)
+<span class="box jemu">원무</span> - 수납대장 '급여진료확인' 탭명칭 변경 (변경후 탭명칭 - '진료확인번호승인')
+<span class="box chart">진료</span> - 전달메모 Relay 동작 변경  (진료일자 기록을 우선 표시)
+<span class="box chart">진료</span> - 묶음처방 묶음코드 검색 기능 변경  (묶음코드, 묶음명, 수가코드, 상병코드 기준 검색)
+<span class="box chart">진료</span> - 접수기록과 차트기록의 진료의사 불일치 발생 증상   bug  (타의사 대기환자 FU시 발생할 수 있는 증상)
+<span class="box chart">진료</span> - 화면 초기화시 진료중 상태 표시 bug  (화면정리 상태에서 진료대기목록에 진료중 상태로 표시되는 증상)
+<span class="box diag">진단서</span> - 건강보험 산소치료 급여대상자 등록 신청서  서식 추가  (서류발급.신청서탭 참조)
+<span class="box inspect">심사</span> - 차트병합시 대상기간 지정 기능 추가  (보험청구.도구.차트병합 참조)
+<span class="box inspect">심사</span> - 특정내역탭 당월 검색조건 동작 변경  (당월/오늘 조회시 진료일자 기준 검색)
+<span class="box inspect">심사</span> - 본인부담구분 'B099' 사용 기간 유예 적용
+<span class="box inspect">심사</span> - 자보100, 산재100 보험유형 추가  (보험유형 항목 참조)
+<span class="box inspect">심사</span> - 명세서단위 특정내역 진료과 툴팁 표시 기능 추가 (특정내역탭 참조)
+<span class="box other">공통</span> - 업데이트히스토리 엣지에서 동작 변경 <a href="https://nixpen5doc.pointnix.com" target="_blank">(https://nixpen5doc.pointnix.com)</a>
+<span class="box other">[디비툴]</span> 코로나상병 등록  ('U07' 외 다수)
+
+
 <bold># 2/22 배포</bold>
 =====================
 <span class="box other">[고시]</span> 2022년 2월 2차 (경부초음파 건강보험 적용) 수가 등록 (자동 실행)
