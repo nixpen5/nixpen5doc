@@ -7,6 +7,12 @@ yearMonth: 2202
 
 <pre>
 
+<bold># 2/28 배포</bold>
+=====================
+<span class="box other">[고시]</span> 2022년 3월 약가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 3월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 2/24 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 외국인 주민번호 생년월일 표시  bug (주민번호 7번째 자리가 7 또는 8)
