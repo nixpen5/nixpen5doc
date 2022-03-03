@@ -7,6 +7,12 @@ yearMonth: 2203
 
 <pre>
 
+<bold># 3/3 배포</bold>
+=====================
+<span class="box jemu">원무</span> - CRM 내원기간 검색조건 동작 변경  (변경후 : 접수기록 기준)
+<span class="box chart">진료</span> - 묶음처방 순서변경 동작 bug
+
+
 <bold># 3/2 배포</bold>
 =====================
 <span class="box other">[고시]</span> 2022년 3월 수가 등록 (자동 실행)
