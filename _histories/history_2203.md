@@ -7,6 +7,52 @@ yearMonth: 2203
 
 <pre>
 
+<bold># 3/21 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 수납대기목록에서 '수납대상액 0원 일괄 수납' 메뉴 보기  옵션 기능 추가  (사용자설정.수납업무.보기옵션 참조)
+<span class="box jemu">원무</span> - 접수증 안내문구 사용자파일 출력 기능 추가  (사용자설정.접수업무.접수증출력옵션 참조)
+<span class="box jemu">원무</span> - 감면내용에 감면율 표시 옵션 기능 추가  (환경설정.수납.감면구분옵션 참조)
+<span class="box jemu">원무</span> - 외래접수 선수차감 동작 bug  (선수차감 대상내역 표시)
+<span class="box jemu">원무</span> - 검안결과 출력 기능 추가  (검안결과줄에서 우클릭 메뉴 참조)
+<span class="box jemu">원무</span> - 검사결과지 과별 출력 기능 추가  (검사결과지 출력창 참조)
+<span class="box jemu">원무</span> - 외래접수 진료의변경룰 변경  (해당 차트를 의사가 FU전에는 진료의변경 가능)
+<span class="box jemu">원무</span> - 외래접수 진료대기창 접수증출력 메뉴 기능 추가  (진료대기목록에서 우클릭 메뉴 참조)
+<span class="box jemu">원무</span> - 검안오더창 컬러표시룰 변경  (오더창에서 직전 오더에 컬러 표시)
+<span class="box jemu">원무</span> - 전달메모 수신부서 표시룰 적용  (미사용 수신부서 표시 제외)
+<span class="box jemu">원무</span> - 외래접수 검안오더 단축키 설정 기능 추가  (화면설정.단축키설정.외래접수 참조)
+<span class="box chart">진료</span> - 외래진료 묶음처방탭 통합검색 동작 변경  (증상, 상병명칭, 수가명칭 포함 검색)
+<span class="box chart">진료</span> - 계산창 수납내역탭 선택값 기억
+<span class="box chart">진료</span> - 대기자탭 소트 기능 추가  (대기자, 나이, 접수시간 항목 소트)
+<span class="box chart">진료</span> - 외래진료 증상 특이증상 Splitter 너비 저장 기능 추가  
+<span class="box chart">진료</span> - 전처방 새로고침시 영상 표시 동작  bug  (진료이후 추가된 영상 표시)
+<span class="box chart">진료</span> - 보류 버튼에서 진료비툴팁보기 옵션 기능 추가  (사용자설정.진료업무.보기옵션 참조)
+<span class="box chart">진료</span> - 영상창 카테고리탭에서 선택없이 우클릭 동작 변경  (해당 Category 영상만 표시)
+<span class="box chart">진료</span> - 영상창 썸네일 선택후 우클릭시 가장앞 이미지 포커싱되게  (영상비교창 동작 참조)
+<span class="box chart">진료</span> - 영상창 뷰탭에서 선택영상 삭제 메뉴 기능 추가  ([...] 버튼 메뉴 참조)
+<span class="box chart">진료</span> - 영상비교창 영상확대 기능 추가  (마우스휠로 영상확대)      
+<span class="box chart">진료</span> - 영상비교창 자동 2분할 동작 변경  (변경후 좌우 표시)
+<span class="box chart">진료</span> - 영상비교창 분할모드 메뉴명 변경  (2분할상하, 2분할좌우)
+<span class="box inspect">심사</span> - 기본자료 묶음처방 통합검색 동작 변경  (증상, 상병명칭, 수가명칭 포함 검색)
+<span class="box inspect">심사</span> - 기본자료 모음장 통합검색 동작 변경  (그룹명, 수가코드, 수가명 포함 검색)
+<span class="box inspect">심사</span> - '증번호' 항목이 환자정보와 같지 않습니다.  bug  (에러수정 후 점검되지 않게)  
+<span class="box inspect">심사</span> - 송신시 송신구분 값 수록 기능 추가  (송신후, 청구통계.월별청구통계.송신구분 항목 참조)
+<span class="box inspect">심사</span> - 월별청구통계 요양기관 검색조건 추가  (청구통계.월별청구통계 참조)
+<span class="box inspect">심사</span> - DRG 라이브러리 적용룰 변경  (DRG 차상위환자 본부 산정)
+<span class="box lab">검안실</span> - 검안항목 명칭룰 변경 ('그룹명>항목명칭' 형식으로 표시)
+<span class="box lab">검안실</span> - 검사항목별 완료 버튼 기능 추가  (명칭 항목 우측 참조)
+<span class="box lab">검안실</span> - 검사항목 취소 메뉴 기능 추가  (검안항목 우클릭 메뉴 참조)
+<span class="box lab">검안실</span> - 검사항목 오더삭제 메뉴 기능 추가  (검안항목 우클릭 메뉴 참조)
+<span class="box lab">[LabViewer]</span> 영상소견서 출력  bug
+<span class="box lab">[LabViewer]</span> 검사결과 등록창 저장 버튼 단축키 추가  (Insert Key)
+<span class="box lab">[LabViewer]</span> 실행 메뉴 기능 추가  (Scan - F3, CaptureManager - F4, PosVision - F5)
+<span class="box lab">[LabViewer]</span> 새로고침 툴팁 bug
+<span class="box lab">[LabViewer]</span> 화면설정 기록 위치 변경  (변경후 : C:\NixHIS\configuration\ScreenDesign_EyeView.xml)
+<span class="box lab">[LabViewer]</span> 수가검색창 동작 bug
+<span class="box lab">[LabViewer]</span> F1 색인창 동작 bug
+<span class="box other">인터페이스</span> - RKF1 기능 추가
+<span class="box other">인터페이스</span> - RKF2 기능 추가
+
+
 <bold># 3/15 배포</bold>
 =====================
 <span class="box other">[고시]</span> 신속항원검사 양성인경우 조제시참고사항 수록 기능 추가
