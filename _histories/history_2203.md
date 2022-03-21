@@ -20,6 +20,7 @@ yearMonth: 2203
 <span class="box jemu">원무</span> - 검안오더창 컬러표시룰 변경  (오더창에서 직전 오더에 컬러 표시)
 <span class="box jemu">원무</span> - 전달메모 수신부서 표시룰 적용  (미사용 수신부서 표시 제외)
 <span class="box jemu">원무</span> - 외래접수 검안오더 단축키 설정 기능 추가  (화면설정.단축키설정.외래접수 참조)
+<span class="box jemu">원무</span> - 접수증 나이 성별 출력 기능 추가
 <span class="box chart">진료</span> - 외래진료 묶음처방탭 통합검색 동작 변경  (증상, 상병명칭, 수가명칭 포함 검색)
 <span class="box chart">진료</span> - 계산창 수납내역탭 선택값 기억
 <span class="box chart">진료</span> - 대기자탭 소트 기능 추가  (대기자, 나이, 접수시간 항목 소트)
@@ -32,6 +33,7 @@ yearMonth: 2203
 <span class="box chart">진료</span> - 영상비교창 영상확대 기능 추가  (마우스휠로 영상확대)      
 <span class="box chart">진료</span> - 영상비교창 자동 2분할 동작 변경  (변경후 좌우 표시)
 <span class="box chart">진료</span> - 영상비교창 분할모드 메뉴명 변경  (2분할상하, 2분할좌우)
+<span class="box chart">진료</span> - 묶음처방 과 검색 오류 수정
 <span class="box inspect">심사</span> - 기본자료 묶음처방 통합검색 동작 변경  (증상, 상병명칭, 수가명칭 포함 검색)
 <span class="box inspect">심사</span> - 기본자료 모음장 통합검색 동작 변경  (그룹명, 수가코드, 수가명 포함 검색)
 <span class="box inspect">심사</span> - '증번호' 항목이 환자정보와 같지 않습니다.  bug  (에러수정 후 점검되지 않게)  
@@ -49,6 +51,8 @@ yearMonth: 2203
 <span class="box lab">[LabViewer]</span> 화면설정 기록 위치 변경  (변경후 : C:\NixHIS\configuration\ScreenDesign_EyeView.xml)
 <span class="box lab">[LabViewer]</span> 수가검색창 동작 bug
 <span class="box lab">[LabViewer]</span> F1 색인창 동작 bug
+<span class="box lab">[LabViewer]</span> 검사결과 새작성 동작 bug
+<span class="box lab">[LabViewer]</span> 검안실 FU 동작 bug
 <span class="box other">인터페이스</span> - RKF1 기능 추가
 <span class="box other">인터페이스</span> - RKF2 기능 추가
 
