@@ -7,6 +7,29 @@ yearMonth: 2203
 
 <pre>
 
+<bold># 3/24 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 선수차감 동작   bug  ('카드상계액 항목값이 올바르지 않습니다' 메시지 bug)
+<span class="box jemu">원무</span> - 선수차감 일자 선택창 동전버튼 동작   bug  (선수잔액 범위내에서 수록되도록)
+<span class="box jemu">원무</span> - 개인정보활용동의 싸인패드설정 전송속도 항목 기능 추가  (외래접수.동의서.싸인패드설정창 참조)
+<span class="box chart">진료</span> - 전처방 영상일괄보기 동작 변경  (전처방에서 영상 선택없이 우클릭시 해당일자의 모든 이미지 보기)
+<span class="box chart">진료</span> - 처방탭추가 기능 변경  (처방탭추가창에서 분리청구, 위탁진료 제거)
+<span class="box chart">진료</span> - 전처방에 표시할 영상 선택 기능 추가  (환경설정.카테고리등록.전처방표시 항목 참조)
+<span class="box chart">진료</span> - SQL 용법 사용시 용법코드 기본값 설정 기능 추가  (수가정보.나이체중별탭 참조)
+<span class="box chart">진료</span> - 조제시참조사항 'H/재택치료' 출력 누락 bug  (가루약조제 참조사항 발새시 누락되는 증상)
+<span class="box other">[LabViewer]</span> 실행메뉴에 단축키 설명 표시  (상단 실행 버튼 참조)    
+<span class="box other">[LabViewer]</span> 차트번호 포커싱 동작 변경  (차트번호 항목 선택시 전체 선택상태 되게)
+<span class="box other">[LabViewer]</span> 영상 출력 기능 추가  (영상 선택후 우클릭 '출력' 메뉴 참조)
+<span class="box other">[LabViewer]</span> EyeView 검안메모 기능 추가  (EyeView탭 참조)
+<span class="box other">[LabViewer]</span> 타블렛(Windows OS) 연동 기능 추가  (환경설정.Patient Sync 참조)
+<span class="box lab">검안실</span> - 검안실오더가 추가 발생시 실시부서진행상태 적용룰 변경  (기존 항목의 오더수행상태 유지)
+<span class="box lab">검안실</span> - 좌우검사 저장후 검안오더 완료 기능 추가  (검안실코드창.장비 항목 참조)
+<span class="box lab">검안실</span> - 단측검사 결과 표시 기능 추가  (기준정보.좌우검사.장비수정창.양측검사 항목 참조)
+<span class="box lab">검안실</span> - 선택환자 검안내역 일괄 보기 기능 추가  (환자 FU후 검안실.검안내역 버튼 참조)
+<span class="box lab">검안실</span> - 진료내역창 ESC 창닫기 동작기능 추가
+<span class="box other">SCAN</span> - 스캔 저장후 검안오더 완료 기능 추가  (검안실코드창.카테고리 항목 참조)
+
+
 <bold># 3/21 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 수납대기목록에서 '수납대상액 0원 일괄 수납' 메뉴 보기  옵션 기능 추가  (사용자설정.수납업무.보기옵션 참조)
