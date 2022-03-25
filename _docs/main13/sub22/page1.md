@@ -301,9 +301,8 @@ U07.1 바이러스가 확인된 코로나-19U07.2 바이러스가 확인되지 �
 <span style="color:blue">3) 차트 저장</span>
 
 <span style="color:red">4) 차트 추가</span>
-5) AH214 ‘(전화상담 관리료(재진))’ 수가 입력
-6) 타질환약 처방
-<span style="color:blue">7) 차트 저장</span>
+5) 타질환약 처방
+<span style="color:blue">6) 차트 저장</span>
 </pre>
 <br/>
 
@@ -314,10 +313,10 @@ U07.1 바이러스가 확인된 코로나-19U07.2 바이러스가 확인되지 �
 [ 전처방 화면에서 내원일 우클릭 후 차트추가 선택 ]
 
 [![](/images/{{page.url}}_10.png)](/images/{{page.url}}_10.png){: target="_blank"}  
-[ 타질환 전화상담 AH214 입력 화면 ]
+[ 타질환 전화상담 입력 화면 ]
 
 [![](/images/{{page.url}}_11.png)](/images/{{page.url}}_11.png){: target="_blank"}  
 [ AH234 입력시 조제 시 참고사항 표시된 화면 ]
 
 [![](/images/{{page.url}}_12.png)](/images/{{page.url}}_12.png){: target="_blank"}  
-[ AH234 와 AH214 코드가 같은 날 사용된 환자의 전처방 화면 ]
+[ 전처방 화면 ]
