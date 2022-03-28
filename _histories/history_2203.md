@@ -7,6 +7,11 @@ yearMonth: 2203
 
 <pre>
 
+<bold># 3/26 배포</bold>
+=====================
+<span class="box inspect">심사</span> - 진찰료 주간오전야간산정 제외 옵션 동작 bug
+
+
 <bold># 3/24 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 선수차감 동작   bug  ('카드상계액 항목값이 올바르지 않습니다' 메시지 bug)
