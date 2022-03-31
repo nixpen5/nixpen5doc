@@ -11,7 +11,7 @@ yearMonth: 2203
 <bold># 3/31 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 입원환자 결과 표시 방법 변경  
-<span class="box lab">[LabViewer]</span> 숨김 항목값 표시 오류   bug
+<span class="box lab">[LabViewer]</span> EyeView - 숨김 항목값 표시 오류   bug
 <span class="box other">[고시]</span> 2022년 4월 수가 등록 (자동 실행)
 <span class="box other">[고시]</span> 2022년 4월 약가 등록 (자동 실행)
 <span class="box other">[고시]</span> 2022년 4월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
@@ -32,11 +32,11 @@ yearMonth: 2203
 <span class="box chart">진료</span> - 전처방에 표시할 영상 선택 기능 추가  (환경설정.카테고리등록.전처방표시 항목 참조)
 <span class="box chart">진료</span> - SQL 용법 사용시 용법코드 기본값 설정 기능 추가  (수가정보.나이체중별탭 참조)
 <span class="box chart">진료</span> - 조제시참조사항 'H/재택치료' 출력 누락 bug  (가루약조제 참조사항 발생시 누락되는 증상)
-<span class="box other">[LabViewer]</span> 실행메뉴에 단축키 설명 표시  (상단 실행 버튼 참조)    
-<span class="box other">[LabViewer]</span> 차트번호 포커싱 동작 변경  (차트번호 항목 선택시 전체 선택상태 되게)
-<span class="box other">[LabViewer]</span> 영상 출력 기능 추가  (영상 선택후 우클릭 '출력' 메뉴 참조)
-<span class="box other">[LabViewer]</span> EyeView 검안메모 기능 추가  (EyeView탭 참조)
-<span class="box other">[LabViewer]</span> 타블렛(Windows OS) 연동 기능 추가  (환경설정.Patient Sync 참조)
+<span class="box lab">[LabViewer]</span> 실행메뉴에 단축키 설명 표시  (상단 실행 버튼 참조)    
+<span class="box lab">[LabViewer]</span> 차트번호 포커싱 동작 변경  (차트번호 항목 선택시 전체 선택상태 되게)
+<span class="box lab">[LabViewer]</span> 영상 출력 기능 추가  (영상 선택후 우클릭 '출력' 메뉴 참조)
+<span class="box lab">[LabViewer]</span> EyeView 검안메모 기능 추가  (EyeView탭 참조)
+<span class="box lab">[LabViewer]</span> 타블렛(Windows OS) 연동 기능 추가  (환경설정.Patient Sync 참조)
 <span class="box lab">검안실</span> - 검안실오더가 추가 발생시 실시부서진행상태 적용룰 변경  (기존 항목의 오더수행상태 유지)
 <span class="box lab">검안실</span> - 좌우검사 저장후 검안오더 완료 기능 추가  (검안실코드창.장비 항목 참조)
 <span class="box lab">검안실</span> - 단측검사 결과 표시 기능 추가  (기준정보.좌우검사.장비수정창.양측검사 항목 참조)
