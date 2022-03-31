@@ -12,6 +12,7 @@ yearMonth: 2203
 =====================
 <span class="box jemu">원무</span> - 입원환자 결과 표시 방법 변경  
 <span class="box lab">[LabViewer]</span> 숨김 항목값 표시 오류   bug
+<span class="box other">[고시]</span> 2022년 4월 수가 등록 (자동 실행)
 <span class="box other">[고시]</span> 2022년 4월 약가 등록 (자동 실행)
 <span class="box other">[고시]</span> 2022년 4월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
