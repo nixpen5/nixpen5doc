@@ -7,6 +7,15 @@ yearMonth: 2203
 
 <pre>
 
+
+<bold># 3/31 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 입원환자 결과 표시 방법 변경  
+<span class="box lab">[LabViewer]</span> 숨김 항목값 표시 오류   bug
+<span class="box other">[고시]</span> 2022년 4월 약가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 4월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 3/26 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 진찰료 주간오전야간산정 제외 옵션 동작 bug
