@@ -7,6 +7,14 @@ yearMonth: 2204
 
 <pre>
 
+<bold># 4/5 배포</bold>
+=====================
+<span class="box inspect">심사</span> - 외국인 성명길경우 청구조회 동작 bug    
+<span class="box other">[고시]</span> 코로나 대면진료 분리청구    
+<span class="box other">[고시]</span> 신속항원검사 의사별 100회 초과시 알림 기능 추가
+<span class="box other">[고시]</span> 코로나19 외래진료센터
+
+
 <bold># 4/4 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 검안오더시 연결수가 수록 동작 bug  (외래접수.검안오더창에서 지시할경우 연결수가 적용되게)
