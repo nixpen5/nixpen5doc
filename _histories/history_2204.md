@@ -7,6 +7,13 @@ yearMonth: 2204
 
 <pre>
 
+<bold># 4/6 배포</bold>
+=====================
+<span class="box diag">진단서</span> - 진료확인서1 진료일자가져오기창  팝업룰 변경  (필요시만 팝업)
+<span class="box inspect">심사</span> - 신속항원검사 청구시 MX999 자동 수록 (MX999 - '"H/재택치료')
+<span class="box other">[SmartCheck]</span> 실시간 사전점검중 멈춤 현상 bug  (건강보험/의료급여 외래만 점검)
+
+
 <bold># 4/5 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 외국인 성명길경우 청구조회 동작 bug    
