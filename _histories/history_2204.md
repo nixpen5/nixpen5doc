@@ -7,6 +7,123 @@ yearMonth: 2204
 
 <pre>
 
+<bold># 4/14 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 입원영수증 비급여 항목 편집 기능 추가  
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+        <th style="font-weight:normal;">1) 입원수납.영수증 버튼 참조</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 외래접수 차트기록창에서 단축키로 닫기 동작 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style="font-weight:normal;">1) 외래접수에서 차트보기 단축키가 F6으로 설정된경우, 단축키로 차트기록창이 열립니다.
+2) 차트기록창에서 동일한 단축키를 누르면, 차트기록창이 닫힙니다.</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 와콤 개인정보활용동의 동작 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 동의서창의 [...] 버튼을 클릭합니다.
+2) 개인정보활용동의설정에서 동의서서명방법을 와콤으로 변경합니다.
+3) 동의서 화면에서 [개인정보활용동의] 버튼을 누릅니다.
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span>  - 접수메모 상용구 기능 추가  (사용자설정.접수업무.접수메모옵션 참조)
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.접수메모창에서 '접수메모' 타이틀을 클릭후 상용구를 픽업할 수 있습니다.
+2) 외래접수.특이사항창에서 '특이사항' 타이틀을 클릭후 사용구를 픽업할 수 있습니다.
+3) 주의 - 옵션을 설정한다음 프로그램을 재시작후 동작합니다.
+4) 접수메모 편집창에서 상용구 단축키를 사용할 수 있습니다.</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 외래접수 차트기록창 클래식에 특이증상 보기 옵션 기능 추가   
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.진료업무.차트보기 메뉴에서 특이증상 표시 항목에 체크합니다.
+2) 외래접수.차트기록창에 특이증상이 표시됩니다.
+3) 특이증상 영역의 위 아래부분을 조절하여 특이증상 영역의 크기를 변경할 수 있습니다.</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 예진실 접수 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용을 위한 기본 설정
+1-1) 기준정보.진료관리.예진실 메뉴에서 예진실을 등록합니다.
+1-2) 환경설정.기준관리.실시부서 메뉴에서 예진실옵션을 설정합니다.
+2) 기준정보.역할및권한창에서 권한 설정
+2-1) 의사 역할을 예진으로 복사합니다.
+2-2) 예진 역할을 선택후 타의사차트편집 권한을 허용으로 설정합니다.
+2-3) 예진 역할에 예진담당자를 등록합니다. (사용자추가)
+3) 예진환자 접수
+3-1) 접수확인창에서 예진실 선택후 접수시 해당 예진실로 보류 처리됩니다.
+4) 예진환자 진료
+4-1) 외래진료.화면설정.차트버튼설정 메뉴에서 예진완료 버튼을 등록합니다.
+4-2) 외래진료.보류탭에서 예진할 환자를 선택합니다.
+4-3) 권한을 가진 예진담당자는 의사의 기록을 변경할 수 있습니다.
+4-4) 예진실을 선택후 예진처방을 입력합니다.
+4-5) 예진완료 버튼을 누르면 진료대기 상태로 변경됩니다.</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 수가명이 길경우 진료비세부산정내역서 출력  bug  
+<span class="box jemu">원무</span> - 일반환자 10원차이 bug  (수납대상액절사조건.100원단위반올림 옵션사용시 bug)
+
+<span class="box jemu">원무</span> - '영수증 실행파일 사용' 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.기본.실험실옵션 '영수증 실행파일 사용' 항목을 설정합니다.
+2) 카드수납화면에서 영수증/진료비세부내역서/원외처방전 출력속도가 단축됩니다. 
+3) 수납상세화면에서 영수증/진료비세부내역서/원외처방전 출력속도가 단축됩니다.
+4) 외래진료비계산서영수증화면에서 영수증 출력속도가 단축됩니다.</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 영상비교창 이동 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 영상비교창에서 타이틀을 더블클릭합니다.
+2) 영상비교창을 타이틀을 잡고 이동할 모니터로 Drag합니다.</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 리피트시 본인부담구분.서비스 적용룰 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 리피트할 코드의 본인부담구분이 서비스인경우 서비스로 리피트됩니다.
+2) 묶음처방에 등록된 본인부담구분이 서비스인경우 서비스로 처방됩니다.</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 영상소견서 서식 개선  (폰트 등 일부 개선)
+
+<span class="box lab">[LabViewer]</span> 실행 버튼 동작 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 해당 프로그램이 실행중인 상태이면 프로그램을 전면에 표시합니다.</th>
+    </tr>
+</table>
+<span class="box lab">[LabViewer]</span> 새로고침 단축키 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) F5 키를 누르면 표시중인 기록을 새로고침합니다.
+2) PosVision 단축키는 F6으로 변경됩니다.</th>
+    </tr>
+</table>
+<span class="box lab">[LabViewer] EyeView</span> - 검안결과 복사 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 복사할 결과에서 마우스 우클릭후 '복사'를 선택합니다.
+2) 검사결과 등록창이 뜨고 검사결과가 복사되면, 확인후 저장합니다.</th>
+    </tr>
+</table>
+<span class="box lab">[LabViewer] EyeView</span> - 좌우검사 입력방식 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.접수.좌우검사입력방식을 설정합니다.
+2) 결과입력화면의 항목을 좌우로 또는 상하 방향으로 표시후 입력할 수 있습니다.</th>
+    </tr>
+</table>
+
 <bold># 4/11 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 카드단말기.싸인패드 이용한 개인정보활용동의  (기준정보.개인정보활용동의설정.동의서서명방법.싸인패드 참조)
