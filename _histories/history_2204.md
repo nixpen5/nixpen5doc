@@ -28,7 +28,6 @@ yearMonth: 2204
 </table>
 <span class="box jemu">원무</span> - 일간 예약장부 동일시간대 예약 다수건 출력 지원  (예약.일간탭.출력버튼.일간출력 메뉴 참조)
 <span class="box jemu">원무</span> - 자격조회 조회된 수진자명이 일치하지 않습니다 메시지 동작 변경  (외국인일 경우 메시지 표시 안함)
-<span class="box jemu">원무</span> - 백신지원금 포함시 수납대상액 10원 차이   bug  (수납대상액절사조건.100원단위반올림 옵션사용시 bug)
 
 <span class="box chart">진료</span> - 전달메모 보기옵션 기능 추가  (전달메모창.[...]버튼.보기모드 참조)
 <span class="box chart">진료</span> - 외래진료 다른 탭 클릭시 편집중인 증상 초기화 bug  (증상창 편집후 다른탭 누를경우에도 편집중인 증상 유지)
@@ -97,7 +96,7 @@ yearMonth: 2204
 <span class="box other">[고시]</span> 코로나 단독검사 무료
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
-<th style=" border-spacing: 5px; font-weight: normal">1) 대상 검사코드 : D658404*, D658305*
+<th style=" border-spacing: 5px; font-weight: normal">1) 대상 검사코드 : D658404*, D658497*, D680001*, D658305*, D658397*, D680113*
 2) 검사코드를 포함하여 처방
 3) 검사코드 비용은 수납금액이 발생되지 않습니다.
 4) 계산창에 '코로나19 확진용 단독검사료 본인부담금 면제 대상자' 표시
