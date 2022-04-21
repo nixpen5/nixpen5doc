@@ -7,6 +7,128 @@ yearMonth: 2204
 
 <pre>
 
+<bold># 4/21 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 접수아이디로 진료확인서2 서식 작성 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 접수아이디로 로그인된 상태에서 진료확인서2 발행가능
+2) 진료확인서2 서식만 해당됩니다.
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 의료급여진료건의 카드수납시 동작 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수납대기목록에서 카드수납을 누릅니다.
+2) 해당 수납건이 의료급여건일 경우 상세수납창이 실행됩니다.
+3) 진료확인번호 승인 진행 여부 메시지가 표시됩니다.
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 일간 예약장부 동일시간대 예약 다수건 출력 지원  (예약.일간탭.출력버튼.일간출력 메뉴 참조)
+<span class="box jemu">원무</span> - 자격조회 조회된 수진자명이 일치하지 않습니다 메시지 동작 변경  (외국인일 경우 메시지 표시 안함)
+<span class="box jemu">원무</span> - 백신지원금 포함시 수납대상액 10원 차이   bug  (수납대상액절사조건.100원단위반올림 옵션사용시 bug)
+
+<span class="box chart">진료</span> - 전달메모 보기옵션 기능 추가  (전달메모창.[...]버튼.보기모드 참조)
+<span class="box chart">진료</span> - 외래진료 다른 탭 클릭시 편집중인 증상 초기화 bug  (증상창 편집후 다른탭 누를경우에도 편집중인 증상 유지)
+
+<span class="box chart">진료</span> - 영상비교창 창이동 기능 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 영상비교창 타이틀을 Drag 하여 즉시 이동 가능
+2) 영상비교창 모니터 위치 기억
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 좌우검사 큰화면보기창 크기변경 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 상단바를 Drag하여 표시되는 창크기 변경
+2) 창크기 기억
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 진료중 동작룰 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 진료스텝일 경우 진료중 변경 안함
+2) 로컬설정.기본.사용구분설정 참조
+</th>
+    </tr>
+</table>
+<span class="box diag">진단서</span> - 당뇨병환자 소모성 재료처방전(연속혈당측정용 전극용) (개정:2021.12.29) 서식 개정  (진단서.신청서탭 참조)
+<span class="box diag">진단서</span> - 영문코로나검사확인서 서식 추가  (진단서.확인서탭 참조)
+
+<span class="box inspect">심사</span> - 수가정보 수가목록 코드구분별 엘셀내보내기 기능 추가  (수가정보창.[...]버튼.수가목록 엑셀내보내기 메뉴 참조)
+
+<span class="box inspect">심사</span> - 급여제한자 청구 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 접수시 '자격조회 결과 보험료체납급여제한자 입니다' 알림 표시
+2) 처방창에 보험코드로 처방 (주의 - 전액부담코드로 처방하지 않습니다.)
+3) 차트 저장시 '자격조회 결과 보험료체납급여제한자 입니다. 전액본인부담 후 청구대상' 알림 표시
+4) 수납대상액은 총진료비와 비보험총액의 합산액으로 발생
+5) 청구시 본인부담금은 요양급여총액으로 발생, 청구액은 0원
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 본인부담구분.서비스 일 경우 단가 0원 알림 제외
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수가정보에서 본인부담구분.서비스일 경우 단가 0원 알림 제외
+2) 처방창에서 본인부담구분.서비스일 경우 단가 0원 알림 제외
+</th>
+    </tr>
+</table>
+
+<span class="box lab">검안실</span> - 지원부서탭 메뉴 버튼 표시룰 적용
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 기준정보.실시부서창에서 사용하지 않는 실시부서를 사용여부.N 으로 설정
+2) 지원부서탭 메뉴에서 미사용 실시부서가 표시되지 않습니다.
+</th>
+    </tr>
+</table>
+<span class="box lab">검안실</span> - FU 이후 검안항목 포커싱 동작   bug  (차트번호 항목을 빠르게 클릭시 환자 클리어 되는 증상)
+<span class="box lab">검안실</span> - 검안오더 대기목록 불러오기 동작   bug  (검안실.대기차에서 FU시 오더가 표시되지 않을 수 있는 증상)
+
+
+<span class="box other">[고시]</span> 코로나 단독검사 무료
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 대상 검사코드 : D658404*, D658305*
+2) 검사코드를 포함하여 처방
+3) 검사코드 비용은 수납금액이 발생되지 않습니다.
+4) 계산창에 '코로나19 확진용 단독검사료 본인부담금 면제 대상자' 표시
+5) 청구시 자동 분리
+6) 청구시 코로나단독검사무료명세서에 'MT043' 자동 수록
+</th>
+    </tr>
+</table>
+
+<bold># 4/20 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 외래수납.수납대기 안보이는 증상   bug  (네트웍이 느린 경우)
+<span class="box other">[고시]</span> 코로나19 진단검사 급여기준 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 변경전청구코드 : D658404*  변경후청구코드 : D658305*
+2) 변경전청구코드 : D658497*  변경후청구코드 : D658397*
+3) 변경전청구코드 : D680001*  변경후청구코드 : D680113*
+4) 처방창에서 4/20일 이후에 변경전청구코드 사용시 급여중지 알림창 표시
+</th>
+    </tr>
+</table>
+<span class="box other">[고시]</span> 2022년 4월 20일 적용 수가 등록 (자동 실행)
+<span class="box other">[SCAN]</span> FileViewData 파일명 규칙룰 변경 
+
+
+<bold># 4/18 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 백신지원금 포함시 수납대상액 10원 차이 bug
+
+
 <bold># 4/14 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 입원영수증 비급여 항목 편집 기능 추가  
