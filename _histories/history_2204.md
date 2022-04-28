@@ -7,6 +7,111 @@ yearMonth: 2204
 
 <pre>
 
+<bold># 4/28 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 추가수납 삭제 기능 추가  
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수납대기창에서 추가수납건을 선택합니다.
+2) 우클릭하여 '추가수납 삭제' 메뉴를 선택합니다.
+3) 추가수납건이 아닐경우 메뉴가 표시되지 않습니다.
+4) 권한확인창이 뜨면 아이디 패스워드를 입력합니다.
+5) 수납관리자 권한이 없으면 진행되지 않습니다.
+6) 추가수납건 삭제가 수행됩니다.
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 외래접수 입원환자 컨텐츠 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.화면설정.화면디자인 참조
+2) 입원환자 컨텐츠를 선택합니다.
+3) 배치할 위치를 지정합니다.
+4) 화면을 저장합니다.
+</th>
+    </tr>
+</table>
+
+<span class="box chart">진료</span> - 진료요약창에 일반구분 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 진료요약창에서 일반 진료건일 경우 일자항목에 Red막대가 표시됩니다.
+2) 사용자설정.진료업무.전처방 메뉴에서 진료요약창 옵션을 변경할 수 있습니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 진료의 변경후 진행중 상태 표시룰 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 진료의 변경후 해당 진료건이 '진료중' 으로 표시되지 않도록 변경
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 대기탭 접수메모 중복 표시 증상   bug  
+<span class="box chart">진료</span> - 특이증상 빈줄 표시 증상  bug
+<span class="box chart">진료</span> - 외래진료 계산창에서 진료완료시 입원 수납 데이터 발생 bug
+<span class="box chart">진료</span> - 저장시 간헐적으로 발생하는 응답없음 증상   bug
+
+
+<span class="box inspect">심사</span> - 급여제한자 설정 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료에서 속성 버튼을 누릅니다.
+2) 속성창에서 '급여제한자' 를 체크합니다.
+3) 차트를 저장하고 계산 결과를 확인합니다.
+4) 자격조회결과를 기준으로 기본 설정됩니다.
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 파일백업 보관일수 동작 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 파일백업 보관일수 설정값에 따라 보관일수가 경과된 사본파일 삭제 수행
+2) 환경설정.백업설정 메뉴 참조
+</th>
+    </tr>
+</table>
+
+<span class="box other">[고시]</span> U071 법정감염병구분 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 법정감염병 제2급으로 변경
+2) 대상병명 : U07.1, U07.2
+</th>
+    </tr>
+</table>
+<span class="box other">[고시]</span> 건강여성첫걸음 대상자 조건 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 변경전 : 만12세 여성 청소년
+2) 변경후 : 만13 ~ 17세 여성 청소년
+3) 차트저장시 나이에 따른 점검룰 변경
+</th>
+    </tr>
+</table>
+<span class="box other">[고시]</span> 대면진료 시 외래진료센터 미해당 기관에서 'H/재택치료' 기재
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료센터 기관인 경우 병원정보.상세정보.외래진료센터 항목체 체크합니다.
+2) 외래진료센터 인 경우 조제시참고사항에 'T/외래진료센터' 수록
+3) 외래진료센터 아닌 경우 조제시참고사항에 'H/재택치료' 수록
+</th>
+    </tr>
+</table>
+
+<span class="box other">[LabViewer]</span> ImageView - 선택영상 내보내기 메뉴 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 좌측 영상 썸네일목록에서 내보내기할 영상 선택
+2) [...]버튼.선택영상 내보내기 메뉴 선택
+3) 내보내기할 폴더 지정
+</th>
+    </tr>
+</table>
+
+<span class="box other">[SCAN]</span> 동일 파일명인 파일을 업로드 할수 없음    bug
+
+
 <bold># 4/21 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 접수아이디로 진료확인서2 서식 작성 기능 추가
