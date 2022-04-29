@@ -7,6 +7,49 @@ yearMonth: 2204
 
 <pre>
 
+
+<bold># 4/29 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 환불건 포함된 영수증 합산출력시 환자구분 항목 수록룰 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 일반 수납건과 환불 수납건을 '영수증 합산' 하는 경우 환자구분을 변경된 보험유형으로 출력합니다.
+2) 진료환불인 경우 차트의 보험유형을 변경후 영수증을 확인 하시기 바랍니다.
+</th>
+    </tr>
+</table>
+
+<span class="box chart">진료</span> - 전처방 판독소견서 보기 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.전처방.판독소견서표시 항목에 체크합니다.
+2) 전처방 EMR 필터를 선택합니다.
+3) 판독소견서가 작성된 환자를 FU 합니다.
+4) 전처방창에서 판독소견서가 작성된 일자 아래에 '판독소견서' 문구가 표시됩니다.
+5) '판독소견서' 문구에 마우스를 올리면 판독소견서 내용이 툴팁으로 표시됩니다.
+6) '판독소견서' 문구를 클릭하면 판독소견서창이 실행됩니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 진료메모탭에서 판독소견서 참조 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.진료메모탭을 선택합니다.
+2) 우측 상단의 '판독소견서' 버튼을 누릅니다.
+3) 해당 환자의 판독소견서 기록이 표시됩니다.
+4) 판독소견서 기록을 더블클릭하면 진료메모창에 판독소견 내용이 복사됩니다. 
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 판독소견서 출력물 변경  (성별 추가, 검사일시 항목을 의뢰일자로 변경)
+
+<span class="box lab">방사선실</span> 판독소견서 버튼 기능 추가   (상단 판독소견서 버튼 참조)
+<span class="box lab">방사선실</span> 소견리스트탭 기능 삭제  (판독소견서 기능으로 대체)
+
+<span class="box other">[고시]</span> [고시] 2022년 5월 약가 등록 (자동 실행)
+<span class="box other">[고시]</span> [고시] 2022년 5월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 4/28 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 추가수납 삭제 기능 추가  
