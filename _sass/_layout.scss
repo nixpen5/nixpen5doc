@@ -550,6 +550,11 @@ span {
 		background: #F8A1A4;
 	}
 
+	/* 고시 */
+	&.notice{
+		background: #FFC90E;
+	}
+	
 	/* 기타(나머지 모두) */
 	&.other{
 		background: #D9D9D9;

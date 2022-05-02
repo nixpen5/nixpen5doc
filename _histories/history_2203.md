@@ -12,9 +12,9 @@ yearMonth: 2203
 =====================
 <span class="box jemu">원무</span> - 입원환자 결과 표시 방법 변경  
 <span class="box lab">[LabViewer]</span> EyeView - 숨김 항목값 표시 오류   bug
-<span class="box other">[고시]</span> 2022년 4월 수가 등록 (자동 실행)
-<span class="box other">[고시]</span> 2022년 4월 약가 등록 (자동 실행)
-<span class="box other">[고시]</span> 2022년 4월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+<span class="box notice">[고시]</span> 2022년 4월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 4월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 4월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
 
 <bold># 3/26 배포</bold>
@@ -97,7 +97,7 @@ yearMonth: 2203
 
 <bold># 3/15 배포</bold>
 =====================
-<span class="box other">[고시]</span> 신속항원검사 양성인경우 조제시참고사항 수록 기능 추가
+<span class="box notice">[고시]</span> 신속항원검사 양성인경우 조제시참고사항 수록 기능 추가
 
 
 <bold># 3/14 배포</bold>
@@ -143,7 +143,7 @@ yearMonth: 2203
 
 <bold># 3/2 배포</bold>
 =====================
-<span class="box other">[고시]</span> 2022년 3월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 3월 수가 등록 (자동 실행)
 <span class="box diag">진단서</span> - 코로나 신속항원검사 서식 검사기관 표시 bug  (확인서탭 참조)
 <span class="box diag">진단서</span> - 영문진단서 Home Address 입력 길이 변경  (진단서탭 참조)
 

@@ -43,7 +43,7 @@ yearMonth: 2111
 <span class="box inspect">심사</span> - 수가정보 대체코드 동작 bug (입력코드를 처방시 대체코드로 바뀌는 기능)
 <span class="box other">통계</span> - 진료비통계 권한 적용 bug (기준정보.역할및권한.권한설정 '진료비통계' 권한 참조) 
 <span class="box other">통계</span> - 항목별진료실적통계_진료의 조회 결과 bug (수입통계.항목별진료실적통계 3종 참조)
-<span class="box other">[고시]</span> 장애인건강주치의 시범사업 3단계 (특정기호 S036 수록대상)
+<span class="box notice">[고시]</span> 장애인건강주치의 시범사업 3단계 (특정기호 S036 수록대상)
 <span class="box other">[진료정보교류]</span> 문서를 전송할 수 없습니다.  bug  (전송할 수 없는 처방코드가 존재시 메시지 표시)
 <span class="box other">[KIOSK 5.0]</span> 진료카드 바코드 인식 기능 추가 (사용자설정.접수업무.접수증출력옵션 참조)
 <span class="box other">[KIOSK 5.0]</span> 접수증 리딩후 수납 기능 (수납 버튼 누르고 바코드가 인쇄된 접수증 리딩)
@@ -77,7 +77,7 @@ yearMonth: 2111
 <span class="box other">[KIOSK 5.0]</span> 휴진의사 숨김 옵션 기능 추가 (환경설정.기본.접수옵션 참조)
 <span class="box other">[KIOSK 5.0]</span> 포스프린터 전송속도 항목 추가 (로컬설정.기능 참조)
 <span class="box other">[KIOSK 5.0]</span> 초재진 산정룰 변경 (만성질환 상병 기준 초재진 적용)
-<span class="box other">[고시]</span> 2022년 1월 점수당단가 (점수당단가 및 공휴일 등록)
+<span class="box notice">[고시]</span> 2022년 1월 점수당단가 (점수당단가 및 공휴일 등록)
 
 
 <bold># 11/11 배포</bold>

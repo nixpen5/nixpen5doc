@@ -9,8 +9,8 @@ yearMonth: 2202
 
 <bold># 2/28 배포</bold>
 =====================
-<span class="box other">[고시]</span> 2022년 3월 약가 등록 (자동 실행)
-<span class="box other">[고시]</span> 2022년 3월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+<span class="box notice">[고시]</span> 2022년 3월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 3월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
 
 <bold># 2/24 배포</bold>
@@ -41,7 +41,7 @@ yearMonth: 2202
 
 <bold># 2/22 배포</bold>
 =====================
-<span class="box other">[고시]</span> 2022년 2월 2차 (경부초음파 건강보험 적용) 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 2월 2차 (경부초음파 건강보험 적용) 수가 등록 (자동 실행)
 
 
 <bold># 2/21 배포</bold>
@@ -61,8 +61,8 @@ yearMonth: 2202
 <span class="box inspect">심사</span> - 수가정보 화면 윈도우시작바 덮지 않게 
 <span class="box inspect">심사</span> - 상병정보 삭제일 날짜 선택 동작 변경  (날짜항목 직접 편집 기능 지원)
 <span class="box other">공통</span> - 긴급공지 확인 프로그램이 이미 실행중입니다.  메시지 bug  (불필요 메시지 제거)
-<span class="box other">[고시]</span> 코로나19 재택치료  환자관리료 - 24시간 Ⅱ형 코드 추가  
-<span class="box other">[고시]</span> AH233, AH234 재택치료 전화상담·처방형 전화상담 관리료 <a href="/docs/main13/sub22/page1" target="_blank" style="color:blue;font-weight:bold">(도움말을 참조하세요)</a>
+<span class="box notice">[고시]</span> 코로나19 재택치료  환자관리료 - 24시간 Ⅱ형 코드 추가  
+<span class="box notice">[고시]</span> AH233, AH234 재택치료 전화상담·처방형 전화상담 관리료 <a href="/docs/main13/sub22/page1" target="_blank" style="color:blue;font-weight:bold">(도움말을 참조하세요)</a>
 
 
 <bold># 2/10 배포</bold>
@@ -107,8 +107,8 @@ yearMonth: 2202
 <span class="box other">[CaptureManager]</span> Window 마지막위치 저장  (프로그램 종료시 마지막 위치 기록)
 <span class="box other">[DBMaker]</span> 변경된 스키마 적용  
 <span class="box other">[KIOSK 5.0]</span> 신용카드 투입시 즉시 결제 옵션 기능 추가  (환경설정.기본.수납옵션 참조)
-<span class="box other">[고시]</span> DRG 고위험임산부집중관리료 별도산정  (고위험임산부 본인부담률 5%)
-<span class="box other">[고시]</span> B014 연장승인미신청자 본인부담계산룰 변경  (외래 30% 산정, 특정기호 F023 자동 수록)
+<span class="box notice">[고시]</span> DRG 고위험임산부집중관리료 별도산정  (고위험임산부 본인부담률 5%)
+<span class="box notice">[고시]</span> B014 연장승인미신청자 본인부담계산룰 변경  (외래 30% 산정, 특정기호 F023 자동 수록)
 
 
 <bold># 2/8 배포</bold>
@@ -126,10 +126,10 @@ yearMonth: 2202
 
 <bold># 2/2 배포</bold>
 =====================
-<span class="box other">[고시]</span> 2022년 2월 3일 코로나19 신속항원검사 ‘감염예방관리료’ 수가 등록  (자동 실행)
-<span class="box other">[고시]</span> 2022년 1월 26일 ‘SARS-CoV-2 항원검사 [일반면역검사]-간이검사’ 수가 등록 (자동 실행)
-<span class="box other">[고시]</span> ‘감염예방관리료 본인부담면제 적용
-<span class="box other">[고시]</span> ‘SARS-CoV-2 항원검사 [일반면역검사]-간이검사’ 본인부담면제 적용
+<span class="box notice">[고시]</span> 2022년 2월 3일 코로나19 신속항원검사 ‘감염예방관리료’ 수가 등록  (자동 실행)
+<span class="box notice">[고시]</span> 2022년 1월 26일 ‘SARS-CoV-2 항원검사 [일반면역검사]-간이검사’ 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> ‘감염예방관리료 본인부담면제 적용
+<span class="box notice">[고시]</span> ‘SARS-CoV-2 항원검사 [일반면역검사]-간이검사’ 본인부담면제 적용
 
 
 </pre>

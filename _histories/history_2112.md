@@ -8,10 +8,10 @@ yearMonth: 2112
 
 <bold># 12/31 배포</bold>
 =====================
-<span class="box other">[고시]</span> 2022년도 DRG 기초수가 등록 (자동 실행)
-<span class="box other">[고시]</span> 2022년 1월 수가 등록 (자동 실행)
-<span class="box other">[고시]</span> 2022년 1월 약가 등록 (자동 실행)
-<span class="box other">[고시]</span> 2022년 1월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+<span class="box notice">[고시]</span> 2022년도 DRG 기초수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 1월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 1월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 1월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
 
 <bold># 12/29 배포</bold>
@@ -52,7 +52,7 @@ yearMonth: 2112
 <span class="box inspect">심사</span> - 심평원 사전점검 재송신 기능 추가 (재송신 클릭후 재송신 대상 선택 메뉴 팝업)
 <span class="box lab">검사실</span> - 수탁검사 전송내역창 상세 표시 동작 변경 (송신일시를 시분초까지 표시)
 <span class="box lab">검사실</span> - 수탁검사 전송창 검사건수 항목 추가 (수탁검사 전송이력창 참조)
-<span class="box other">[고시]</span> 산정특례 잠복결핵관련 ('V010' 잠복결핵감염 산정특례 지원대상자)
+<span class="box notice">[고시]</span> 산정특례 잠복결핵관련 ('V010' 잠복결핵감염 산정특례 지원대상자)
 <span class="box other">[CaptureManager]</span> Area Select 동작 변경 (바깥 테두리 시인성 보완)
 <span class="box other">[KIOSK 5.0]</span> 수납 로그 보완 (차트번호, 환자성명, 오류사유 수록 내용 보완)
 <span class="box other">[의료비소득공제]</span> 기본 해상도 변경 (최소해상도 1280 * 900)
@@ -88,7 +88,7 @@ yearMonth: 2112
 <span class="box other">통계</span> - 월별수입통계 할인액 항목 추가 (수입통계탭 참조)
 <span class="box other">통계</span> - 진료과별수입통계 기능 추가 (수입통계탭 참조)
 <span class="box other">[SmartCheck]</span> 청구사전심사 엑세스가 거부되었습니다   bug (사전심사결과 생성 대기시간 늘림)
-<span class="box other">[고시]</span> 수가정보 의약품 예외구분코드 기타 항목 추가 (수가정보.예외구분코드 항목 참조)
+<span class="box notice">[고시]</span> 수가정보 의약품 예외구분코드 기타 항목 추가 (수가정보.예외구분코드 항목 참조)
 <span class="box other">[KIOSK 5.0]</span> 보험유형 적용 룰 변경 (전일 자보/산재 진료건 존재시 자격조회 결과와 관계 없이 자보/산재로 접수)
 <span class="box other">[KIOSK 5.0]</span> 자격조회 결과 생성 (자격조회후 자격상세정보 생성)
 
@@ -101,7 +101,7 @@ yearMonth: 2112
 <bold># 12/9 배포</bold>
 =====================
 <span class="box chart">진료</span> - 처방창 Alt + Enter 시 수량이 0으로 수록되는 bug (한 라인 추가 동작)
-<span class="box other">[고시]</span> MT059 로사르탄 문제의약품 유형 추가 (특정내역 MT059 '문제의약품 유형' 참조)
+<span class="box notice">[고시]</span> MT059 로사르탄 문제의약품 유형 추가 (특정내역 MT059 '문제의약품 유형' 참조)
 <span class="box other">[KIOSK 5.0]</span> 물리치료 접수 후 수납 미생성 bug
 
 
@@ -157,7 +157,7 @@ yearMonth: 2112
 <span class="box other">[KIOSK 5.0]</span> 물리치료 접수 기능 추가 (로컬설정.의사설정 화면 참조)
 <span class="box other">[KIOSK 5.0]</span> 접수증 안내문구 사용 옵션 기능 추가 (로컬설정.기능.출력옵션 참조)
 <span class="box other">[KIOSK 5.0]</span> 수납후 주사처방전 발행 옵션 기능 추가 (환경설정.기본.수납옵션 참조)
-<span class="box other">[고시]</span> 자격조회 출국자 보험유형 적용룰 변경 (급여제한여부 항목값 부재시에는 출국자 진료가능)
-<span class="box other">[고시]</span> 코로나 혈액투석 무료 수가 청구 (특정내역 MT043 - '3/02' 기재 대상)
+<span class="box notice">[고시]</span> 자격조회 출국자 보험유형 적용룰 변경 (급여제한여부 항목값 부재시에는 출국자 진료가능)
+<span class="box notice">[고시]</span> 코로나 혈액투석 무료 수가 청구 (특정내역 MT043 - '3/02' 기재 대상)
 
 </pre>

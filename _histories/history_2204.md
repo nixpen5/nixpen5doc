@@ -46,8 +46,8 @@ yearMonth: 2204
 <span class="box lab">방사선실</span> 판독소견서 버튼 기능 추가   (상단 판독소견서 버튼 참조)
 <span class="box lab">방사선실</span> 소견리스트탭 기능 삭제  (판독소견서 기능으로 대체)
 
-<span class="box other">[고시]</span> [고시] 2022년 5월 약가 등록 (자동 실행)
-<span class="box other">[고시]</span> [고시] 2022년 5월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+<span class="box notice">[고시]</span> 2022년 5월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 5월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
 
 <bold># 4/28 배포</bold>
@@ -115,7 +115,7 @@ yearMonth: 2204
     </tr>
 </table>
 
-<span class="box other">[고시]</span> U071 법정감염병구분 변경
+<span class="box notice">[고시]</span> U071 법정감염병구분 변경
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 법정감염병 제2급으로 변경
@@ -123,7 +123,7 @@ yearMonth: 2204
 </th>
     </tr>
 </table>
-<span class="box other">[고시]</span> 건강여성첫걸음 대상자 조건 변경
+<span class="box notice">[고시]</span> 건강여성첫걸음 대상자 조건 변경
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 변경전 : 만12세 여성 청소년
@@ -132,7 +132,7 @@ yearMonth: 2204
 </th>
     </tr>
 </table>
-<span class="box other">[고시]</span> 대면진료 시 외래진료센터 미해당 기관에서 'H/재택치료' 기재
+<span class="box notice">[고시]</span> 대면진료 시 외래진료센터 미해당 기관에서 'H/재택치료' 기재
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 외래진료센터 기관인 경우 병원정보.상세정보.외래진료센터 항목체 체크합니다.
@@ -241,7 +241,7 @@ yearMonth: 2204
 <span class="box lab">검안실</span> - 검안오더 대기목록 불러오기 동작   bug  (검안실.대기차에서 FU시 오더가 표시되지 않을 수 있는 증상)
 
 
-<span class="box other">[고시]</span> 코로나 단독검사 무료
+<span class="box notice">[고시]</span> 코로나 단독검사 무료
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 대상 검사코드 : D658404*, D658497*, D680001*, D658305*, D658397*, D680113*
@@ -257,7 +257,7 @@ yearMonth: 2204
 <bold># 4/20 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 외래수납.수납대기 안보이는 증상   bug  (네트웍이 느린 경우)
-<span class="box other">[고시]</span> 코로나19 진단검사 급여기준 변경
+<span class="box notice">[고시]</span> 코로나19 진단검사 급여기준 변경
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 변경전청구코드 : D658404*  변경후청구코드 : D658305*
@@ -267,7 +267,7 @@ yearMonth: 2204
 </th>
     </tr>
 </table>
-<span class="box other">[고시]</span> 2022년 4월 20일 적용 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 4월 20일 적용 수가 등록 (자동 실행)
 <span class="box other">[SCAN]</span> FileViewData 파일명 규칙룰 변경 
 
 
@@ -439,9 +439,9 @@ yearMonth: 2204
 <bold># 4/5 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 외국인 성명길경우 청구조회 동작 bug    
-<span class="box other">[고시]</span> 코로나 대면진료 분리청구    
-<span class="box other">[고시]</span> 신속항원검사 의사별 100회 초과시 알림 기능 추가
-<span class="box other">[고시]</span> 코로나19 외래진료센터
+<span class="box notice">[고시]</span> 코로나 대면진료 분리청구    
+<span class="box notice">[고시]</span> 신속항원검사 의사별 100회 초과시 알림 기능 추가
+<span class="box notice">[고시]</span> 코로나19 외래진료센터
 
 
 <bold># 4/4 배포</bold>
@@ -452,8 +452,8 @@ yearMonth: 2204
 <span class="box chart">진료</span> - 입원진료.계산창에서 진료완료 버튼 동작 bug  (진료완료시 수납오더 발생하지 않게)
 <span class="box chart">진료</span> - 처방점검창 표시 이후 계산창에서 InsertKey 동작 bug  (변경후 출력버튼 동작하고 계산창 닫힘)
 <span class="box chart">진료</span> - 검안실오더 추가 발생시 실시부서진행상태 적용룰 변경  
-<span class="box other">[고시]</span> 신속항원검사 양성 확인 조건 변경  (변경후 신속항원검사 'D662097*' 처방 여부 기준)
-<span class="box other">[고시]</span> 코로나19 대면진료관리료  (코드 : AH240, AH241  주의 : 타질환 진료시 차트 추가)
-<span class="box other">[고시]</span> 코로나19 감염예방관리료 한시적 지원 종료  (4/4일 부터 사용불가 : AH321, AH322, AH323, AH324)
+<span class="box notice">[고시]</span> 신속항원검사 양성 확인 조건 변경  (변경후 신속항원검사 'D662097*' 처방 여부 기준)
+<span class="box notice">[고시]</span> 코로나19 대면진료관리료  (코드 : AH240, AH241  주의 : 타질환 진료시 차트 추가)
+<span class="box notice">[고시]</span> 코로나19 감염예방관리료 한시적 지원 종료  (4/4일 부터 사용불가 : AH321, AH322, AH323, AH324)
 
 </pre>
