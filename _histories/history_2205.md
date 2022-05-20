@@ -7,6 +7,76 @@ yearMonth: 2205
 
 <pre>
 
+<bold># 5/19 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 외래접수 검안오더시 병명 기본 리피트 기능 적용
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.실시부서.검안오더옵션.병명기본리피트 항목을 설정합니다.
+2) 외래접수에서 검안오더를 내립니다.
+3) 병명이 기본리피트 되어 차트에 수록됩니다.
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 상단 환경설정 버튼 접근권한 동작  bug  (기준정보.역할및권한 접근권한 설정 적용)
+<span class="box jemu">원무</span> - 의료급여 입원 수납금액이 0원일때 수납 진행불가  bug  (입원수납창 참조)
+<span class="box jemu">원무</span> - 영수증 환불건 저장시 납부하지않은금액 발생 bug  (외래진료비 계산서.영수증 참조)
+<span class="box jemu">원무</span> - 자격조회 결과중 '요양병원 입원중' 일때 알림 기능 추가  (접수확인창에서 '요양병원 입원중 환자입니다.' 메시지 팝업)
+<span class="box jemu">원무</span> - 월간 예약 건수 표시 기준 변경  (예약 취소 건 제외후 건수 표시)
+
+<span class="box chart">진료</span> - 대기자 접수메모 키워드 알림 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.대기자.접수메모키워드알림 항목을 설정합니다.
+2) 키워드를 '확진,신속항원,비대명' 과 같이 콤마로 구분하여 등록합니다.
+3) 진료대기창에서 접수메모를 확인합니다.
+4) 접수메모중 키워드에 해당할경우 강조되어 표시됩니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 접수의사 고정 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.진료.대기자.접수의사고정 항목을 설정합니다.
+2) 진료대기창에서 타의사 진료대기환자를 FU 합니다.
+3) 접수의사고정으로 설정된 경우, 접수시의 의사가 변경되지 않습니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 오더창 Head 표시 설정 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.오더 버튼을 클릭합니다.
+2) Heads탭.[...]에서 'Head 표시 설정' 메뉴을 선택합니다.
+3) Head 목록에 표시 항목이 표시됩니다.
+4) Head를 표시하지 않을 표시 항목을 일괄 Uncheck 합니다.
+5) [...]에서 'Head 표시 저장' 메뉴를 선택합니다.
+6) 설정값이 일괄 저장되고, 표시항목에 설정된 헤더만 표시됩니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 검사결과탭.엑셀결과보기탭 선택 동작 속도 개선
+<span class="box chart">진료</span> - 의약품정보 검색창에서 ESC 키 입력시 간헐적으로 종료될 수 있는 증상  bug  
+<span class="box chart">진료</span> - 증상 빨리 입력시 한글깨짐 bug
+<span class="box chart">진료</span> - 검안 추가오더시 진료대기창 상태 표시 bug  (미완료 검안오더 존재시 'E>' 표시)
+
+<span class="box diag">진단서</span> - 건강진단결과서 (구 보건증) 서식 추가  (진단서탭 참조)
+
+<span class="box other">마약류</span> - 구입업체전송기록 가져오기 점검 기능 추가  (판매일자 2개 이상일때 확인 메시지 추가)
+
+<span class="box other">통계</span> - 출력권한 설정 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 기준정보.역할및권한에서 접근권한 및 출력권한을 설정합니다.
+2) 출력권한 부재시 인쇄 및 엑셀내보내기 기능을 수행할 수 없습니다.
+3) 고객관리 메뉴 적용 : CRM, 주소록, 보상관리, 예약현황
+4) 통계 메뉴 적용 : 인원통계, 진료통계, 수입통계, 청구통계, 진료비통계, 매출보고서, 진료현황
+</th>
+    </tr>
+</table>
+<span class="box lab">검사실</span> - 검사실 완료일시 표시 기능 추가  (환경설정.실시부서.검사항목보기옵션.전체보기 경우만 해당)
+
+
 <bold># 5/4 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 외래영수증에 입원진료건  포함되는 bug  (영수증.외래수납현황 목록에서 입원 수납내역 제외)
