@@ -7,6 +7,11 @@ yearMonth: 2205
 
 <pre>
 
+<bold># 5/23 배포</bold>
+=====================
+<span class="box chart">진료</span> - 웹백신창에서 백신코드 Relay 동작   bug
+
+
 <bold># 5/19 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 외래접수 검안오더시 병명 기본 리피트 기능 적용
