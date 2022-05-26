@@ -7,6 +7,29 @@ yearMonth: 2205
 
 <pre>
 
+<bold># 5/26 배포</bold>
+=====================
+<span class="box chart">진료</span> - 계산창 원외처방 내역중 비급여 표시 기능 추가  (옵션 없음)
+<span class="box chart">진료</span> - 약국이없는지역에서 처방일수 일괄 변경 기능 적용
+<span class="box chart">진료</span> - 예약탭 정렬순서 변경 (예약일자 및 시간순 정렬)
+
+<span class="box inspect">심사</span> - 법정감염병 신고 알림' 심사에러코드 추가 
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.청구심사탭.[...].심사대상 메뉴 참조
+2) 법정감염병 신고 알림으로 점검된 내용을 심사결과목록에서 제외할 수 있습니다.
+</th>
+    </tr>
+</table>
+<span class="box other">통계</span> - 기간별처방통계 원외처방 총액 산정 방식 변경  (원외처방의 경우도 금액을 산정합니다)     
+
+<bold># 5/24 배포</bold>
+=====================
+<span class="box chart">진료</span> - 묶음처방 클래식 모드에서 더블클릭 동작 bug  
+<span class="box chart">진료</span> - 진료메모 한글모드 동작 변경  (한영모드 변경되지 않게)
+
+<span class="box other">[고시]</span> 2022년 5월 약가 2차 등록 (자동 실행)
+
 <bold># 5/23 배포</bold>
 =====================
 <span class="box chart">진료</span> - 웹백신창에서 백신코드 Relay 동작   bug
