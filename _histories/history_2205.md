@@ -7,6 +7,41 @@ yearMonth: 2205
 
 <pre>
 
+<bold># 5/30 배포</bold>
+===================== 
+<span class="box jemu">원무</span> - 파일백업시 백업 사본경로 동작  bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.백업설정.파일백업.백업사본경로 항목을 설정합니다.
+2) 파일백업시 서버의 C 드라이브에 기본백업이 수행됩니다.
+3) 백업사본경로에 백업파일이 복사됩니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 전처방  진료메모 표시 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.전처방.진료메모표시 항목을 설정합니다.
+2) 전처방의 해당일자에 '진료 메모' 문구가 표시됩니다.
+3) '진료 메모' 에 마우스를 올리면 메모 내용이 툴팁으로 표시됩니다.
+4) '진료 메모' 를 클릭하면 진료메모탭으로 이동되며 해당 메모를 편집할 수 있습니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 외래진료 수납창 진료의사 항목 추가  (수납금액 우측 진료의사 항목 참조)
+
+<span class="box chart">진료</span> - PACS 'US, ES 명칭 형식' 옵션 기능 추가  (환경설정.연동관리.PACS 'US ES 명칭 형식' 항목 참조)
+
+<span class="box lab">검사실</span> - 검사실 결과 항목 우클릭 메뉴 기능 추가 
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 결과 항목에 우클릭하여 메뉴를 표시합니다.
+2) 메뉴를 클릭합니다.
+3) 선택한 메뉴의 텍스트가 결과항목에 수록됩니다.
+</th>
+    </tr>
+</table>
+
 <bold># 5/26 배포</bold>
 =====================
 <span class="box chart">진료</span> - 계산창 원외처방 내역중 비급여 표시 기능 추가  (옵션 없음)
