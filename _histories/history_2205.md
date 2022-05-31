@@ -7,6 +7,13 @@ yearMonth: 2205
 
 <pre>
 
+<bold># 5/31 배포</bold>
+=====================
+<span class="box other">[고시]</span> 2022년 6월 수가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 6월 약가 등록 (자동 실행)
+<span class="box other">[고시]</span> 2022년 6월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 5/30 배포</bold>
 ===================== 
 <span class="box jemu">원무</span> - 파일백업시 백업 사본경로 동작  bug
