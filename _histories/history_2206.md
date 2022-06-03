@@ -7,6 +7,48 @@ yearMonth: 2206
 
 <pre>
 
+<bold># 6/3 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 대기자콜 간헐적으로 멈춤 증상 bug
+
+<span class="box inspect">심사</span> - 특정내역 JT005(분만) 수록 방법 변경
+
+<span class="box other">[고시]</span> 2022년 6월 수가 등록 (자동 실행)
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 적용일자 : 2022-06-06
+</th>
+    </tr>
+<tr>
+<th style=" border-spacing: 5px; font-weight: normal">2) 신설
+   AH077   코로나19 통합 격리관리료-중증 면역저하자-병원
+   AH087   코로나19 다인실 격리관리료-병원-1인 격리
+   AH088   코로나19 다인실 격리관리료-병원-2인 격리
+</th>
+    </tr>
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">3) 변경  
+   AH038   코로나19 감염병전담요양병원 감염예방·관리료(확진자)
+   AH054   코로나19 통합 격리관리료-요양병원
+   AH065   감염병전담정신병원 감염예방·관리료-확진환자
+   AH225   재택치료 환자관리료-병원
+   AH226   재택치료 환자관리료-의원
+</th>
+    </tr>
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">4) 적용기간 연장
+   AH270   재택치료 전화상담·처방형 전화상담 관리료-초진-병원
+   AH271   재택치료 전화상담·처방형 전화상담 관리료-초진-의원
+   AH272   재택치료 전화상담·처방형 전화상담 관리료-재진-병원
+   AH273   재택치료 전화상담·처방형 전화상담 관리료-재진-의원
+   AH274   재택치료 의료상담센터형 전화상담 관리료-초진-병원
+   AH275   재택치료 의료상담센터형 전화상담 관리료-초진-의원
+   AH276   재택치료 의료상담센터형 전화상담 관리료-재진-병원
+   AH277   재택치료 의료상담센터형 전화상담 관리료-재진-의원
+</th>
+    </tr>
+</table>
+
 <bold># 6/2 배포</bold>
 ===================== 
 <span class="box jemu">원무</span> - 납입영수증의 총액 항목이 진료비내역서과 불일치   bug
