@@ -7,6 +7,224 @@ yearMonth: 2206
 
 <pre>
 
+<bold># 6/16 배포</bold>
+
+<span class="box jemu">원무</span> - 차트번호로 수납자검색 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.수납대기, 외래접수.접수대기 화면 참조
+2) 대기자 목록 Right Click - [수납자/대기자 검색] 메뉴 Click
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 예약현황 예약경로 검색조건 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 고객관리.예약현황 화면 참조
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 진료확인번호승인창 차트번호 검색 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수납대장의 [진료확인번호승인] 탭 참조
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 진료환불창 대상 수납 체크 동작 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래수납의 [...] 버튼 Click - [진료환불] 메뉴 Click
+2) 선택한 환불 수납 건이 '진료비(보)' 인 경우 '진료비(비)' 내역을 동시 선택 처리
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 환자의 마지막 진료의사 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.접수업무의 기본옵션.[환자의 마지막 진료의사] 옵션 참조
+2) 접수확인 창 팝업 시 해당 환자의 마지막 진료의사로 기본 설정
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 상세수납창에서 현금영수증 승인창 팝업기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.수납대기의 [...] 버튼 Click - [현금영수증 환경설정] 메뉴 참조
+2) 상세수납 창에서 [수납] 버튼 Click 시 현금영수증 자동발행 옵션에 따라 승인창 팝업
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 건강진단서(국가시험면허신청용) 서식 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 진단서.건강진단서 참조
+2) 국가시험면허신청용-4 문구 변경
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 카드단말기 연동 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 로컬설정.카드단말기 설정 메뉴 참조
+2) 카드단말기 정보 입력 (사업자등록번호, 설치 여부, 단말기 종류, 단말기 포트)
+3) 설치 여부 Yes 로 변경 후 상세수납 창의 [수납] 버튼 Click 시 단말기 승인 창 팝업
+4) 단말기 설정이 필요하므로 병원 담당자에게 문의하시기 바랍니다.
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 직원정보.검색조건포함 옵션 동작   bug  
+<span class="box jemu">원무</span> - 문자발송창 붙여넣기 메뉴 동작  bug  
+
+<span class="box chart">진료</span> - 환자 개인투약이력 조회 기능 추가  (도움말 참조 : <a href="https://nixpen5doc.pointnix.com/docs/main13/sub22/page3">https://nixpen5doc.pointnix.com/docs/main13/sub22/page3</a>)
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.처방창 화면 참조
+2) 수가코드 항목 Right Click - [내가 먹는 약 조회] 메뉴 Click
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 수가정보 소절개 처방옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 기본자료.수가정보 화면 참조
+2) 수가정보 조회 후 상세정보.[처방옵션] 버튼 Click
+3) DRG 세부분류 선택 (소절개, 복강경)
+4) 처방창에 해당 수가 입력 후, 속성창에서 확인할 수 있습니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 영상비교창 Resize 기능 추가
+
+<span class="box chart">진료</span> - 화면설정 인적정보 간단히보기 메뉴명 변경    
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료의 [화면설정] 메뉴 Click
+2-1) 변경 전 : 인적정보 간단히보기
+2-2) 변경 후 : 차트정보 간단히보기
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span>  - 계산창 수납 상태를 변경할 수 없습니다 메시지 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료의 [저장] 버튼 Click - 계산창 참조
+2) 수납 완료 차트인 경우 [출력] 또는 [진료완료] 버튼 Click 시 메시지 내용 변경
+3-1) 변경 전 : 수납 완료된 진료기록입니다. 상태를 변경할 수 없습니다
+3-2) 변경 후 : 수납이 완료된 기록입니다. 수납이 변경되지 않습니다.
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 판독소견서 모음장 클래식 화면 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료의 [진료메모] 탭 Click - [판독소견서] 버튼 Click 하여 표시된 화면 참조
+2) [모음장] 탭 Click - [...] 버튼 Click - [클래식] 메뉴 Click
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span>  - 탭컨트롤 크게 보기 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료의 [화면설정] 메뉴 Click - [탭 컨트롤 크게보기] Click
+2) 선택 시  탭 크기 증가, 탭 명칭 굵게 표시
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 병명 슬립지에서 클릭했을 때 R/O 따라가도록
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료의 [전처방] 탭 참조
+2) 상병 Click - 선택된 상병의 배제진단 여부를 유지하여 상병 입력
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 외래진료.대기자 환자 호출시 감염병조회 표시
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료의 [대기] 탭 참조
+2) 사용자설정.DUR 의 [외래진료 특정질병조회] 항목 선택
+3) 대기자 Double Click 시 감염병 조회 기능 동작
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 수가검색창 메모리 증가   bug  
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수가검색 창 반복 팝업 시 프로그램이 종료될 수 있는 증상 패치
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 문제의약품 분리청구 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료 상단 [속성] 버튼 참조
+2) 문제의약품 특정내역(MT059)을 수록한 후 속성창의 [분리청구] 항목 선택
+3) 분리청구된 내역은 청구 시 별도의 명세서로 생성됩니다.
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 직원정보 새로입력시 역할및권한 기본 생성
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 기준정보.직원정보에서 새 직원 정보 입력 후 [저장] 버튼 Click
+2) 면허구분을 기준으로 권한 사용자 자동 등록
+2-1) 권한.의사 - 면허.의사
+2-2) 권한.간호자 - 면허.간호사, 면허.간호조무사
+2-3) 권한.원무 - 면허.방사선사, 면허.임상병리사, 면허.물리치료사, 면허.약사
+2-4) 권한.일반사용자 - 면허.영양사, 면허.조리사, 면허.사회복지사, 면허.코디네이터
+</th>
+    </tr>
+</table>
+<span class="box other">통계</span> - 기간별처방통계 자동수가 집계 방법 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 진료통계.기간별처방통계 화면 참조
+2) 자동 수가인 경우 청구코드를 기준으로 집계
+</th>
+    </tr>
+</table>
+<span class="box diag">진단서</span> - 병명 검색창 포커싱 동작 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 서류발급.진단서 화면 참조
+2-1) 상병명 [한글] 선택된 경우 [..] 버튼 Click 시 상병검색 창의 한글명칭 항목에 기본 커서 위치
+2-2) 상병명 [영문] 선택된 경우 [..] 버튼 Click 시 상병검색 창의 영문명칭 항목에 기본 커서 위치
+</th>
+    </tr>
+</table>
+<span class="box diag">진단서</span> - 진단서 발행리스트 정렬 동작  bug  
+<span class="box diag">진단서</span> - 신체검사용 채용 신체검사서 기관명 출력   bug  
+
+<span class="box lab">검사실</span> - 대기목록 검색기간 검색기능 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 검사실의 [대기자] 탭 참조
+2) 검색 시작일자, 종료일자 검색 조건 추가
+3) 대기자 내역에 [검사일자] 항목 추가
+</th>
+    </tr>
+</table>
+<span class="box lab">방사선실</span> - 코드관리 검색 동작   bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 방사선실의 [방사선 관리] 메뉴 Click - [방사선실 코드관리] 메뉴 참조
+2) 방사선실 코드 그룹 검색 동작 패치
+</th>
+    </tr>
+</table>
+<span class="box other">[고시]</span> 청구SW 보안인증 갱신 및 승인번호 적용
+
+<span class="box other">[LabViewer]</span> 좌우검사 결과지 일자별 출력 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.[좌우검사] 탭, 외래진료.[좌우검사] 탭, LabViewer.[EyeView] 탭 참조
+2) 좌우검사 결과 Right Click - [좌우검사 결과지 일자별 출력(A4)] 메뉴 Click
+3) 좌우검사 출력 창에서 대상 일자 선택 후 [출력] 버튼 Click
+</th>
+    </tr>
+</table>
+
 <bold># 6/3 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 대기자콜 간헐적으로 멈춤 증상 bug
