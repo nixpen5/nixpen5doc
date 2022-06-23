@@ -7,6 +7,113 @@ yearMonth: 2206
 
 <pre>
 
+<bold># 6/23 배포</bold>
+
+<span class="box jemu">원무</span> - 재접수건 취소 기능 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.접수대기 화면 참조
+2) 진료기록이 존재하는 재접수 건 Right Click - [접수취소] 메뉴 Click
+    - 변경 전 : 접수 취소 불가
+    - 변경 후 : 확인 창 팝업 후 접수 취소 진행
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 외래접수에서 예약 실행시 예약일자 동작 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.[예약] 버튼 Click
+    - 변경 전 : 이전에 조회한 예약일자 유지하여 예약장부 팝업
+    - 변경 후 : 오늘 일자로 예약장부 팝업
+</th>
+    </tr>
+</table>
+
+<span class="box chart">진료</span> - 묶음처방 수량/횟수/일수 사용 옵션 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.[병명 및 처방] 화면 참조
+2) 묶음처방 기본값 옵션.[묶음처방 수량/횟수/일수 적용] 항목 선택
+3) 차트 불러오기 후 묶음처방 입력
+    - 선택해제 상태 : 수량/횟수/일수 [기본값] 으로 적용
+    - 선택 상태 : 수량/횟수/일수 [묶음처방 설정값] 으로 적용
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - SQL 방식 용법 모음장 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.(SQL)용법입력창 화면 참조
+2) SQL 용법 선택 (투여횟수, 처방용법, 매식 간/후/전, 복용시간)
+3) [모음장 등록] 버튼 Click - 선택한 용법을 모음장에 추가
+4) 대상 모음장 Right Click - [사용자코드 변경] 또는 [삭제] 메뉴 Click 하여 관리
+5) 대상 모음장 Double Click 또는 [모음장 적용] 버튼 Click 하여 용법 적용
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 오더창 검사항목 너비 크게 ContextMenu 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.오더창 화면 참조
+2) [...] 버튼 Click - [검사항목 너비 크게] 메뉴 선택
+    - 선택해제 상태 : [검사항목] 영역 너비 기본
+    - 선택 상태 : [검사항목] 영역 너비 넓음
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 수탁기관 공통 설정 사용시 위탁진료 점검 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.계산및산정.수탁검사산정옵션.[기준정보 기준 일괄 적용] 항목 선택
+2) 환경설정.수탁기관설정.수탁기관공통설정 [사용] 선택 및 [수탁 요양기관기호] 입력
+3) 처방창에서 검사코드 'A' 입력 후 [저장] 버튼 Click
+4) 수가정보 화면에서 'A' 코드 조회 후 위탁구분.[수탁검사] 설정
+5) 차트 다시 불러오기 시 [수탁검사] 로 적용된 'A' 코드 확인
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 정신과차트 줄바꿈없이 길게 입력시 내용 잘리는 bug
+<span class="box chart">진료</span> - 상병창 첫줄 공백상태에서 묶음처방시 상병이 첫줄부터 입력되는 bug
+
+
+<span class="box lab">검사실</span> - 완료일시 표시 방법 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.실시부서 화면 참조
+2) 검사실옵션.[검사실 완료일시 고정] 항목 선택
+3) 검사실 화면 우측 하단 [(검사)완료일시] 영역 확인
+    - 선택해제 상태 : 검사기록 수정 시 [완료일시] 갱신
+    - 선택 상태 : 최초 검사 [완료일시] 로 고정
+</th>
+    </tr>
+</table>
+<span class="box lab">검사실</span> - 검사결과지 검사완료일시 출력 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 검사결과지 출력 설정창 및 출력물 참조
+2) 검사완료 상태인 경우 [검사완료일시] 추가 표시
+</th>
+    </tr>
+</table>
+
+<span class="box inspect">심사</span> - 사전점검 점검결과 메세지 중복 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 점검결과가 중복 표시될 수 있는 증상 패치
+2) [차트] 버튼 Click 시 해당 일자의 차트가 2건 이상인 경우 선택창 팝업
+</th>
+    </tr>
+</table>
+
+<span class="box other">통계</span> - 외래진료현황 엑셀내보내기 Crush bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수입통계.[외래진료현황] 화면 참조
+2) 결과가 많은 경우 프로그램 다운되는 증상 패치 및 속도 개선
+</th>
+    </tr>
+</table>
+
 <bold># 6/16 배포</bold>
 
 <span class="box jemu">원무</span> - 차트번호로 수납자검색 기능 추가
@@ -75,6 +182,7 @@ yearMonth: 2206
 </table>
 <span class="box jemu">원무</span> - 직원정보.검색조건포함 옵션 동작   bug  
 <span class="box jemu">원무</span> - 문자발송창 붙여넣기 메뉴 동작  bug  
+
 
 <span class="box chart">진료</span> - 환자 개인투약이력 조회 기능 추가  (도움말 참조 : <a href="https://nixpen5doc.pointnix.com/docs/main13/sub22/page3">https://nixpen5doc.pointnix.com/docs/main13/sub22/page3</a>)
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
@@ -155,6 +263,7 @@ yearMonth: 2206
 </th>
     </tr>
 </table>
+
 <span class="box inspect">심사</span> - 문제의약품 분리청구 기능 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
@@ -176,6 +285,7 @@ yearMonth: 2206
 </th>
     </tr>
 </table>
+
 <span class="box other">통계</span> - 기간별처방통계 자동수가 집계 방법 변경
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
@@ -184,6 +294,7 @@ yearMonth: 2206
 </th>
     </tr>
 </table>
+
 <span class="box diag">진단서</span> - 병명 검색창 포커싱 동작 변경
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
@@ -195,6 +306,7 @@ yearMonth: 2206
 </table>
 <span class="box diag">진단서</span> - 진단서 발행리스트 정렬 동작  bug  
 <span class="box diag">진단서</span> - 신체검사용 채용 신체검사서 기관명 출력   bug  
+
 
 <span class="box lab">검사실</span> - 대기목록 검색기간 검색기능 변경
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
@@ -213,6 +325,7 @@ yearMonth: 2206
 </th>
     </tr>
 </table>
+
 <span class="box other">[고시]</span> 청구SW 보안인증 갱신 및 승인번호 적용
 
 <span class="box other">[LabViewer]</span> 좌우검사 결과지 일자별 출력 기능 추가
@@ -229,7 +342,9 @@ yearMonth: 2206
 =====================
 <span class="box jemu">원무</span> - 대기자콜 간헐적으로 멈춤 증상 bug
 
+
 <span class="box inspect">심사</span> - 특정내역 JT005(분만) 수록 방법 변경
+
 
 <span class="box other">[고시]</span> 2022년 6월 수가 등록 (자동 실행)
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
