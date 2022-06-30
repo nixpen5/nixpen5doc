@@ -7,6 +7,58 @@ yearMonth: 2206
 
 <pre>
 
+<bold># 6/30 배포</bold>
+
+<span class="box jemu">원무</span> - 수납대기 진료과/진료의 Header Click 정렬 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.수납대기 화면 참조
+2) [진료과], [진료의] 컬럼 Click 시 정렬 기능 수행
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 진료내역 탭 신상 증상 표시 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.[진료내역] 탭 참조
+    - 변경 전 : 슬립 증상 표시, 신상 증상 미표시
+    - 변경 후 : 슬립, 신상 증상 모두 표시
+</th>
+    </tr>
+</table>
+
+<span class="box chart">진료</span> - XLay 탭 그룹명칭 Click 시 오류 수정
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[XLay] 탭 참조
+2) 초기화된 상태에서 [그룹명칭] 목록 Click 시 프로그램 다운되는 증상 패치
+</th>
+    </tr>
+</table>
+
+<span class="box inspect">심사</span> - SmartCheck 청구 의료급여만 점검시 오류
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 보험청구 화면 참조
+2) [조회] 버튼 Click - 청구조회 조건창에서 청구대상.[의료급여 외래/입원] 만 선택 - [확인] 버튼 Click
+3) [청구] 버튼 Click - [사전심사(SmartCheck)] 버튼 Click 시 오류 발생하는 증상 패치
+</th>
+    </tr>
+</table>
+
+<span class="box diag">진단서</span> - 진단서 병명일괄삭제 메뉴 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 원무.서류발급 화면 참조
+2) 진단서 상병창에서 [코드] 칸 Right Click - [병명 일괄 삭제] 메뉴 클릭
+</th>
+    </tr>
+</table>
+
+<span class="box notice">[고시]</span> 2022년 7월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 7월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 7월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
 <bold># 6/23 배포</bold>
 
 <span class="box jemu">원무</span> - 재접수건 취소 기능 변경
