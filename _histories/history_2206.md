@@ -8,7 +8,7 @@ yearMonth: 2206
 <pre>
 
 <bold># 6/30 배포</bold>
-
+=====================
 <span class="box jemu">원무</span> - 수납대기 진료과/진료의 Header Click 정렬 기능 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
@@ -60,7 +60,7 @@ yearMonth: 2206
 <span class="box notice">[고시]</span> 2022년 7월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
 <bold># 6/23 배포</bold>
-
+=====================
 <span class="box jemu">원무</span> - 재접수건 취소 기능 변경
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
@@ -167,7 +167,7 @@ yearMonth: 2206
 </table>
 
 <bold># 6/16 배포</bold>
-
+=====================
 <span class="box jemu">원무</span> - 차트번호로 수납자검색 기능 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
