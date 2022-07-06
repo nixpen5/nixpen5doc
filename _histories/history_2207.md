@@ -17,18 +17,6 @@ yearMonth: 2207
 </th>
     </tr>
 </table>
-<span class="box jemu">원무</span> - 외래접수 신상복사 ContextMenu 기능 추가
-<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
-    <tr>
-<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.[차트번호 부여방식].일련번호 설정인 경우 동작
-2) 외래접수 화면에서 환자 불러오기
-3) [접수관리] 버튼 Click - [신상복사] 메뉴 Click
-4) 대상 환자 정보가 적용된 새 차트번호 확인
-5) [저장] 버튼 Click 하여 신상복사 수행
-* 적용 대상 : 환자성명, 주민번호, 휴대전화, 생년월일, 전화번호, 메일주소, 우편번호, 주소, 문자수신 여부, 임산부 여부, 감염성질환자 여부
-</th>
-    </tr>
-</table>
 <span class="box jemu">원무</span> - 예약장부 모바일 예약 표시
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
