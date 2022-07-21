@@ -7,6 +7,198 @@ yearMonth: 2207
 
 <pre>
 
+<bold># 7/21 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 진료환불시 할인기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래수납 화면 참조
+2) [...] 버튼 Click - [진료환불] 메뉴 Click
+3) 진료환불 창에서 할인액이 적용된 진료비 수납 건 선택 후 [확인] 버튼 Click
+4) 수납상세 창 진료환불 정산 줄의 [감면구분], [할인액] 입력
+    - 변경 전 : [감면구분], [할인액] 입력 불가
+    - 변경 후 : [감면구분], [할인액] 입력 가능
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 수납대장.선수금조회 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수납대장.[선수금조회] 탭 참조
+2) [기본/상세] 검색 조건 추가
+3) [검색기간] 우측 '기간 내 내원한 환자를 대상으로 조회' 안내 문구 추가
+4) [전체선수조회] 선택 항목 추가
+    - 선택 해제 상태 :  [검색기간] 에 내원한 환자를 대상으로 선수금 내역 조회
+    - 선택 상태 : [검색기간] 관계없이 선수금 내역 조회
+</th>
+    </tr>
+</table>
+
+<span class="box chart">진료</span> - 상병 검색창 검색 제한 건수 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[상병검색] 창 참조
+2) 상병 검색 최대 건수 변경
+    - 변경 전 : 최대 200건
+    - 변경 후 : 최대 3000건
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 병명 삭제 시 프로그램 종료 증상
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료 화면 참조
+2) 상병창에서 Space Key 후 Enter Key 반복 수행 시 간헐적으로 프로그램 다운되는 증상 패치
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 변환자료인 경우 진료완료 시 오더기록 변경 제외
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료 화면 참조
+2) 변환 차트에서 오더 입력 후 [진료보류] 또는 [진료완료] 버튼 Click
+3) 변환자료인 경우 오더 변경 없음
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 묶음처방 진료과 '전체' 조건 추가  
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[Rt] 탭 참조
+2) [진료과] 항목 선택 후 [-전체-] 항목 선택 시 모든 진료과의 묶음처방 표시
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 진료이미지(작은그림) 서식 선택 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[대기] 탭 참조
+2) [서식목록] 항목에 모든 배경서식 목록 표시
+3) [서식목록] 선택 시 서식 불러오기 동작
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 외래진료.수납대기 ToolTip bug   
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[수납] 탭 참조
+2) 수납내역의 ToolTip 정보가 간헐적으로 불일치하는 오류 패치
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 외래진료.수납대기 표시 기준 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[수납] 탭 참조
+2) 수납내역 표시 대상 변경
+    - 변경 전 : 모든 수납 건 표시 (진료비, 미수/선수 등 )
+    - 변경 후 : 진료비 수납 건만 표시
+</th>
+    </tr>
+</table>
+
+<span class="box inspect">심사</span> - 특정내역 환자조회 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 우측 상단 [내역조회] 메뉴 Click - [특정내역 환자조회] 메뉴 Click
+2) 조회 창의 [검색] 버튼 Click 하여 특정내역 코드별 사용 현황 확인
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 명세서보기 기능 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[청구] 탭 참조
+2) [조회] 버튼 Click - 청구 내역의 [환자명] Cell Click
+3) 팝업된 명세서 정보 확인
+    - 변경 전 : [진료내역], [처방내역] 표시
+    - 변경 후 : [일반내역], [상병내역], [진료내역], [처방내역], [특정내역] 표시
+4) 불러오기 동작 변경
+    - 변경 전 : 명세서 창 표시 및 해당 차트 불러오기
+    - 변경 후 : 명세서 창 표시
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 수가정보 야간공휴가산안함 옵션 분리
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수가정보 화면 참조
+2) 상세정보의 [야간공휴가산안함] 항목 설정 분리
+    - 변경 전 : [야간공휴가산안함]
+    - 변경 후 : [야간가산안함], [공휴가산안함]
+3) 종전 [야간공휴가산안함] 에 설정된 경우 [야간가산안함], [공휴가산안함] 에 모두 설정됩니다.
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 의사 새로 저장시 도장 기본 등록 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 기준정보.[직원정보] 에서 새 직원 정보 입력 후 [저장] 버튼 Click
+2) 면허구분이 의사인 경우 직원명 기준으로 처방전 도장 자동 등록
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 의사 등록 시 주사용메뉴 기본 설정 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 기준정보.[직원정보] 에서 새 직원 정보 입력 후 [저장] 버튼 Click
+2) 면허구분이 의사인 경우 [주사용메뉴] 를 외래진료로 기본 설정
+</th>
+    </tr>
+</table>
+
+<span class="box other">통계</span> - 청구통계.월별청구통계 서식 출력 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 청구통계.[주별청구통계] 또는 [월별청구통계] 탭 참조
+2) [출력] 버튼 Click 하여 서식 확인
+</th>
+    </tr>
+</table>
+<span class="box other">통계</span> - 모바일 예약 인원 통계 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 인원통계.[예약통계] 탭 참조
+2) 예약현황 화면 구분 : [일자별], [연령별], [시간별], [요일별]
+3) 검색조건.[예약경로(프로그램/모바일)] 항목 선택하여 Filter 가능
+</th>
+    </tr>
+</table>
+<span class="box other">통계</span> - 기간별처방통계 투여량 오류 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 진료통계.[기간별처방통계] 탭 참조
+2) 퇴장방지의약품인 경우 [투여량] 항목 불일치 오류 패치
+</th>
+    </tr>
+</table>
+
+<span class="box notice">[고시]</span> 코로나 재택치료 청구방법 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 7월 11일 이후 외래진료 의료기관 주도형 수가(AH270 ~ AH277) 사용
+2) 차트 저장 시 '7월 11일 이후 코로나 격리 통보를 받은 확진 환자입니까?' 확인 메시지 팝업
+    - 7/31까지만 팝업
+3) 7월 11일 이후 확진 환자인 경우 본인부담금 발생
+    - U071 상병 사용 시 조제 시 참고 사항에 [코로나19확진] 수록
+    - U071 상병 미사용 시 조제 시 참고 사항에 [코로나19] 수록
+4) 7월 10일 이전 확진 환자인 경우 본인부담금 미발생
+    - 외래진료센터인 경우 조제 시 참고 사항에 [T/외래진료센터] 수록
+    - 외래진료센터가 아닐 경우 조제 시 참고 사항에 [H/재택치료] 수록
+</th>
+    </tr>
+</table>
+<span class="box notice">[고시]</span> (의료기관 주도형) 재택치료 환자관리료 청구 방법
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 7월 11일 이후 외래진료 의료기관 주도형 수가(AH225 ~ AH232) 사용
+2) 차트 저장 시 '7월 11일 이후 코로나 격리 통보를 받은 확진 환자입니까?' 확인 메시지 팝업
+    - 7/31까지만 팝업
+3) 7월 11일 이후 확진 환자인 경우 조제 시 참고 사항에 [코로나19확진] 수록
+4) 7월 10일 이전 확진 환자인 경우 조제 시 참고 사항에 [H/재택치료] 수록
+</th>
+    </tr>
+</table>
 <bold># 7/6 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 수납대장 진료비 0원 수납 표시 옵션 기능 추가
