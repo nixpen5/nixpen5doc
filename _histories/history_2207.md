@@ -7,6 +7,23 @@ yearMonth: 2207
 
 <pre>
 
+<bold># 7/30 배포</bold>
+=====================
+<span class="box notice">[고시]</span> 2022년 8월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 8월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 8월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
+<bold># 7/29 배포</bold>
+=====================
+<span class="box notice">[고시]</span> 코로나19 원스톱 진료기관 통합진료료
+
+ 
+<bold># 7/28 배포</bold>
+=====================
+<span class="box inspect">심사</span> - JT014 특정내역 미발생 오류 수정
+
+
 <bold># 7/21 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 진료환불시 할인기능 추가
@@ -199,6 +216,7 @@ yearMonth: 2207
 </th>
     </tr>
 </table>
+
 <bold># 7/6 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 수납대장 진료비 0원 수납 표시 옵션 기능 추가
