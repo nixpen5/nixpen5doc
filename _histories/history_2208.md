@@ -7,6 +7,12 @@ yearMonth: 2208
 
 <pre>
 
+<bold># 8/17 배포</bold>
+=====================
+<span class="box chart">[진료]</span> - U07.1 상병 사용시 처방전 조제시 참고사항에 코로나19 출력 기능 추가
+<span class="box other">[KIOSK 5.0]</span> - 키오스크에서 SRP770 접수증 출력 기능 추가
+
+
 <bold># 8/4 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 외래접수시 DRG 산정구분 적용룰 변경
