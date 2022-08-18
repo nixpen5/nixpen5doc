@@ -7,9 +7,14 @@ yearMonth: 2208
 
 <pre>
 
+<bold># 8/18 배포</bold>
+=====================
+<span class="box chart">진료</span> - 수가정보 산정기준 기준일수 점검 동작 bug 패치
+
+
 <bold># 8/17 배포</bold>
 =====================
-<span class="box chart">[진료]</span> - U07.1 상병 사용시 처방전 조제시 참고사항에 코로나19 출력 기능 추가
+<span class="box chart">진료</span> - U07.1 상병 사용시 처방전 조제시 참고사항에 코로나19 출력 기능 추가
 <span class="box other">[KIOSK 5.0]</span> - 키오스크에서 SRP770 접수증 출력 기능 추가
 
 
