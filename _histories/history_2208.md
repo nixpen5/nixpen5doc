@@ -7,6 +7,13 @@ yearMonth: 2208
 
 <pre>
 
+<bold># 8/25 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 입원 현금영수증 승인 동작 변경
+<span class="box jemu">원무</span> - 수납대장 클래식 SQL 출력 기능 추가
+<span class="box inspect">심사</span> - 낮병동 특정내역창에서 입원일자 기본 수록
+
+
 <bold># 8/18 배포</bold>
 =====================
 <span class="box chart">진료</span> - 수가정보 산정기준 기준일수 점검 동작 bug 패치
