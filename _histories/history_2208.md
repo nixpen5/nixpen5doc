@@ -7,6 +7,13 @@ yearMonth: 2208
 
 <pre>
 
+<bold># 8/31 배포</bold>
+=====================
+<span class="box notice">[고시]</span> 2022년 9월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 9월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 9월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 8/25 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 입원 현금영수증 승인 동작 변경
