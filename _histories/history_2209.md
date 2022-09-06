@@ -7,6 +7,11 @@ yearMonth: 2209
 
 <pre>
 
+<bold># 9/6 배포</bold>
+=====================
+<span class="box inspect">심사</span> - 시설공동사용 수가 추가청구 bug 패치
+
+
 <bold># 9/2 배포</bold>
 =====================
 <span class="box inspect">심사</span> - 대면진료 MT043 특정내역 발생 오류 수정
