@@ -14,9 +14,11 @@ yearMonth: 2209
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 사용자설정.[예약설정] 화면 참조
 2) [예약시간 단위 구분선 보기] 항목 선택 후 [구분선 단위(30분/60분)] 설정
+
 <a href="/images{{page.url}}/1.jpg" target="_blank"><img src="/images{{page.url}}/1.jpg" alt="" /></a>[ 예약시간 단위 구분선 설정 화면 ]
 
 3) 예약 화면에서 구분선 표시 적용 확인
+
 <a href="/images{{page.url}}/2.jpg" target="_blank"><img src="/images{{page.url}}/2.jpg" alt="" /></a>[ 예약시간 단위 구분선 표시 화면 ]
 </th>
     </tr>
@@ -29,6 +31,7 @@ yearMonth: 2209
 3) 키오스크 수납 건인 경우 [구분] 항목에 '키오스크' 표시
 4) 키오스크 수납 건인 경우에도 환불 가능하도록 기능 지원
     - 단, 대상이 단 건 수납인 경우에만 환불 대상으로 선택 가능
+
 <a href="/images{{page.url}}/3.jpg" target="_blank"><img src="/images{{page.url}}/3.jpg" alt="" /></a>[ 진료환불창에 키오스크 표시 화면 - 단건 ]
 
 <a href="/images{{page.url}}/4.jpg" target="_blank"><img src="/images{{page.url}}/4.jpg" alt="" /></a>[ 진료환불창에 키오스크 표시 화면 - 다건 ]
@@ -73,9 +76,11 @@ yearMonth: 2209
 <th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.[수납대기] 화면 참조
 2) 수납 내역 선택 후 [상세수납] 버튼 Click
 3) 대상 일자에 다른 수납 건이 존재하는 경우 우측 상단에 [일자 별 수납 건수] 버튼 표시
+
 <a href="/images{{page.url}}/5.jpg" target="_blank"><img src="/images{{page.url}}/5.jpg" alt="" /></a>[ 일자별 수납 건수 표시 화면 ]
 
 4) [일자 별 수납 건수] 버튼 Click 하여 수납 내역 창 팝업
+
 <a href="/images{{page.url}}/6.jpg" target="_blank"><img src="/images{{page.url}}/6.jpg" alt="" /></a>
 [ 일자별 수납내역 창 화면 ]
 
@@ -263,6 +268,7 @@ yearMonth: 2209
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 소견서.[갑상선 초음파 판독 소견서] 화면 참조
+
 <a href="/images{{page.url}}/7.png" target="_blank"><img src="/images{{page.url}}/7.png" alt="" /></a>[ 갑상선 초음파 판독 소견서 화면 ]
 </th>
     </tr>
@@ -271,6 +277,7 @@ yearMonth: 2209
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 진단서.[근로능력평가용진단서(개정:2019.10.23)] 화면 참조
+
 <a href="/images{{page.url}}/8.png" target="_blank"><img src="/images{{page.url}}/8.png" alt="" /></a>[ 근로능력평가용진단서(개정:2019.10.23)] 화면 ]
 </th>
     </tr>
@@ -287,6 +294,7 @@ yearMonth: 2209
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 소견서.[경부 초음파 판독 소견서] 화면 참조
+
 <a href="/images{{page.url}}/9.png" target="_blank"><img src="/images{{page.url}}/9.png" alt="" /></a>[ 경부 초음파 판독 소견서 화면 ]
 </th>
     </tr>
@@ -398,7 +406,6 @@ yearMonth: 2209
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 수입통계.[외래진료현황] 탭 참조
 2) 추가 항목 : [초재진구분], [최초내원일], [전화번호], [우편번호], [주소]
-6) 속성 창에서 야간 등 설정한 경우, 사용자 설정 값 우선 적용
 </th>
     </tr>
 </table>
@@ -408,7 +415,6 @@ yearMonth: 2209
 <th style=" border-spacing: 5px; font-weight: normal">1) 기본자료.[수가정보] 화면 참조
 2) [검사정보] 탭 Click 후 [검사결과 참고내용] 항목 입력
 3) 검사결과 화면에서 대상 수가 Mouse Over 하여 참고내용 확인
-6) 속성 창에서 야간 등 설정한 경우, 사용자 설정 값 우선 적용
 </th>
     </tr>
 </table>
@@ -418,7 +424,6 @@ yearMonth: 2209
 <th style=" border-spacing: 5px; font-weight: normal">1) 기본자료.[수가정보] 화면 참조
 2) [검사정보] 탭 Click 후 [정상치] 항목 우측 [...] 버튼 Click
 3) 참고치 정보 창에서 적용기준.[남여/오전오후] 을 설정하여 정상치 기준 관리
-6) 속성 창에서 야간 등 설정한 경우, 사용자 설정 값 우선 적용
 </th>
     </tr>
 </table>
@@ -428,7 +433,6 @@ yearMonth: 2209
 <th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.[기본] 화면 참조
 2) [당일 수납 완료 시 증명서 출력 허용] 항목 선택 후 [증명서] 메뉴 Click
 3) 일자 기준 완료하지 않은 수납 건이 존재하는 경우 [증명서 출력] 불가
-6) 속성 창에서 야간 등 설정한 경우, 사용자 설정 값 우선 적용
 </th>
     </tr>
 </table>
@@ -440,7 +444,6 @@ yearMonth: 2209
     - D6801136(급여) : 환자 본인부담금 면제 (전액 공단 부담)
     - D6801136(전액본인부담) : 환자 전액 본인부담
 3) 해당 검사 수가 사용시 자동 분리 청구
-6) 속성 창에서 야간 등 설정한 경우, 사용자 설정 값 우선 적용
 </th>
     </tr>
 </table>
