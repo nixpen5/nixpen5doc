@@ -7,6 +7,8 @@ yearMonth: 2209
 
 <pre>
 
+<bold># 9/28 배포</bold>
+
 <bold># 9/15 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 환자명 공백 존재시 외래진료비 영수증 출력 bug 패치
