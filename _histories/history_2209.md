@@ -7,8 +7,20 @@ yearMonth: 2209
 
 <pre>
 
-<bold># 9/28 배포</bold>
+<bold># 9/30 배포</bold>
+=====================
+<span class="box notice">[고시]</span> 2022년 10월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 10월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 10월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
+
+<bold># 9/29 배포</bold>
+=====================
+<span class="box other">주사실</span> - 주사처방전 X05-40d 프린터 모델 출력 기능 추가
+
+
+<bold># 9/28 배포</bold>
+=====================
 <span class="box jemu">원무</span> - 예약시간 단위 구분선 보기 옵션 기능 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
