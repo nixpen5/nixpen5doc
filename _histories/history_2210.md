@@ -173,7 +173,7 @@ yearMonth: 2210
     </tr>
 </table>
 
-<span class="box other">인터페이스</span> - 아름누리 연동 기능 추가
+<span class="box other">[Interface]</span> - 아름누리 연동 기능 추가
 
 
 <bold># 10/7 배포</bold>
