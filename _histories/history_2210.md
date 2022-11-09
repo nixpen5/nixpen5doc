@@ -7,6 +7,13 @@ yearMonth: 2210
 
 <pre>
 
+<bold># 10/31 배포</bold>
+==================== 
+<span class="box notice">[고시]</span> 2022년 11월 수가 등록 (자동 실행) 
+<span class="box notice">[고시]</span> 2022년 11월 약가 등록 (자동 실행) 
+<span class="box notice">[고시]</span> 2022년 11월 치료재료툴 (바로가기.공지사항.미설치툴 참조) 
+
+
 <bold># 10/19</bold>
 =====================
 <span class="box jemu">원무</span> - 영수증에 카드번호, 승인번호 출력 기능 추가
