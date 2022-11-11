@@ -9,6 +9,52 @@ yearMonth: 2210
 
 <bold># 10/31 배포</bold>
 ==================== 
+<span class="box lab">검사실</span> - 바코드 순서번호 출력 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 검사실 화면 참조
+2) 상단 [검사관리] 버튼 Click 후 [라벨 출력 설정] 메뉴 선택
+3) 검사 라벨출력 설정 창에서 [순서] 출력 항목 선택 후 [저장] 버튼 Click
+4) 환자 불러오기 후 [라벨 출력] 버튼 Click
+5) 검사 라벨지 우측 하단의 [오더순서] 확인
+</th>
+    </tr>
+</table>
+<span class="box lab">검사실</span> - 엑셀내보내기 기능 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 검사실 화면 참조
+2) 상단 [검사관리] 버튼 Click 후 [검사실코드 관리] 메뉴 선택
+3) 검사실 코드 그룹 목록 우측 [...] 버튼 Click 후 [엑셀 내보내기] 메뉴 선택
+4) [그룹코드] 항목 추가 확인
+</th>
+    </tr>
+</table>
+<span class="box lab">검사실</span> - 바코드매수 자동 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 검사실 화면 참조
+2) 환자 불러오기 후 출력매수.[자동] 항목 선택 - [라벨 출력] 버튼 Click
+3) 오더그룹 개수 기준 검사 라벨지 출력
+4) 재출력 또는 오더그룹 부재 시 기본 1매 출력
+</th>
+    </tr>
+</table>
+<span class="box lab">방사선실</span> - PACS 명칭 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.[PACS] 화면 참조
+2) 명칭 옵션.[기본 명칭 형식] 항목 추가
+    - 기존 항목 : 수가명_촬영방법
+    - 추가된 항목 : 그룹명_오더명_촬영방법
+3) 명칭 옵션.[US, ES 명칭 형식] 항목 추가
+    - 기존 항목 : 수가명_수가코드_촬영방법, 수가코드_수가명_촬영방법
+    - 추가된 항목 : 그룹명_오더명_촬영방법
+</th>
+    </tr>
+</table>
+<span class="box other">인터페이스</span> - 메디컬스탠다스 ResOrderTab방식 PACS 인터페이스
+
 <span class="box notice">[고시]</span> 2022년 11월 수가 등록 (자동 실행) 
 <span class="box notice">[고시]</span> 2022년 11월 약가 등록 (자동 실행) 
 <span class="box notice">[고시]</span> 2022년 11월 치료재료툴 (바로가기.공지사항.미설치툴 참조) 

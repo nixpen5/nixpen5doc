@@ -96,4 +96,61 @@ yearMonth: 2211
 ===================== 
 <span class="box notice">[고시]</span> 2022년 11월 2차 약가 등록 (자동 실행) 
 
+<bold># 11/03 배포</bold>
+===================== 
+<span class="box jemu">원무</span> - 재접수시 확인창
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수 화면에서 환자 불러오기 후 [접수] 버튼 Click
+2) 접수창에서 [접수] 버튼 Click
+3) 동일한 의사로 접수한 건이 존재하는 경우 재접수 진행 확인 창 팝업
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 접수구분 검진연동시 일반적용 옵션 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.[접수] 화면 참조
+2) 초재진.[접수구분 검진 연동 시 일반 적용] 항목 선택 후 [저장] 버튼 Click
+3) 외래접수 화면에서 환자 불러오기 후 [접수] 버튼 Click
+4) 접수창에서 [검진연동] 에 해당하는 접수구분을 선택 시 보험유형.[일반] 자동 선택
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 외래접수 대기자를 보류로 변경 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.[진료대기] 탭 참조
+2) 대기 목록 Right Click 하여 [진료진행상태 변경] 메뉴 선택
+    - 진료 보류 상태 : [진료대기] 상태로 변경하는 메뉴 표시
+    - 진료 대기 상태 : [진료보류] 상태로 변경하는 메뉴 표시
+</th>
+    </tr>
+</table>
+
+<span class="box chart">진료</span> - '-전체-' 선택한 상태에서 묶음 편집 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료.[Rt] 화면 참조
+2) [진료과] 또는 [의사] 항목이 '전체' 로 선택되어 있는 경우 묶음 편집 오류 패치
+</th>
+    </tr>
+</table>
+
+<span class="box inspect">심사</span> - 요일반검사 체크시 서비스 제외
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래진료 화면 참조
+2) 본인부담구분.[서비스] 가 아닌 수가를 기준으로 요일반검사 적용하도록 기능 변경
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 인슐린 원외주사 처방 시 총처방일수 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 인슐린 원외처방일수가 총처방일수에 반영되도록 오류 패치
+</th>
+    </tr>
+</table>
+
 </pre>
