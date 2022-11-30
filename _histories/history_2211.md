@@ -7,8 +7,15 @@ yearMonth: 2211
 
 <pre>
 
-<bold># 11/24 배포</bold>
+<bold># 11/30 배포</bold>
+=====================
+<span class="box notice">[고시]</span> 2022년 12월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 12월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2022년 12월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
 
+
+<bold># 11/24 배포</bold>
+=====================
 <span class="box jemu">원무</span> - 제약회사별 처방 통계 전체 출력 기능 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
@@ -293,8 +300,9 @@ yearMonth: 2211
 </table>
 <span class="box notice">[고시]</span> 2023년 점수당단가 / 공휴일
 
-<bold># 11/10 배포</bold>
 
+<bold># 11/10 배포</bold>
+=====================
 <span class="box chart">진료</span> - 수납대기 목록에 0원 수납 표시 옵션 기능 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
@@ -381,6 +389,7 @@ yearMonth: 2211
 <bold># 11/08 배포</bold>
 ===================== 
 <span class="box notice">[고시]</span> 2022년 11월 2차 약가 등록 (자동 실행) 
+
 
 <bold># 11/03 배포</bold>
 ===================== 
