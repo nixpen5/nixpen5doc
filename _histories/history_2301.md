@@ -270,7 +270,7 @@ yearMonth: 2301
     </tr>
 </table>
 
-<span class="box lab">검사실</span> - 참고지2만 존재할 경우 판정 표시 기능 추가
+<span class="box lab">검사실</span> - 참고치2만 존재할 경우 판정 표시 기능 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
     <tr>
 <th style=" border-spacing: 5px; font-weight: normal">1) 검사실.[검사 결과] 탭 참조
