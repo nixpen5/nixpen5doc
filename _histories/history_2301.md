@@ -4,6 +4,16 @@ menuTitle: 2023년 1월
 historyHome: 0
 yearMonth: 2301
 ---
+
+<pre>
+
+<bold>#  1/31 배포</bold>
+=====================
+<span class="box notice">[고시]</span> 2023년 2월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2023년 2월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2023년 2월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+</pre>
+
 <pre>
 
 <bold># 01/26 배포</bold>
