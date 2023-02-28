@@ -16,7 +16,7 @@ yearMonth: 2301
 
 <pre>
 
-<bold># 01/26 배포</bold>
+<bold># 1/26 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 물리치료 리피트시 수량 리피트 추가
 <table style="width:100%; margin-bottom: 0; margin-top: 10px;">
