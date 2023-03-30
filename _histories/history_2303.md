@@ -7,6 +7,139 @@ yearMonth: 2303
 
 <pre>
 
+<bold># 3/30 배포</bold>
+=====================
+<span class="box jemu">원무</span> - 미수금발생내역조회창에서 수납자 검색 조건 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수납대장.[미수금발생내역조회] 탭 참조
+2) 검색조건.[수납자] 항목 추가
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 마감장 수납자 다중 선택 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수납대장.[마감장] 탭 참조
+2) 검색조건.[수납자] 항목 다건 선택 가능하도록 기능 변경
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 전달메모 삭제기능
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 전달메모 창 참조
+2) 메모 우측 상단 [작성자명] 추가 표시
+3) 모든 사용자가 메모 삭제 가능하도록 기능 변경
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 외래수납 0원수납 일괄수납 기능 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.[수납대기] 탭 참조
+2) 대기자 Right Click - [수납대상액 0원 일괄 수납] 메뉴 선택
+3) 진료비총액이 발생하지 않은 0원 수납 건만 수납 처리
+</th>
+    </tr>
+</table>
+<span class="box jemu">원무</span> - 똑닥 이중접수 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 외래접수.[진료대기] 탭 참조
+2) 동일한 똑닥 접수 건이 중복 생성될 수 있는 오류 패치
+</th>
+    </tr>
+</table>
+
+<span class="box chart">진료</span> - DUR 병용금기 점검결과가 정보성일경우 사유 입력 동작 변경
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) DUR 점검 결과 창 참조
+2) 병용금기 의약품 점검 결과 확인 후 [확인] 버튼 Click
+3) 정보성 점검인 경우 사유 입력 생략
+</th>
+    </tr>
+</table>
+<span class="box chart">진료</span> - 수가검색창에서 포커싱 위치가 일정하지 않는 bug
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 약수가 검색 창 참조
+2) 간헐적으로 검색조건.[청구코드] 에 포커싱되는 오류 패치
+</th>
+    </tr>
+</table>
+
+<span class="box inspect">심사</span> - 특정상병환자조회창 상병범위 지정 기능 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 특정상병 환자 조회 창 참조
+2) 상병 범위를 지정할 수 있도록 검색 조건에 [상병시작코드], [상병종료코드] 항목 추가
+
+<a href="/images{{page.url}}/10.jpg" target="_blank"><img src="/images{{page.url}}/10.jpg" alt=""></a><br/>[ 특정상병환자조회창 화면 ]
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - 특정상병환자조회창 조회결과에 특정내역 항목 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 특정상병 환자 조회 창 참조
+2) 상병 별 환자 검색 결과에 [특정내역] 항목 추가
+</th>
+    </tr>
+</table>
+<span class="box inspect">심사</span> - IA101 특정내역 미수록
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 청구 확인 창 참조
+2) 의뢰수가(예. IA101)에 대한 특정내역이 발생되지 않는 오류 패치
+</th>
+    </tr>
+</table>
+
+<span class="box other">통계</span> - 항목별진료실적통계 초음파 검색 오류
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 수입통계.[항목별 진료실적 통계 - 진료의] 탭 참조
+2) 검색 결과에 초음파수가(예. EB401)가 집계되지 않는 오류 패치
+</th>
+    </tr>
+</table>
+
+<span class="box other">WaitCall</span> - 진료실 3개 템플릿 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.[템플릿] 탭 참조
+2) [13. 진료실x3 (미디어 없음)] 템플릿 선택 후 [저장] 버튼 Click
+3) 대기자콜 재실행
+
+<a href="/images{{page.url}}/11.png" target="_blank"><img src="/images{{page.url}}/11.png" alt=""></a><br/>[ 진료실 3개 템플릿 추가 화면 ]
+</th>
+    </tr>
+</table>
+<span class="box other">WaitCall</span> - 진료실 4개 템플릿 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.[템플릿] 탭 참조
+2) [14. 진료실x4 (미디어 없음)] 템플릿 선택 후 [저장] 버튼 Click
+3) 대기자콜 재실행
+
+<a href="/images{{page.url}}/12.png" target="_blank"><img src="/images{{page.url}}/12.png" alt=""></a><br/>[ 진료실 4개 템플릿 추가 화면 ]
+</th>
+    </tr>
+</table>
+<span class="box other">WaitCall</span> - 진료실 1개 DID 템플릿 추가
+<table style="width:100%; margin-bottom: 0; margin-top: 10px;">
+    <tr>
+<th style=" border-spacing: 5px; font-weight: normal">1) 환경설정.[템플릿] 탭 참조
+2) [10. 하단 2열 진료실x1] 템플릿 선택 후 [저장] 버튼 Click
+3) 대기자콜 재실행
+
+<a href="/images{{page.url}}/13.png" target="_blank"><img src="/images{{page.url}}/13.png" alt=""></a><br/>[ 진료실 1개 DID 템플릿 추가 화면 ]
+</th>
+    </tr>
+</table>
+
 <bold># 3/7 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 예약창 전화예약 우클릭 접수 메뉴 동작 bug 
