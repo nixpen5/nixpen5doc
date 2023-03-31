@@ -7,6 +7,13 @@ yearMonth: 2303
 
 <pre>
 
+<bold># 3/31 배포</bold>
+=====================
+<span class="box notice">[고시]</span> 2023년 4월 약가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2023년 4월 수가 등록 (자동 실행)
+<span class="box notice">[고시]</span> 2023년 4월 치료재료툴 (바로가기.공지사항.미설치툴 참조)
+
+
 <bold># 3/30 배포</bold>
 =====================
 <span class="box jemu">원무</span> - 미수금발생내역조회창에서 수납자 검색 조건 추가
@@ -139,6 +146,7 @@ yearMonth: 2303
 </th>
     </tr>
 </table>
+
 
 <bold># 3/7 배포</bold>
 =====================
