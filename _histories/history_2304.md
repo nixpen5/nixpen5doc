@@ -93,8 +93,7 @@ yearMonth: 2304
 <table class="imgBox">
     <td class="imgBox">
         <a href="/images{{page.url}}/6.png" target="_blank">
-            <img class="minCenterSmall" src="/images{{page.url}}/6.png"
-            style="width:240px">
+            <img class="minCenterSmall" src="/images{{page.url}}/6.png">
         </a>
     </td>
 </table>
