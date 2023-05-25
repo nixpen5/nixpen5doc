@@ -7,6 +7,79 @@ yearMonth: 2305
 
 <br>
 
+<input type="text" name="t" id="title-input" value="5월 25일 (목)" autofocus readonly>
+
+<br>
+
+## 새로운 기능
+
+- 진료 - 접수메모 및 특이사항 표시 옵션 지원
+    - 진료업무 사용자 설정에서 **접수메모 및 특이사항 보기** 옵션을 설정합니다.
+    - 상병이 아닌 특이증상 우측으로 표시 **위치** 를 변경할 수 있습니다.
+    - 좌우가 아닌 상하 보기로 표시 **형태** 를 지정할 수 있습니다.
+
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/7.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/7.png">
+        </a>
+    </td>
+</table>
+
+- 캡처매니저 - 윈도우 및 전체 화면 캡쳐 기능 추가
+    - 윈도우 캡처 `Win(dow) Capture` : 모니터에 표시된 창 중 대상을 지정하여 캡처합니다.
+    - 전체 화면 캡처 `Screen Capture` : 모니터 영역을 캡처합니다.
+
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/8.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/8.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+## 개선된 기능
+
+- 원무 - 신상기록부 **가입자, 관계, 사업장기호, 증번호, 오늘 일자** 출력 기능 추가
+
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/9.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/9.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 미수차감 수납 건을 **진료환불** 할 수 있도록 기능 확장
+- 원무 - 진료환불 수납 줄 선택 시 환불 대상 수납 건의 **구분** 을 확인할 수 있도록 기능 보완
+
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/10.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/10.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 수가, 상병 코드 기준 묶음처방 검색 기능 지원
+- 진료 - 스캔 창에서 선택한 파일을 대상으로 **일괄 삭제** 가 가능하도록 기능 변경
+- 심사 - 1세 미만 환자인 경우 특정내역 `F024` 이 처방전에 표시되지 않도록 기능 보완
+
+<br>
+
+## 수정된 오류
+
+- 원무 - 입원 수납 시 납부하지 않은 금액 항목에 온라인 금액이 반영되지 않는 오류
+- 원무 - 입원 영수증에 질병군 `DRG` 번호가 표시되지 않는 오류
+
+<br>
+
+<input type="text" name="t" id="title-input" value="5월 11일 (목)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 심사 - 5/29(월) 석가탄신일 대체공휴일 적용
