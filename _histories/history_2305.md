@@ -7,6 +7,19 @@ yearMonth: 2305
 
 <br>
 
+<input type="text" name="t" id="title-input" value="5월 31일 (수)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2023년 6월 약가툴 (자동 실행)
+- 고시 - 2023년 6월 수가툴 (자동 실행)
+- 고시 - 2023년 6월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+- [고시 - 2023년 6월 코로나19 건강보험 수가 연장·종료 안내](/docs/main13/sub23/page1)
+
+<br>
+
 <input type="text" name="t" id="title-input" value="5월 25일 (목)" autofocus readonly>
 
 <br>
