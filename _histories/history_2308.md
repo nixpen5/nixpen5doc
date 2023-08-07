@@ -108,14 +108,6 @@ yearMonth: 2308
 
 - 원무 - 환자 **주민번호**, **우편번호** 를 복사 `Ctrl + C` 할 수 있도록 기능 확장
 - 원무 - 처방전 바코드가 원활하게 인식되도록 크기 확대
-<table class="imgBox">
-    <td class="imgBox">
-        <a href="/images{{page.url}}/8.png" target="_blank">
-            <img class="minCenterSmall" src="/images{{page.url}}/8.png">
-        </a>
-    </td>
-</table>
-
 - 원무 - 병원 기준정보에서 **팩스번호** 최대 12자리 입력할 수 있도록 기능 확장
 - 원무 - 차트 기록지 입퇴원 시간 출력 기능 지원
     - 차트 출력 창에서 **입원 시간, 퇴원 시간** 항목을 출력 대상으로 설정합니다.
