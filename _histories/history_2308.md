@@ -7,6 +7,233 @@ yearMonth: 2308
 
 <br>
 
+<input type="text" name="t" id="title-input" value="8월 29일 (화)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 수진자 자격 조회 시 비대면 진료 대상자 정보 표시 기능 추가
+    - 자격 조회 시 ① 섬·벽지 거주 여부, ② 65세 이상 장기요양 등급 판정 여부, ③ 장애인 여부 를 확인할 수 있습니다.
+    - 자격 조회 창의 **특이사항 내역** 에 `비대면 진료 대상자` 여부가 표시됩니다. (2023년 9월 1일부터)
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/23.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/23.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+## 새로운 기능
+
+- 원무 - 차트 기록 창 팝업 시 항상 열림 옵션 기능 추가
+    - 차트 보기 사용자 설정에서 **차트 보기 창 팝업 시 항상 열림** 옵션을 설정합니다.
+    - 차트 기록 창을 팝업한 상태에서 환자 정보를 불러올 수 있습니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/24.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/24.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 월간 예약 시간 별 현황 보기 기능 추가
+    - 예약 환경 설정에서 **시간 별 현황 보기** 옵션을 설정합니다.
+    - 시간 별 최대 예약 건수 `TOT` 와 실제 예약 건수 `CNT`, 예약 내역을 표시합니다.
+    - 대상 **시간** 더블 클릭 시 예약을 바로 입력할 수 있습니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/25.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/25.png">
+        </a>
+    </td>
+</table>
+<span style="color:#696868; padding-left: 30px;">▼ 시간 별 현황 설정 창에서 **과 별 표시 시간 간격**, **요일 별 진료 시간** 을 설정합니다.</span>
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/26.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/26.png">
+        </a>
+    </td>
+</table>
+<span style="color:#696868; padding-left: 30px;">▼ 비번 설정 창에서 **과 별 비번 일정** 을 관리할 수 있습니다.</span>
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/27.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/27.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 월간 예약 현황 표시 옵션 추가
+    - 예약 환경 설정에서 **예약 현황 위치** 옵션을 설정합니다.
+    - 달력 좌측이 아닌 우측으로 표시 **위치** 를 변경할 수 있습니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/28.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/28.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 펜차트 자동 서식 기능 추가
+    - 환자 불러오기 후 펜차트 작성 화면 우클릭 시 **자동 서식** 이 표시됩니다.
+    - 자동 서식 중 필요한 **환자 정보, 병원 정보** 를 서식지에 위치시킵니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/29.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/29.png">
+        </a>
+    </td>
+</table>
+
+<span style="color:#696868; padding-left: 30px;"> ▼ **자동 서식 설정 저장** 후 펜차트 새 작성 시 대상 자동 서식 값을 자동으로 불러옵니다. </span>
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/30.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/30.png">
+        </a>
+    </td>
+</table>
+<span style="color:#696868; padding-left: 30px;"> ▲ 자동 서식은 서식 별로 설정할 수 있으며, **자동 서식 설정 삭제** 로 설정을 초기화할 수 있습니다. </span>
+
+- 진료 - 펜차트 화면 배율 옵션 기능 추가
+    - 화면 설정에서 펜차트 화면 배율 **100, 130, 150, 180** `%` 을 변경할 수 있습니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/31.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/31.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 차트뷰어 **EMR** 기능 추가
+    - 펜차트 환경 설정에서 **펜차트 사용** 및 **업로드 경로** 옵션을 설정합니다.
+    - 환자에 대한 **펜차트 기록** 을 작성 및 조회합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/32.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/32.png">
+        </a>
+    </td>
+</table>
+
+- 방사선실 - HiPACS 연동 지원
+    - PACS 환경설정에서 **HiPACS** 를 설정합니다.
+    - PACS 로컬설정에서 **기본 값** 을 선택하여 파라미터를 설정할 수 있습니다.
+- 랩뷰어 - 차트뷰어 **EMR** 기능 추가
+    - 환경 설정에서 화면 구성 **펜차트**, **EMR** 설정 시 펜차트 기록을 작성 및 조회할 수 있습니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/33.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/33.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+## 개선된 기능
+
+- 원무 - 예약 바로 가기 기능 추가
+    - 접수 및 진료 화면에서 **예약** 툴 버튼을 설정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/34.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/34.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 예약 장부 툴 버튼 설정 기능 추가
+    - 예약 화면에서 **예약 바로가기** 툴 버튼을 설정합니다. 
+    - 툴 버튼을 우클릭하여 바로가기 대상 예약과 또는 예약 의사를 지정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/35.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/35.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 산부인과 차트의 **임신 주수** 더블 클릭 시 펼침 접힘 동작이 되도록 기능 지원
+    - 전처방 사용자 설정에서 **산부인과 차트 보기** 옵션을 설정합니다.
+    - 환자 불러오기 시 전처방 하단에 산부인과 차트가 표시됩니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/36.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/36.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 산부인과 차트의 **EDC, LMP, PMP, LD** 에서 일자 선택 창 팝업 없이 직접 입력할 수 있도록 기능 확장
+- 진료 - 산부인과 차트의 **Para** 입력 시 다음 순서로 자동 포커싱 되도록 기능 지원
+- 진료 - 환자 **임신 주수** 표시 옵션 기능 추가
+    - 기본 사용자 설정에서 환자 **임시 주수 표시 사용** 옵션을 설정합니다.
+    - 환자 불러오기 시 성별 나이 우측에 임신 주수가 표시됩니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/37.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/37.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 펜차트 상용구 간단 입력 기능 추가
+    - 펜차트 **상용구 관리** 창에서 자주 쓰는 메모를 등록합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/38.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/38.png">
+        </a>
+    </td>
+</table>
+<span style="color:#696868; padding-left: 30px;">▼ 펜차트 작성 화면에서 우클릭 시 상용구를 바로 입력할 수 있도록 자료가 표시됩니다.</span>
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/39.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/39.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 실시부서 상태를 기호 `<`, `>` 가 아닌 약어 `지(시)`, `완(료)` 로 표시하는 옵션 지원
+    - 실시부서 환경 설정에서 **오더 진행 상태 표시** 옵션을 설정합니다.
+    - 약어 설정 시 대기자 내역의 실시부서가 영문 `L`, `X`, `P`, `E` 이 아닌 한글 `검(사실)`, `방`, `물`, `검(안실)` 로 표시됩니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/40.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/40.png">
+        </a>
+    </td>
+</table>
+
+- 진단서 - `병무용 진단서` 개정 서식 적용
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/41.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/41.png">
+        </a>
+    </td>
+</table>
+
+- 진단서 - `당뇨병 환자 소모성 재료 처방전` 개정 서식 적용
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/42.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/42.png">
+        </a>
+    </td>
+</table>
+<br>
+
+<input type="text" name="t" id="title-input" value="8월 7일 (월)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 고시 - 2023년 8월 약가툴 (자동 실행)
