@@ -7,6 +7,18 @@ yearMonth: 2308
 
 <br>
 
+<input type="text" name="t" id="title-input" value="8월 30일 (수)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- [고시 - 2023년 8월 31일 코로나19 4급 전환에 따른 수가 연장·종료 적용](/docs/main13/sub23/page3)
+- 고시 - 2023년 8월 31일 코로나19 신속항원(RAT) 검사 변경
+- 고시 - 2023년 9월 1일 비대면진료 시범사업 관리료 삭제
+
+<br>
+
 <input type="text" name="t" id="title-input" value="8월 29일 (화)" autofocus readonly>
 
 <br>
