@@ -7,6 +7,18 @@ yearMonth: 2308
 
 <br>
 
+<input type="text" name="t" id="title-input" value="8월 31일 (목)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2023년 9월 약가툴 (자동 실행)
+- 고시 - 2023년 9월 수가툴 (자동 실행)
+- 고시 - 2023년 9월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+
+<br>
+
 <input type="text" name="t" id="title-input" value="8월 30일 (수)" autofocus readonly>
 
 <br>
