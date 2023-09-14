@@ -7,6 +7,98 @@ yearMonth: 2309
 
 <br>
 
+<input type="text" name="t" id="title-input" value="9월 14일 (목)" autofocus readonly>
+
+<br>
+
+## 새로운 기능
+
+- 진료 - 펜차트 툴 설정 기능 추가
+    - 펜차트 화면에서 **툴 버튼** 을 설정합니다.
+    - 자주 사용하지 않는 그리기 도구를 숨길 수 있습니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/17.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/17.png">
+        </a>
+    </td>
+</table>
+
+- 진단서 - `위 내시경 결과 기록지` 서식 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/18.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/18.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+## 개선된 기능
+
+- 원무 - 예약 내역 `Mouse Over` 시 **생년월일**, **휴대전화 번호** 표시 기능 지원
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/19.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/19.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 좌우 검사 내역 우클릭 시 **안경 처방전 출력** 할 수 있도록 메뉴 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/20.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/20.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 예약 SMS 자동 전송 시간 설정 기능 지원
+    - 자동 전송 환경 설정에서 **예약 사용** 및 **전송 시간** 을 설정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/21.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/21.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 수납 내역에 **접수 메모** 가 표시되도록 기능 지원
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/22.png" target="_blank">
+            <img class="minCenterSmall" src="/images{{page.url}}/22.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 펜차트 자동 서식 **체중, 혈압** 자료를 오늘 일자 기준으로 표시하도록 기능 보완
+- 진료 - 산부인과 차트 Para 항목 정의 옵션 기능 추가
+    - 진료 환경 설정에서 산부인과 차트 **Para 항목 정의** 옵션을 설정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/23.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/23.png">
+        </a>
+    </td>
+</table>
+<span style="color:#696868; padding-left: 30px;">▼ 분만 예정일 현황 통계 Para 항목에 설정이 적용됩니다.</span>
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/24.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/24.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+<input type="text" name="t" id="title-input" value="9월 7일 (목)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 고시 - 2023년 8월 31일 코로나19 **신속항원(RAT) 검사** 급여 대상 확인 기능 추가
