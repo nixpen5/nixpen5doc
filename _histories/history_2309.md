@@ -7,6 +7,92 @@ yearMonth: 2309
 
 <br>
 
+<input type="text" name="t" id="title-input" value="9월 21일 (목)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 줄단위 특정내역 `JS016` 신설 (2023년 10월 1일 적용)
+- 심사 - 특정기호 `V308` 추가
+
+<br>
+
+## 새로운 기능
+
+- 캡처매니저 - 스캔 경로 지정 기능 추가
+    - **Scan Folder Select** 메뉴에서 파일 경로를 설정합니다.
+    - 설정한 스캔 경로와 연동되어 환자 불러오기 시 경로 아래 이미지 파일을 자동으로 불러옵니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/25.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/25.png">
+        </a>
+    </td>
+</table>
+
+- 인터페이스 - 임픽스 연동 지원
+    - 임픽스 로컬설정에서 **사용 여부** 및 **호출 프로그램 경로** 를 설정합니다.
+    - **기본 값** 을 선택하여 경로를 설정할 수 있습니다.
+
+<br>
+
+## 개선된 기능
+
+- 원무 - 진료 및 수납 대기자 목록에 접수 구분 기준 표시 기능 지원
+    - 대기자 설정 창에서 **접수 구분** 및 **표시** 옵션을 설정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/26.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/26.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 수납 대장에 **접수 구분** 검색 조건 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/27.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/27.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 접수 시 진료과 기준으로 초재진을 산정할 수 있도록 옵션 지원
+    - 계산 및 산정 환경 설정에서 **초재진 진료과 별 산정** 옵션을 설정합니다.
+- 진료 - 위탁 처방 시 대상 위탁 기관 의사 면허번호를 입력할 수 있도록 기능 지원
+    - 계산 및 산정 환경 설정에서 **처방 시 위탁기관 유지** 옵션을 설정합니다.
+    - 처방 속성 창 `F4` 에서 의사 **면허번호** 를 입력할 수 있습니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/28.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/28.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 영상 썸네일 카테고리 표시 옵션 추가
+    - 기타 메뉴에서 **이미지 썸네일 카테고리 표시** 옵션을 설정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/29.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/29.png">
+        </a>
+    </td>
+</table>
+
+- 진단서 - 부위 포함하여 병명 가져오기 옵션 지원
+    - 병명 및 처방 사용자 설정에서 **부위 선택 시 명칭에 ‘(양측) (우측) (좌측)’ 텍스트 포함** 옵션을 설정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/30.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/30.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
 <input type="text" name="t" id="title-input" value="9월 14일 (목)" autofocus readonly>
 
 <br>
