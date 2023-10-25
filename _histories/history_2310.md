@@ -7,6 +7,130 @@ yearMonth: 2310
 
 <br>
 
+<input type="text" name="t" id="title-input" value="10월 25일 (수)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2024년도 요양급여비용(환산지수) 적용
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/21.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/21.png">
+        </a>
+    </td>
+</table>
+
+- 고시 - 의료급여정액(정신건강의학과 입원, 혈액투석 외래) 청구 명세서 서식 개정 `092`
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/22.png" target="_blank">
+            <img class="minCenterSmallMid" src="/images{{page.url}}/22.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+## 새로운 기능
+
+- 원무 - 처방전 출력 창에 `영문 처방전` 진단서 작성 기능 지원
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/23.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/23.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 입원 수납 건 DRG 점검표 작성 기능 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/24.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/24.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+## 개선된 기능
+
+- 원무 - 환자 색인 시 성명 기준 전체 검색 옵션 지원
+    - 접수 환경 설정에서 **환자 색인 시 환자 성명 전체 검색 결과 표시** 옵션을 설정합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/25.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/25.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 청구 내역 검색 조건 **진료과** 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/26.png" target="_blank">
+            <img class="minCenterSmall" src="/images{{page.url}}/26.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 청구 내역에서 환자명 더블 클릭 시 진료 명세서 창이 닫히지 않도록 기능 보완
+- 진료 - 입원 화면에서 외래 대기자 목록 보기 기능 추가
+    - 입원 진료 화면 디자인 설정에서 **대기** 컨텐츠를 추가합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/27.png" target="_blank">
+            <img class="minCenterSmall" src="/images{{page.url}}/27.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 비대면 진료 시 처방 제한 의약품 사용 경고창 팝업 기능 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/28.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/28.png">
+        </a>
+    </td>
+</table>
+
+- 진료 - 산정 구분 `DRG` 가 아닌 차트에서 **DRG 세부 분류** 설정 수가를 처방할 수 있도록 기능 변경
+- 진료 - 수동 기재 특정내역 `JT005` 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/29.png" target="_blank">
+            <img class="minCenterSmallMid" src="/images{{page.url}}/29.png">
+        </a>
+    </td>
+</table>
+
+- 진단서 - `수술 확인서` 에서 **가져오기** 시 대상 일자, 상병 및 수술 내역을 불러오도록 기능 확장
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/30.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/30.png">
+        </a>
+    </td>
+</table>
+
+- 검사실 - 검체 라벨 출력 옵션 창 지원
+    - 검체 라벨 옵션 창에서 **오더, 오더 및 검체, 오더 및 그룹** 별 내역 조회 후 출력합니다.
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/31.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/31.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+<input type="text" name="t" id="title-input" value="10월 12일 (목)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 고시 - 줄단위 특정내역 `JS024` 신설
@@ -81,7 +205,7 @@ yearMonth: 2310
 <table class="imgBox">
     <td class="imgBox">
         <a href="/images{{page.url}}/8.png" target="_blank">
-            <img class="minCenter" src="/images{{page.url}}/8.png">
+            <img class="minCenterSmallMid" src="/images{{page.url}}/8.png">
         </a>
     </td>
 </table>

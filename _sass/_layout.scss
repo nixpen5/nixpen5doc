@@ -474,6 +474,11 @@ img {
 		width: 540px;
 	}
 
+	/* 컨테이너 내부 이미지 - 중소 (너비 축소하여 고정) */
+	&.minCenterSmallMid{
+		width: 440px;
+	}
+
 	/* 컨테이너 내부 이미지 - 소 (너비 축소하여 고정) */
 	&.minCenterSmall{
 		width: 240px;
