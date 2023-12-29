@@ -47,6 +47,7 @@ yearMonth: 2312
 </table>  
 
 - 고시 - 일차의료 만성질환 e-from 연계 서비스 지원
+    - [건강보험심사평가원](http://ef.hira.or.kr) 에서 **Agent 다운로드** 후 설치합니다.
     - 일차의료 만성질환 대상자 등록 시 내역 조회 및 점검서를 작성할 수 있습니다. (2023년 12월 28일부터)
 <table class="imgBox">
     <td class="imgBox">
