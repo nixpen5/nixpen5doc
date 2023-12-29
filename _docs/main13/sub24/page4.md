@@ -2,7 +2,7 @@
 title: 2024년 1월 적용 고시 사항
 mainCategory: 주요 고시
 subCategory: 2024년 고시
-pageOrder: 4
+pageOrder: 2
 ---
 
 <br>
