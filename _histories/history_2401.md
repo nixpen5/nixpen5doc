@@ -7,6 +7,22 @@ yearMonth: 2401
 
 <br>
 
+<input type="text" name="t" id="title-input" value="1월 31일 (수)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 2024년 2월 약가툴 (자동 실행)
+- 고시 - 2024년 2월 수가툴 (자동 실행)
+- 고시 - 2024년 2월 치료재료툴 (공지사항의 **미설치 툴** 에서 개별 설치)
+
+<br>
+
+<input type="text" name="t" id="title-input" value="1월 4일 (목)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 고시 - 코로나19 PCR 변경 및 신설
@@ -102,7 +118,7 @@ yearMonth: 2401
     - 병명 및 처방 사용자 설정에서 **원외처방 여부 포함** 리피트 옵션을 설정합니다.
 
 - 진료 - 대기자 목록의 **보류** 검색 조건을 표시하지 않도록 옵션 지원
-    - 대기자 사용자 서정에서 **보류 탭 표시** 옵션을 설정합니다.
+    - 대기자 사용자 설정에서 **보류 탭 표시** 옵션을 설정합니다.
 <table class="imgBox">
     <td class="imgBox">
         <a href="/images{{page.url}}/8.png" target="_blank">
