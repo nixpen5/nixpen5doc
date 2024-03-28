@@ -7,6 +7,58 @@ yearMonth: 2403
 
 <br>
 
+<input type="text" name="t" id="title-input" value="3월 28일 (목)" autofocus readonly>
+
+<br>
+
+## 고시
+
+- 고시 - 백신 `PCV15` (단백결합) 추가 (2024년 4월부터)
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/29.png" target="_blank">
+            <img class="minCenterSmallMid" src="/images{{page.url}}/29.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+## 개선된 기능
+
+- 원무 - 과 별 비번 설정 창 **진료과** 전체 검색 기능 지원
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/30.png" target="_blank">
+            <img class="minCenterSmallMid" src="/images{{page.url}}/30.png">
+        </a>
+    </td>
+</table>
+
+- 원무 - 진료과 예약 장부 **과 별 비번** 표시 기능 적용
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/31.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/31.png">
+        </a>
+    </td>
+</table>
+
+- 심사 - 수납 대장에서 미수금 조회 시 **기간 내 미수금** 을 확인할 수 있도록 항목 추가
+<table class="imgBox">
+    <td class="imgBox">
+        <a href="/images{{page.url}}/32.png" target="_blank">
+            <img class="minCenter" src="/images{{page.url}}/32.png">
+        </a>
+    </td>
+</table>
+
+<br>
+
+<input type="text" name="t" id="title-input" value="3월 5일 (화)" autofocus readonly>
+
+<br>
+
 ## 고시
 
 - 심사 - 산정특례 `V901` 추가
